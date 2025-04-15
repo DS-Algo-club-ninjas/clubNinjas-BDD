@@ -54,8 +54,8 @@ public class QueuePageStep {
 	    
 	}
 
-	@Given("The user is in the tryEditor page of Implementation of Queue in Python")
-	public void the_user_is_in_the_try_editor_page_of_implementation_of_queue_in_python() {
+	@Given("The user is in the Implementation of Queue in Python tryEditor page")
+	public void the_user_is_in_the_implementation_of_queue_in_python_try_editor_page() {
 	    
 	    
 	}
@@ -96,6 +96,42 @@ public class QueuePageStep {
 	    
 	}
 
+	@When("The user clicks the Run Button without entering the code in the Editor")
+	public void the_user_clicks_the_run_button_without_entering_the_code_in_the_editor() {
+	    
+	    
+	}
+
+	@Then("The user should able to see an error message in alert window")
+	public void the_user_should_able_to_see_an_error_message_in_alert_window() {
+	    
+	    
+	}
+
+	@When("The user write the invalid code in Editor and click the Run Button")
+	public void the_user_write_the_invalid_code_in_editor_and_click_the_run_button() {
+	    
+	    
+	}
+
+	@Then("The user should able to see NameError message in alert window")
+	public void the_user_should_able_to_see_name_error_message_in_alert_window() {
+	    
+	    
+	}
+
+	@Then("The user should able to see SyntaxError message in alert window")
+	public void the_user_should_able_to_see_syntax_error_message_in_alert_window() {
+	    
+	    
+	}
+
+	@Given("The user is in the Implementation using collections.deque tryEditor page")
+	public void the_user_is_in_the_implementation_using_collections_deque_try_editor_page() {
+	    
+	    
+	}
+
 	@When("The user clicks Implementation using array button")
 	public void the_user_clicks_implementation_using_array_button() {
 	    
@@ -120,8 +156,8 @@ public class QueuePageStep {
 	    
 	}
 
-	@Given("The user is in the tryEditor page of Implementation using array")
-	public void the_user_is_in_the_try_editor_page_of_implementation_using_array() {
+	@Given("The user is in the Implementation using array tryEditor page")
+	public void the_user_is_in_the_implementation_using_array_try_editor_page() {
 	    
 	    
 	}
@@ -150,11 +186,10 @@ public class QueuePageStep {
 	    
 	}
 
-	@Given("The user is in the tryEditor page of Queue Operations")
-	public void the_user_is_in_the_try_editor_page_of_queue_operations() {
+	@Given("The user is in the Queue Operations tryEditor page")
+	public void the_user_is_in_the_queue_operations_try_editor_page() {
 	    
 	    
 	}
-
 
 }
