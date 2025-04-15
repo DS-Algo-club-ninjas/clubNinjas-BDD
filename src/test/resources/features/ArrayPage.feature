@@ -27,29 +27,26 @@ Feature: Array Page of DSAlgo portal
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
   
-  Scenario: Verify that user receives error when click on Run button without entering code for "Arrays in Python" try Editor page
+  Scenario Outline: Verify that user receives error when click on Run button for "Arrays in Python" try Editor page
     Given The user is in the Arrays in Python tryEditor page
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-  
-  Scenario: Verify that user receives NameError for invalid python code for "Arrays in Python" try Editor page
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
+    	
+   Scenario Outline: Verify that user is able to see output for valid python code for "Arrays in Python" try Editor page
     Given The user is in the Arrays in Python tryEditor page
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
- 
-  Scenario: Verify that user receives SyntaxError for invalid python code for "Arrays in Python" try Editor page
-    Given The user is in the Arrays in Python tryEditor page
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
-    
-  
-  Scenario: Verify that user is able to see output for valid python code for "Arrays in Python" try Editor page
-    Given The user is in the Arrays in Python tryEditor page
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
-    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
+
   
   Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Arrays in Python" page
     Given The user is in the Arrays in Python page
@@ -63,142 +60,178 @@ Feature: Array Page of DSAlgo portal
     Then The user should be redirected to Question page of Search the array link
     
   
-  Scenario: Verify that user receives NameError for invalid python code on running "Search the array" question
+  Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question
     Given The user is on the practice question editor of Search the array question
-    When The user write the invalid code in Search the array question Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    When The user write the invalid code from "<Sheetname>" and <RowNumber> in Search the array question Editor and click the Run Button
+    Then The user should able to see error message in alert window from "<Sheetname>" and <RowNumber>
     
-  
-  Scenario: Verify that user receives SyntaxError for invalid python code on running "Search the array" question
-    Given The user is on the practice question editor of Search the array question
-    When The user write the invalid code in Search the array question Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SearchArray |         1 |
+    	| SearchArray |         2 |
 
-  Scenario: Verify that user is able to run valid python code for "Search the array" question
+  Scenario Outline: Verify that user is able to run valid python code for "Search the array" question
     Given The user is on the practice question editor of Search the array question
-    When The user write the valid code in Search the array question Editor and click the Run Button
-    Then The user should able to see output in the console
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Search the array question Editor and click the Run Button
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-  Scenario: Verify that user receives error on submitting invalid python code for "Search the array" question
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SearchArray |          3 |
+    
+  Scenario Outline: Verify that user receives error on submitting invalid python code, incorrect answer for "Search the array" question
     Given The user is on the practice question editor of Search the array question
-    When The user write the invalid code in Editor and Click the Submit Button
+    When The user write the code from "<Sheetname>" and <RowNumber> in Search the array question Editor and Click the Submit Button
     Then The user see an error message "Error occurred during submission"
     
-  Scenario: Verify that user receives error on submitting valid python code but its not the correct answer for "Search the array" question
-    Given The user is on the practice question editor of Search the array question
-    When The user write the valid python code but its not the correct answer for Search the array question in Editor and Click the Submit Button
-    Then The user see an error message "Error occurred during submission"
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SearchArray |         1 |
+    	| SearchArray |         4 |
+ 
     
-  Scenario: Verify that user is able to successfully submit valid python code for "Search the array" question
+  Scenario Outline: Verify that user is able to successfully submit valid correct python code for "Search the array" question
     Given The user is on the practice question editor of Search the array question
-    When The user write the valid code in Search the array Editor and Click the Submit Button
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Search the array Editor and Click the Submit Button
     Then The user see success message "Submission successful"
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SearchArray |          3 |
     
   Scenario: Verify that user is able to navigate to "Max Consecutive Ones" Page from Practice question page of "Arrays in Python" page
     Given The user is on the Practice question page of Arrays in Python page
     When The user clicks the Max Consecutive Ones link
     Then The user should be redirected to Question page of Max Consecutive Ones link
     
-  Scenario: Verify that user receives NameError for invalid python code on running "Max Consecutive Ones" question
+   Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Max Consecutive Ones" question
     Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user writes the invalid code in Max Consecutive Ones question Editor and Click the Run Button
-    Then The user should able to see NameError message in alert window
+    When The user write the invalid code from "<Sheetname>" and <RowNumber> in Max Consecutive Ones question Editor and click the Run Button
+    Then The user should able to see error message in alert window from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code on running "Max Consecutive Ones" question
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| MaxConsOnes |         1 |
+    	| MaxConsOnes |         2 |
+
+  Scenario Outline: Verify that user is able to run valid python code for "Max Consecutive Ones" question
     Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user writes the invalid code in Max Consecutive Ones question Editor and Click the Run Button
-    Then The user should able to see SyntaxError message in alert window
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Max Consecutive Ones question Editor and click the Run Button
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user is able to run valid python code for "Max Consecutive Ones" question
-    Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user writes the valid code in Max Consecutive Ones question Editor and Click the Run Button
-    Then The user should able to see output in the console
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| MaxConsOnes |          3 |
     
-   Scenario: Verify that user receives error on submitting invalid python code for "Max Consecutive Ones" question
+   Scenario Outline: Verify that user receives error on submitting invalid python code, incorrect answer for "Max Consecutive Ones" question
     Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user write the invalid code in Edito Max Consecutive Ones questionr and Click the Submit Button
+    When The user write the code from "<Sheetname>" and <RowNumber> in Max Consecutive Ones question Editor and Click the Submit Button
     Then The user see an error message "Error occurred during submission"
     
-   Scenario: Verify that user receives error on submitting valid python code but its not the correct answer for "Max Consecutive Ones" question
-    Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user write the valid python code but its not the correct answer for Max Consecutive Ones question in Editor and Click the Submit Button
-    Then The user see an error message "Error occurred during submission"
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| MaxConsOnes |         1 |
+    	| MaxConsOnes |         4 |
+ 
     
-   Scenario: Verify that user is able to successfully submit valid python code for "Max Consecutive Ones" question
+  Scenario Outline: Verify that user is able to successfully submit valid correct python code for "Max Consecutive Ones" question
     Given The user is on the practice question editor of Max Consecutive Ones question
-    When The user write the valid code in Max Consecutive Ones question Editor and Click the Submit Button
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Max Consecutive Ones Editor and Click the Submit Button
     Then The user see success message "Submission successful"
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| MaxConsOnes |          3 |
     
    Scenario: Verify that user is able to navigate to "Find Numbers with Even Number of Digits" Page from Practice question page of "Arrays in Python" page
     Given The user is on the Practice question page of Arrays in Python page
     When The user clicks the Find Numbers with Even Number of Digits link
     Then The user should be redirected to Question page contains a question,and try Editor with Run and Submit buttons
     
-   Scenario: Verify that user receives NameError for invalid python code on running "Find Numbers with Even Number of Digits" question
+    Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question
     Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the invalid code in Find Numbers with Even Number of Digits question Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    When The user write the invalid code from "<Sheetname>" and <RowNumber> in Find Numbers with Even Number of Digits question Editor and click the Run Button
+    Then The user should able to see error message in alert window from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| FindNumbers |         1 |
+    	| FindNumbers |         2 |
+
+  Scenario Outline: Verify that user is able to run valid python code for "Find Numbers with Even Number of Digits" question
     Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the invalid code in Find Numbers with Even Number of Digits question Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Find Numbers with Even Number of Digits question Editor and click the Run Button
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user is able to run valid python code for "Find Numbers with Even Number of Digits" question
-    Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the valid code in Find Numbers with Even Number of Digits question Editor and click the Run Button
-    Then The user should able to see output in the console
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| FindNumbers |          3 |
+
     
-   Scenario: Verify that user receives error on submitting invalid python code for "Find Numbers with Even Number of Digits" question
+  Scenario Outline: Verify that user receives error on submitting invalid python code, incorrect answer for "Find Numbers with Even Number of Digits" question
     Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the invalid code in Find Numbers with Even Number of Digits question Editor and Click the Submit Button
+    When The user write the code from "<Sheetname>" and <RowNumber> in Find Numbers with Even Number of Digits question Editor and Click the Submit Button
     Then The user see an error message "Error occurred during submission"
     
-   Scenario: Verify that user receives error on submitting valid python code but its not the correct answer for "Find Numbers with Even Number of Digits" question
-    Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the valid python code but its not the correct answer for Find Numbers with Even Number of Digits question in Editor and Click the Submit Button
-    Then The user see an error message "Error occurred during submission"
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| FindNumbers |         1 |
+    	| FindNumbers |         4 |
+ 
     
-   Scenario: Verify that user is able to successfully submit valid python code for "Find Numbers with Even Number of Digits" question
+  Scenario Outline: Verify that user is able to successfully submit valid correct python code for "Find Numbers with Even Number of Digits" question
     Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
-    When The user write the valid code in Find Numbers with Even Number of Digits question Editor and Click the Submit Button
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Find Numbers with Even Number of Digits Editor and Click the Submit Button
     Then The user see success message "Submission successful"
     
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SearchArray |          3 |
+    	
    Scenario: Verify that user is able to navigate to "Squares of a Sorted Array" Page from Practice question page of "Arrays in Python" page
     Given The user is on the Practice question page of Arrays in Python page
     When The user clicks the Squares of a Sorted Array link
     Then The user should be redirected to Question page contains a question,and try Editor with Run and Submit buttons
     
-   Scenario: Verify that user receives NameError for invalid python code on running "Squares of a Sorted Array" question
+    Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question
     Given The user is on the practice question editor of Squares of a Sorted Array question
-    When The user write the invalid code in Squares of a Sorted Array question Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    When The user write the invalid code from "<Sheetname>" and <RowNumber> in Squares of a Sorted Array question Editor and click the Run Button
+    Then The user should able to see error message in alert window from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code on running "Squares of a Sorted Array" question
-    Given The user is on the practice question editor Squares of a Sorted Array question
-    When The user write the invalid code in Squares of a Sorted Array question Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SqrSort |         1 |
+    	| SqrSort |         2 |
+
+  Scenario Outline: Verify that user is able to run valid python code for "Squares of a Sorted Array" question
+    Given The user is on the practice question editor of Squares of a Sorted Array question
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Squares of a Sorted Array question Editor and click the Run Button
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user is able to run valid python code for "Squares of a Sorted Array" question
-    Given The user is on the practice question editor Squares of a Sorted Array question
-    When The user write the valid code in Squares of a Sorted Array question Editor and click the Run Button
-    Then The user should able to see output in the console
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SqrSort |          3 |
     
-   Scenario: Verify that user receives error on submitting invalid python code for "Squares of a Sorted Array" question
-    Given The user is on the practice question editor Squares of a Sorted Array question
-    When The user write the invalid code in Squares of a Sorted Array question Editor and Click the Submit Button
+   Scenario Outline: Verify that user receives error on submitting invalid python code, incorrect code for "Squares of a Sorted Array" question
+    Given The user is on the practice question editor of Squares of a Sorted Array question
+    When The user write the code from "<Sheetname>" and <RowNumber> in Squares of a Sorted Array question Editor and Click the Submit Button
     Then The user see an error message "Error occurred during submission"
     
-   Scenario: Verify that user receives error on submitting valid python code but its not the correct answer for "Squares of a Sorted Array" question
-    Given The user is on the practice question editor of Squares of a Sorted Array question
-    When The user write the valid python code but its not the correct answer for Squares of a Sorted Array question in Editor and Click the Submit Button
-    Then The user see an error message "Error occurred during submission"
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SqrSort |         1 |
+    	| SqrSort |         4 |
+ 
     
-   Scenario: Verify that user is able to successfully submit valid python code for "Squares of a Sorted Array" question
+  Scenario Outline: Verify that user is able to successfully submit valid correct python code for "Squares of a Sorted Array" question
     Given The user is on the practice question editor of Squares of a Sorted Array question
-    When The user write the valid code in Squares of a Sorted Array question Editor and Click the Submit Button
+    When The user write the valid code from "<Sheetname>" and <RowNumber> in Squares of a Sorted Array Editor and Click the Submit Button
     Then The user see success message "Submission successful"
     
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| SqrSort |          3 |
+    	
    Scenario: Verify that user is able to navigate to "Arrays Using List" page
     Given The user is in the Array page after Sign in
     When The user clicks Arrays Using List button
@@ -209,20 +242,24 @@ Feature: Array Page of DSAlgo portal
     When The user clicks Try Here button in Arrays Using List page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page
+   Scenario Outline: Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page
     Given The user is in the tryEditor page of Arrays Using List
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives error for invalid python code for "Arrays Using List" try Editor page
-    Given The user is in the tryEditor page of Arrays Using List
-    When The user write the invalid code in Arrays Using List Editor and click the Run Button
-    Then The user should able to see an error message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
     
-   Scenario: Verify that user is able to see output for valid python code for "Arrays Using List" try Editor page
+    Scenario Outline: Verify that user is able to see output for valid python code for "Arrays Using List" try Editor page
     Given The user is in the tryEditor page of Arrays Using List
-    When The user write the valid code in Arrays Using List Editor and click the Run Button
-    Then The user should able to see output in the console
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Arrays Using List" page
     Given The user is in the Arrays Using List page
@@ -239,20 +276,25 @@ Feature: Array Page of DSAlgo portal
     When The user clicks Try Here button in Basic Operations in Lists page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page
+   Scenario Outline: Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page
     Given The user is in the tryEditor page of Basic Operations in Lists
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives error for invalid python code for "Basic Operations in Lists" try Editor page
-    Given The user is in the tryEditor page of Basic Operations in Lists
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see an error message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
     
-   Scenario: Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page
+    Scenario Outline: Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page
     Given The user is in the tryEditor page of Basic Operations in Lists
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Basic Operations in Lists" page
     Given The user is in the Basic Operations in Lists page
@@ -269,20 +311,26 @@ Feature: Array Page of DSAlgo portal
     When The user clicks Try Here button in Applications of Array page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Applications of Array" page
+   Scenario Outline: Verify that user receives error when click on Run button without entering code for "Applications of Array" page
     Given The user is in the tryEditor page of Applications of Array
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives error for invalid python code for "Applications of Array" try Editor page
-    Given The user is in the tryEditor page of Applications of Array
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see an error message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
     
-   Scenario: Verify that user is able to see output for valid python code for "Applications of Array" try Editor page
+    Scenario Outline: Verify that user is able to see output for valid python code for "Applications of Array" try Editor page
     Given The user is in the tryEditor page of Applications of Array
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
+
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Applications of Array" try Editor page
     Given The user is in the Applications of Array page
