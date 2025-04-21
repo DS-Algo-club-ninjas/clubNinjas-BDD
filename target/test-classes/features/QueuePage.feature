@@ -25,25 +25,26 @@ Feature: Queue Page of DSAlgo portal
     When The user clicks Try Here button in Implementation of Queue in Python page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Implementation of Queue in Python" try Editor page
-    Given The user is in the tryEditor page of Implementation of Queue in Python
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+    Scenario Outline: Verify that user receives error when click on Run button for "Implementation of Queue in Python" try Editor page
+    Given The user is in the Implementation of Queue in Python tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives NameError for invalid python code for "Implementation of Queue in Python" try Editor page
-    Given The user is in the tryEditor page of Implementation of Queue in Python
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
+    	
+   Scenario Outline: Verify that user is able to see output for valid python code for "Implementation of Queue in Python" try Editor page
+    Given The user is in the Implementation of Queue in Python tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code for "Implementation of Queue in Python" try Editor page
-    Given The user is in the tryEditor page of Implementation of Queue in Python
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
     
-   Scenario: Verify that user is able to see output for valid python code for "Implementation of Queue in Python" try Editor page
-    Given The user is in the tryEditor page of Implementation of Queue in Python
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Implementation of Queue in Python" page
     Given The user is in the Implementation of Queue in Python page
@@ -75,10 +76,25 @@ Feature: Queue Page of DSAlgo portal
     When The user write the invalid code in Editor and click the Run Button
     Then The user should able to see SyntaxError message in alert window
     
-   Scenario: Verify that user is able to see output for valid python code for "Implementation using collections.deque" tryEditor page
-    Given The user is in the tryEditor page of Implementation using collections.deque
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
+   Scenario Outline: Verify that user receives error when click on Run button for "Implementation using collections.deque" try Editor page
+    Given The user is in the Implementation using collections.deque tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
+    	
+   Scenario Outline: Verify that user is able to see output for valid python code for "Implementation using collections.deque" try Editor page
+    Given The user is in the Implementation using collections.deque tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
+    
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Implementation using array" page
     Given The user is in the Queue page
@@ -90,25 +106,25 @@ Feature: Queue Page of DSAlgo portal
     When The user clicks Try Here button in Implementation using array page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-  Scenario: Verify that user receives error when click on Run button without entering code for "Implementation using array" try Editor page
-    Given The user is in the tryEditor page of Implementation using array
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+  Scenario Outline: Verify that user receives error when click on Run button for "Implementation using array" try Editor page
+    Given The user is in the Implementation using array tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives NameError for invalid python code for "Implementation using array" try Editor page
-    Given The user is in the tryEditor page of Implementation using array
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
+    	
+   Scenario Outline: Verify that user is able to see output for valid python code for "Implementation using array" try Editor page
+    Given The user is in the Implementation using array tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code for "Implementation using array" try Editor page
-    Given The user is in the tryEditor page of Implementation using array
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
-    
-   Scenario: Verify that user is able to see output for valid python code for "Implementation using array" try Editor page
-    Given The user is in the tryEditor page of Implementation using array
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Queue Operations" page
     Given The user is in the Queue page
@@ -120,22 +136,22 @@ Feature: Queue Page of DSAlgo portal
     When The user clicks Try Here button in Queue Operations page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Queue Operations" try Editor page
-    Given The user is in the tryEditor page of Queue Operations
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
+   Scenario Outline: Verify that user receives error when click on Run button for "Queue Operations" try Editor page
+    Given The user is in the Queue Operations tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives NameError for invalid python code for "Queue Operations" try Editor page
-    Given The user is in the tryEditor page of Queue Operations
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         1 |
+    	| ArrayTryCode |         2 |
+    	| ArrayTryCode |         3 |
+    	
+   Scenario Outline: Verify that user is able to see output for valid python code for "Queue Operations" try Editor page
+    Given The user is in the Queue Operations tryEditor page
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
+    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber>
     
-   Scenario: Verify that user receives SyntaxError for invalid python code for "Queue Operations" try Editor page
-    Given The user is in the tryEditor page of Queue Operations
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
-    
-   Scenario: Verify that user is able to see output for valid python code for "Queue Operations" try Editor page
-    Given The user is in the tryEditor page of Queue Operations
-    When The user write the valid code in Editor and click the Run Button
-    Then The user should able to see output in the console
+    Examples:
+    	|  Sheetname   | RowNumber |
+    	| ArrayTryCode |         4 |
