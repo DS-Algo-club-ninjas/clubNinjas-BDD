@@ -1,13 +1,25 @@
 package StepDefinitions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PageObject.StackPageObject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StackPageStep {
+	WebDriver driver ;
 	
+	StackPageObject stackpage;
+	
+	 public StackPageStep() {
+	        //this.driver = Hooks.getDriver(); // Adjust this depending on your setup
+		 stackpage= new StackPageObject(driver);
+	 }
 	@When("The user clicks the Getting Started button in Stack Panel")
 	public void the_user_clicks_the_getting_started_button_in_stack_panel() {
-	    
+		
 	}
 
 	@Then("The user be directed to Stack Data Structure Page")
@@ -22,31 +34,44 @@ public class StackPageStep {
 
 	@Given("The user is in the Stack page after Sign in")
 	public void the_user_is_in_the_stack_page_after_sign_in() {
+		
+		
+
 	  
 	}
 
 	@When("The user clicks Operations in Stack button")
 	public void the_user_clicks_operations_in_stack_button() {
-	    
+		stackpage.clickoperation();
 	}
 
 	@Then("The user should be redirected to Operations in Stack page")
 	public void the_user_should_be_redirected_to_operations_in_stack_page() {
+		 String expectedUrl = "https://dsportalapp.herokuapp.com/stack/operations-in-stack/";
+	        if (!driver.getCurrentUrl().equals(expectedUrl)) {
+	            throw new AssertionError("Redirection failed. Expected URL: " + expectedUrl);
+	        }
 	    
 	}
 
 	@Given("The user is on the Operations in Stack page")
 	public void the_user_is_on_the_operations_in_stack_page() {
+		
 	    
 	}
 
 	@When("The user clicks Try Here button in Operations in Stack page")
 	public void the_user_clicks_try_here_button_in_operations_in_stack_page() {
-	 
+		stackpage .tryhereoperations();
 	}
 
 	@Then("The user should be redirected to a page having an try Editor with a Run button to test")
 	public void the_user_should_be_redirected_to_a_page_having_an_try_editor_with_a_run_button_to_test() {
+		
+		 String currentUrl = driver.getCurrentUrl();
+	        if (!currentUrl.contains("/tryEditor")) {
+	            throw new AssertionError("Did not redirect to Try Editor. Current URL: " + currentUrl);
+	        }
 	    
 	}
 
@@ -67,11 +92,18 @@ public class StackPageStep {
 
 	@When("The user clicks Implementation button")
 	public void the_user_clicks_implementation_button() {
+		
+       stackpage.clickimplementation();
 	    
 	}
 
 	@Then("The user should be redirected to Implementation page")
 	public void the_user_should_be_redirected_to_implementation_page() {
+		
+		  String expectedUrl = "https://dsportalapp.herokuapp.com/stack/implementation/";
+	        if (!driver.getCurrentUrl().equals(expectedUrl)) {
+	            throw new AssertionError("Not on Implementation page");
+	        }
 	 
 	}
 
@@ -82,7 +114,7 @@ public class StackPageStep {
 
 	@When("The user clicks Try Here button in Implementation page")
 	public void the_user_clicks_try_here_button_in_implementation_page() {
-	   
+	   stackpage.tryherimplemnts();
 	}
 
 	@Given("The user is in the Implementation page after Sign in")
@@ -97,6 +129,10 @@ public class StackPageStep {
 
 	@Then("The user should be redirected to Applications of Stack  page")
 	public void the_user_should_be_redirected_to_applications_of_stack_page() {
+		 String expectedUrl = "https://dsportalapp.herokuapp.com/stack/stack-applications/";
+	        if (!driver.getCurrentUrl().equals(expectedUrl)) {
+	            throw new AssertionError("Not on Applications of Stack page");
+	        }
 	    
 	}
 
@@ -107,6 +143,7 @@ public class StackPageStep {
 
 	@When("The user clicks Try Here button in Applications of Stack page")
 	public void the_user_clicks_try_here_button_in_applications_of_stack_page() {
+		stackpage.tryhereappli();
 	    
 	}
 
@@ -117,7 +154,7 @@ public class StackPageStep {
 
 	@When("The user clicks Practice Questions  button")
 	public void the_user_clicks_practice_questions_button() {
-	   
+	   stackpage.practicestack();
 	}
 
 
