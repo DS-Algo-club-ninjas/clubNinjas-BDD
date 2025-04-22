@@ -1,6 +1,9 @@
 Feature: Array Page of DSAlgo portal
 
-	Background: The user is signed into dsAlgo Portal  
+	Background: The user is signed into dsAlgo Portal 
+	Given The user is on the Home page and clicks Sign In
+    When The user gets data from excel sheet for the login page
+    Then The user should login successfully 
 
   @tag1
   Scenario: Verify that user is able to navigate to Array data structure page

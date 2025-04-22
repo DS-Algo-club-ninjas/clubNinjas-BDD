@@ -21,7 +21,7 @@ Feature: Queue Page of DSAlgo portal
     Then The user should be redirected to Implementation of Queue in Python page
     
    Scenario: Verify that user is able to navigate to "try Editor" page for "Implementation of Queue in Python" page
-    Given The user is on the Implementation of Queue in Python page
+    Given The user is in the Implementation of Queue in Python page
     When The user clicks Try Here button in Implementation of Queue in Python page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
@@ -61,21 +61,6 @@ Feature: Queue Page of DSAlgo portal
     When The user clicks Try Here button in Implementation using collections.deque page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
-   Scenario: Verify that user receives error when click on Run button without entering code for "Implementation using collections.deque" tryEditor Page
-    Given The user is in the tryEditor page of Implementation using collections.deque
-    When The user clicks the Run Button without entering the code in the Editor
-    Then The user should able to see an error message in alert window
-    
-   Scenario: Verify that user receives NameError for invalid python code for "Implementation using collections.deque" tryEditor page
-    Given The user is in the tryEditor page of Implementation using collections.deque
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see NameError message in alert window
-    
-   Scenario: Verify that user receives SyntaxError for invalid python code for "Implementation using collections.deque" tryEditor page
-    Given The user is in the tryEditor page of Implementation using collections.deque
-    When The user write the invalid code in Editor and click the Run Button
-    Then The user should able to see SyntaxError message in alert window
-    
    Scenario Outline: Verify that user receives error when click on Run button for "Implementation using collections.deque" try Editor page
     Given The user is in the Implementation using collections.deque tryEditor page
     When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
@@ -102,7 +87,7 @@ Feature: Queue Page of DSAlgo portal
     Then The user should be redirected to Implementation using array page
     
    Scenario: Verify that user is able to navigate to "try Editor" page for "Implementation using array" page
-    Given The user is on the "Implementation using array" page
+    Given The user is on the Implementation using array page
     When The user clicks Try Here button in Implementation using array page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
