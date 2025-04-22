@@ -1,26 +1,55 @@
 package StepDefinitions;
 
+import org.openqa.selenium.WebDriver;
+
+import PageObject.ArrayPageObject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class ArrayPageStep {
+	WebDriver driver;
+	ArrayPageObject arrayPageObj;
+	
+	public ArrayPageStep() {
+		ArrayPageObject arrayPageObj = new ArrayPageObject();
+		this.arrayPageObj = arrayPageObj;
+	}
+	
+	@Given("The user is on the Home page and clicks Sign In")
+	public void the_user_is_on_the_home_page_and_clicks_sign_in() {
+		
+		arrayPageObj.click_getStarted_btn();
+		arrayPageObj.click_signIn_btn();
+	   
+	}
+
+	@When("The user gets data from excel sheet for the login page")
+	public void the_user_gets_data_from_excel_sheet_for_the_login_page() {
+		arrayPageObj.enter_username();
+		arrayPageObj.enter_password();
+		arrayPageObj.click_login_btn();
+	}
+
+	@Then("The user should login successfully")
+	public void the_user_should_login_successfully() {
+	    
+	}
 	
 	@Given("The user is in the Home page after Sign in")
 	public void the_user_is_in_the_home_page_after_sign_in() {
-	    
 	    
 	}
 
 	@When("The user clicks the Get Started button in Array Panel")
 	public void the_user_clicks_the_get_started_button_in_array_panel() {
-	    
+		arrayPageObj.click_arrayGetStarted_btn();
 	    
 	}
 
 	@Then("The user should be directed to ARRAY Data Structure Page")
 	public void the_user_should_be_directed_to_array_data_structure_page() {
-	    
+		System.out.println("Array ds page");
 	    
 	}
 

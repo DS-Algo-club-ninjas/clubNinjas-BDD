@@ -5,12 +5,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Treestep {
-	
-	@Given("The user is in the Home page after Sign in")
-	public void the_user_is_in_the_home_page_after_sign_in() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
+	//Commenting this method as its a duplicate - also present in ArrayPageStep
+//	@Given("The user is in the Home page after Sign in")
+//	public void the_user_is_in_the_home_page_after_sign_in() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
 
 	@When("The user clicks the {string} button in TreePanel")
 	public void the_user_clicks_the_button_in_tree_panel(String string) {
