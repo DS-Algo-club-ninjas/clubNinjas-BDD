@@ -4,9 +4,6 @@ Feature: Register Page
     Given User is in the ds-algo launch page
     When User clicks the Get Started button
 
-  Scenario: Verify that the user is able to navigate to the home page
-    Then User should be able to navigate to the home page
-
   Scenario: Verify that User is able to launch ds-algo portal
     Given User is in the home page after launching ds-algo portal page
     When User clicks Register link in the home page
