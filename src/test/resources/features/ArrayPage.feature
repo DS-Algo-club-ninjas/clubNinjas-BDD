@@ -25,7 +25,7 @@ Feature: Array Page of DSAlgo portal
 
  
   Scenario: Verify that user is able to navigate to "try Editor" page for "Arrays in Python" page
-    Given The user is on the Arrays in Python page
+    Given The user is in the Arrays in Python page
     When The user clicks Try Here button in Arrays in Python page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
@@ -149,7 +149,7 @@ Feature: Array Page of DSAlgo portal
    Scenario: Verify that user is able to navigate to "Find Numbers with Even Number of Digits" Page from Practice question page of "Arrays in Python" page
     Given The user is on the Practice question page of Arrays in Python page
     When The user clicks the Find Numbers with Even Number of Digits link
-    Then The user should be redirected to Question page contains a question,and try Editor with Run and Submit buttons
+    Then The user should be redirected to Question page of Find Numbers with Even Number of Digits link
     
     Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question
     Given The user is on the practice question editor of Find Numbers with Even Number of Digits question
@@ -194,7 +194,7 @@ Feature: Array Page of DSAlgo portal
    Scenario: Verify that user is able to navigate to "Squares of a Sorted Array" Page from Practice question page of "Arrays in Python" page
     Given The user is on the Practice question page of Arrays in Python page
     When The user clicks the Squares of a Sorted Array link
-    Then The user should be redirected to Question page contains a question,and try Editor with Run and Submit buttons
+    Then The user should be redirected to Question page of Squares of a Sorted Array link
     
     Scenario Outline: Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question
     Given The user is on the practice question editor of Squares of a Sorted Array question
@@ -241,7 +241,7 @@ Feature: Array Page of DSAlgo portal
     Then The user should be redirected to Arrays Using List page
     
    Scenario: Verify that user is able to navigate to "try Editor" page for "Arrays Using List" page
-    Given The user is on the Arrays Using List page
+    Given The user is in the Arrays Using List page
     When The user clicks Try Here button in Arrays Using List page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
@@ -275,7 +275,7 @@ Feature: Array Page of DSAlgo portal
     Then The user should be redirected to Basic Operations in Lists page
     
    Scenario: Verify that user is able to navigate to "try Editor" page for "Basic Operations in Lists" page
-    Given The user is on the Basic Operations in Lists page
+    Given The user is in the Basic Operations in Lists page
     When The user clicks Try Here button in Basic Operations in Lists page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
@@ -310,7 +310,7 @@ Feature: Array Page of DSAlgo portal
     Then The user should be redirected to Applications of Array page
     
    Scenario: Verify that user is able to navigate to "try Editor" page for "Applications of Array" page
-    Given The user is on the Applications of Array page
+    Given The user is in the Applications of Array page
     When The user clicks Try Here button in Applications of Array page
     Then The user should be redirected to a page having a try Editor with a Run button to test
     
