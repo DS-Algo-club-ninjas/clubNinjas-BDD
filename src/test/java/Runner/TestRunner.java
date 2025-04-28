@@ -8,10 +8,6 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
-//@CucumberOptions(
-//		features = "src/test/resources/features/ArrayPage.feature",
-//		glue= {"StepDefinitions","Hooks"}
-//		)
 
 @CucumberOptions(
 		plugin = {"pretty", "html:target/bharathi.html"}, //reporting purpose
