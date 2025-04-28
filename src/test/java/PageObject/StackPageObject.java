@@ -114,7 +114,7 @@ public class StackPageObject {
 	    	} 
 	    	
 	    	public void runopertns() {
-	    		runoperations.click();sss
+	    		runoperations.click();
 	    	}
 	    	
 	    	public void tryherimplemnts() {
