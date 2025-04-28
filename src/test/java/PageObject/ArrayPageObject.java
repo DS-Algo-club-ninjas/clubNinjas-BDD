@@ -20,6 +20,8 @@ public class ArrayPageObject {
 	By username = By.id("id_username");
 	By password = By.id("id_password");
 	By login_btn = By.xpath("//input[@value='Login']");
+	By loginSuccessMsg = By.xpath("//div[@class='alert alert-primary']");
+	
 	By arrayGetStarted_btn = By.xpath("//a[@href='array']");
 	By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");
 	By arrayDropDown = By.xpath("//div[@class='nav-item dropdown show']//*[contains(text(),'Arrays')]");
@@ -59,6 +61,20 @@ public class ArrayPageObject {
 		driver.findElement(login_btn).click();
 	}
 	
+	public String get_loginSuccessMsg() {
+		String success = driver.findElement(loginSuccessMsg).getText();
+		return success;
+	}
+	
+	public String get_currentPageTitle() {
+		String currentTitle = driver.getTitle();
+		return currentTitle;
+	}
+	
+	public String get_currentPageURL() {
+		String currentURL = driver.getCurrentUrl();
+		return currentURL;
+	}
 	
 	//ArrayPage Methods
 	public void click_arrayGetStarted_btn() {
