@@ -29,8 +29,7 @@ public class LoginPageStep {
 	@Given("The user clicks the Sign In link")
 	public void the_user_clicks_the_sign_in_link() {
 		loginPageObj.clickSignInLink();
-	    
-	}
+	    }
 
 	@When("The user gets data from excel sheet {string} and {int} for the login page")
 	public void the_user_gets_data_from_excel_sheet_and_for_the_login_page(String sheetName, Integer rowNumber) 
