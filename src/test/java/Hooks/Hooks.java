@@ -1,11 +1,14 @@
 package Hooks;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import DriverFactory.DriverFactory;
 import Utilities.ConfigFileReader;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class Hooks {
 	private static WebDriver driver;
@@ -25,7 +28,13 @@ public class Hooks {
 	}
 	
 	@After
-	public static void teardown() throws Throwable {
+	public static void teardown(Scenario scenario) throws Throwable {
+
+		if (scenario.isFailed()) {
+		    byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		    scenario.attach(screenshot, "image/png", "screenshot");
+		}
+		
 		if (driver != null) {
 			DriverFactory.quitDriver();
 			//System.out.println("quit driver in teardown hooks");
