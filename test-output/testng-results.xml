@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="58" passed="43" failed="15" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-28T16:47:10 CDT" name="Default suite" finished-at="2025-04-28T16:55:57 CDT" duration-ms="526672">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-28T16:47:10 CDT" name="Default test" finished-at="2025-04-28T16:55:57 CDT" duration-ms="526672">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:10 CDT" name="setUpClass" finished-at="2025-04-28T16:47:11 CDT" duration-ms="1085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40d3f93d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:17 CDT" duration-ms="5731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to Array data structure page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:20 CDT" duration-ms="3694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to Array data structure page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:25 CDT" duration-ms="4267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:25 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:29 CDT" duration-ms="4333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:29 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:37 CDT" duration-ms="8492" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Arrays in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:46 CDT" duration-ms="8225" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Arrays in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:55 CDT" duration-ms="8839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Arrays in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:55 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:02 CDT" duration-ms="7563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Arrays in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:06 CDT" duration-ms="3888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice Questions" Page from "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:06 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:11 CDT" duration-ms="4735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Search the array" Page from Practice question page of "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:19 CDT" duration-ms="8060" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_error_message_in_alert_window_from_and(ArrayPageStep.java:221)
+at ✽.The user should able to see error message in alert window from "PracticeQns" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:69)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:27 CDT" duration-ms="7930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:27 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:35 CDT" duration-ms="7829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to run valid python code for "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:35 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:43 CDT" duration-ms="8258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:51 CDT" duration-ms="8261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:51 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:00 CDT" duration-ms="8803" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to successfully submit valid correct python code for "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ Some Tests failed. Please review code]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:06 CDT" duration-ms="5762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Max Consecutive Ones" Page from Practice question page of "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:06 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:14 CDT" duration-ms="8089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:22 CDT" duration-ms="7816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:22 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:40 CDT" duration-ms="18455" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to run valid python code for "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3.0] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3.0] but found [null]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+at ✽.The user should able to see output in the console from "PracticeQns" and 7(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:40 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:48 CDT" duration-ms="8319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:57 CDT" duration-ms="8689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:57 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:07 CDT" duration-ms="9619" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to successfully submit valid correct python code for "Max Consecutive Ones" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ Some Tests failed. Please review code]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:07 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:14 CDT" duration-ms="7456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Find Numbers with Even Number of Digits" Page from Practice question page of "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:26 CDT" duration-ms="11520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:37 CDT" duration-ms="11220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:48 CDT" duration-ms="11478" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to run valid python code for "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2.0] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2.0] but found [2]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+at ✽.The user should able to see output in the console from "PracticeQns" and 9(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:167)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:00 CDT" duration-ms="11671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:11 CDT" duration-ms="11454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect answer for "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:23 CDT" duration-ms="11450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to successfully submit valid correct python code for "Find Numbers with Even Number of Digits" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:31 CDT" duration-ms="7912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Squares of a Sorted Array" Page from Practice question page of "Arrays in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:31 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:42 CDT" duration-ms="11548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:53 CDT" duration-ms="10840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:53 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:04 CDT" duration-ms="11024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to run valid python code for "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:17 CDT" duration-ms="12875" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect code for "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error occurred during submission] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at ✽.The user should see a message from "PracticeQns" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:29 CDT" duration-ms="11574" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error on submitting invalid python code, incorrect code for "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Error occurred during submission] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at ✽.The user should see a message from "PracticeQns" and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:29 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:41 CDT" duration-ms="12773" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to successfully submit valid correct python code for "Squares of a Sorted Array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Submission Successful] but found [ No tests were collected]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:232)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:48 CDT" duration-ms="6023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Arrays Using List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:54 CDT" duration-ms="6913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Arrays Using List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:02 CDT" duration-ms="7559" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:09 CDT" duration-ms="6923" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:16 CDT" duration-ms="7561" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:16 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:28 CDT" duration-ms="11941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Arrays Using List" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:28 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:35 CDT" duration-ms="6468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice Questions" Page from "Arrays Using List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:35 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:41 CDT" duration-ms="6240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Basic Operations in Lists" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:48 CDT" duration-ms="7092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Basic Operations in Lists" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:59 CDT" duration-ms="11061" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:09 CDT" duration-ms="10172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:20 CDT" duration-ms="10295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:30 CDT" duration-ms="10483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:37 CDT" duration-ms="6405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice Questions" Page from "Basic Operations in Lists" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:43 CDT" duration-ms="6013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Applications of Array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:50 CDT" duration-ms="7072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Applications of Array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:00 CDT" duration-ms="10533" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Applications of Array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:11 CDT" duration-ms="10636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Applications of Array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:21 CDT" duration-ms="10364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button without entering code for "Applications of Array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:21 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:32 CDT" duration-ms="10325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Applications of Array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:38 CDT" duration-ms="6425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice Questions" Page for "Applications of Array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:38 CDT" name="tearDownClass" finished-at="2025-04-28T16:55:57 CDT" duration-ms="18496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
