@@ -8,137 +8,89 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class StackPageObject {
-  
-  
-              // WebDriver driver = new ChromeDriver();
-                // public void ex() {
-	           //  driver.findElement(By.xpath(")
-	 
-	WebDriver driver;
+ 
+             
+	        WebDriver driver;
+                    
+	                By dropdownstack =By.linkText("stack");
+	                By operationsInStack = By.linkText("Operations in Stack");
+	                By Tryhere = By.linkText("Try here");
+	                By printoperations = By.id("//div[@class='CodeMirror cm-s-default']");
+	                By runoperations =By.xpath("//button[text()='Run']");
+	                
+	                By implementation = By.linkText("Implementation");
+	                By Tryhereimple = By.linkText("/TryEditor");
+	                By printimple = By.id("//div[@class='CodeMirror cm-s-default']");
+	                By runimple = By.xpath("//button[text()='Run']");
+	               
+	                By applications = By.linkText("Applications");
+	                By Tryhereapplications = By.linkText("/TryEditor");
+	    	        By printapplications = By.id("//div[@class='CodeMirror cm-s-default']");
+	    	        By runapplications= By.xpath("//button[text()='Run']");
+	                
+	    	        By practiceQuestions = By.linkText("Practice Questions");
 
-	    public StackPageObject (WebDriver driver) {
-	        this.driver = driver;
-	        PageFactory.initElements(driver,this);
-	    }
-	   
-	               //or we can write below also
-	                //By operationsInStack = By.linkText("Operations in Stack");
-	             // By implementation = By.linkText("Implementation");
-	              //By applications = By.linkText("Applications");
-	               //By practiceQuestions = By.linkText("Practice Questions");
+	    	        public void dropdownstack1 () {
+	    	        	driver.findElement(dropdownstack).click();
+	    	        }
+	                public void clickOperationsInStack() {
+	                  driver.findElement(operationsInStack).click();
+	                    }
+	                
+	                public void clickTryhere() {
+                      driver.findElement(Tryhere).click();
+                    }
+	                
+	                public void  printhello() {
+	                	driver.findElement(printoperations).sendKeys("print(Hello,World!)");
+	                	 
+	                	   //System.out.println("Output from the editor: " + result);
+	                 }
+	                 
+	                 public void runopertns() {
+	                	 driver.findElement(runoperations).click();
+	                 }
+	                 
 
-	              //public void clickOperationsInStack() {
-	                     //driver.findElement(operationsInStack).click();
-	                    //}
+	                 
+	               public void clickImplementation() {
+	                  driver.findElement(implementation).click();
+	               }
+	                
+	               public void clicktryhereimple() {
+	                	driver.findElement(Tryhereimple).click();
+	                }
+	               
+	               public void  printhello1() {
+	                	driver.findElement(printoperations).sendKeys("print(Hello,World!)");
+	 	                 }
+	               
+	               
+	               public void clickapplicatio () {
+	                	 driver.findElement(applications).click();
+	                 }    
 
-	            // public void clickImplementation() {
-	                 // driver.findElement(implementation).click();
-	                // }
+	                public void clicktryhereApplications() {
+	                  driver.findElement(Tryhereapplications).click();
+	             }
+	                
+	                public void  printhello2() {
+	                	driver.findElement(printoperations).sendKeys("print(Hello,World!)");
+	 	                 }
+	                public void runapplication() {
+	                	 driver.findElement(runapplications).click();
+	                 }
 
-	               // public void clickApplications() {
-	              //  driver.findElement(applications).click();
-	             //}
-
-	               //  public void clickPracticeQuestions() {
-	                  // driver.findElement(practiceQuestions).click();
-	                    // }
+	                
+	                 public void clickPracticeQuestions() {
+	                   driver.findElement(practiceQuestions).click();
+	                    }
 	
-	    // Elements initialized using @FindBy annotations
-	    
-	    @FindBy(linkText ="Operations in Stack")
-	     WebElement operationsinstacklink;
-	    
-	   
-	    @FindBy(xpath = "//a[text()='Try here>>>']")
-	    WebElement tryhereoperations;
-	    
-	    @FindBy(xpath ="//button[text()='Run']")
-	    WebElement runoperations;
-	
-	    //---------------------------------------
-	    
-	    
-	    @FindBy(linkText ="Implementation")
-	     WebElement implementationlink;
-	  
-	    @FindBy(xpath ="//a[text()='Try here>>>']")
-	    WebElement tryimplementations;
-	    
-	    @FindBy(xpath ="//button[text()='Run']")
-	    WebElement runimplementations;
-	    
-	    //---------------------------------------
 
-	    @FindBy(linkText ="Applications")
-	     WebElement applicationslink;
-	    
-	    @FindBy(xpath ="//a[text()='Try here>>>']")
-	    WebElement tryapplications;
-	    
-	    @FindBy(xpath ="//button[text()='Run']")
-	    WebElement runapplications;
-	    
-	    
-	    //---------------------------------------
-	    
-	    
-	    
-	    @FindBy(linkText ="Practice Questions")
-	    WebElement practicequestionslink;
-	 
-	    		
-	    // Methods to interact with the elements
-	    
-	    public void clickoperation () {
-	    	operationsinstacklink.click();
-	    }
-	    	
-	    	public void clickimplementation () {
-		    	implementationlink.click();	
-	    	
-	    	}
-	    	
-	    	public void clickapplications () {
-	    		 applicationslink.click();	
-	    	
-	    	}
-	    	
-
-	    	public void clickpracticequestions() {
-	    		practicequestionslink.click();
-	    	} 
-	    	
-	    	
-	    	public void tryhereoperations() {
-	    		tryhereoperations.click();
-	    	} 
-	    	
-	    	public void runopertns() {
-	    		runoperations.click();sss
-	    	}
-	    	
-	    	public void tryherimplemnts() {
-	    		 tryimplementations.click();
-	    	} 
-	    	
-	    	public void runimplements() {
-	    		runimplementations.click();
-	    	}
-	    	public void tryhereappli() {
-	    		 tryapplications.click();
-	    	} 
-	    	
-	    	public void runapplictns() {
-	    		runapplications.click();
-	    	}
-	    	
-	    	public void practicestack() {
-	    		 practicequestionslink.click();
-	    		 	
 	    	}
 	    	 
 	    	
-	    }
+	    
 
 
  

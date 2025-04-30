@@ -1,179 +1,207 @@
 package StepDefinitions;
 
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+
+import PageObject.ArrayPageObject;
+import PageObject.QueuePageObject;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class QueuePageStep {
 	
+	WebDriver driver;
+	ArrayPageObject arrayPageObj;
+	QueuePageObject queuePageObj;
+	
+	public QueuePageStep() {
+		QueuePageObject queuePageObj = new QueuePageObject();
+		this.queuePageObj = queuePageObj;
+	}
+	
 	@When("The user clicks the Get Started button in Queue Panel")
 	public void the_user_clicks_the_get_started_button_in_queue_panel() {
-	    
+		queuePageObj.click_queueGetStarted_btn();
 	    
 	}
 
 	@Then("The user should be directed to Queue Data Structure Page")
 	public void the_user_should_be_directed_to_queue_data_structure_page() {
-	    
+		System.out.println("Queue ds page");
+		String expPageTitle = "Queue";
+		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		Assert.assertEquals(expPageTitle,actPageTitle);
 	    
 	}
 
 	@When("The user select Queue item from the drop down menu")
 	public void the_user_select_queue_item_from_the_drop_down_menu() {
-	    
+		arrayPageObj.click_dataStructutrDropDown();
+		queuePageObj.click_queueDropDown();
 	    
 	}
 
 	@Given("The user is in the Queue page")
 	public void the_user_is_in_the_queue_page() {
-	    
+		queuePageObj.click_queueGetStarted_btn();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
 	    
 	}
 
 	@When("The user clicks Implementation of Queue in Python button")
 	public void the_user_clicks_implementation_of_queue_in_python_button() {
-	    
+	    queuePageObj.click_implOfQueue_link();
 	    
 	}
 
 	@Then("The user should be redirected to Implementation of Queue in Python page")
 	public void the_user_should_be_redirected_to_implementation_of_queue_in_python_page() {
-	    
+		String expPageTitle = "Implementation of Queue in Python";
+		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		Assert.assertEquals(expPageTitle,actPageTitle);
 	    
 	}
 
 
 	@When("The user clicks Try Here button in Implementation of Queue in Python page")
 	public void the_user_clicks_try_here_button_in_implementation_of_queue_in_python_page() {
-	    
-	    
-	}
-
-	@Given("The user is in the tryEditor page of Implementation of Queue in Python")
-	public void the_user_is_in_the_try_editor_page_of_implementation_of_queue_in_python() {
-	    
-	    
-	}
-
-	@Given("The user is in the Implementation of Queue in Python page")
-	public void the_user_is_in_the_implementation_of_queue_in_python_page() {
-	    
-	    
-	}
-
-	@When("The user clicks Implementation using collections.deque button")
-	public void the_user_clicks_implementation_using_collections_deque_button() {
-	    
-	    
-	}
-
-	@Then("The user should be redirected to Implementation using collections.deque page")
-	public void the_user_should_be_redirected_to_implementation_using_collections_deque_page() {
-	    
-	    
-	}
-
-	@Given("The user is on the Implementation using collections.deque page")
-	public void the_user_is_on_the_implementation_using_collections_deque_page() {
-	    
-	    
-	}
-
-	@When("The user clicks Try Here button in Implementation using collections.deque page")
-	public void the_user_clicks_try_here_button_in_implementation_using_collections_deque_page() {
-	    
-	    
-	}
-
-	@Given("The user is in the tryEditor page of Implementation using collections.deque")
-	public void the_user_is_in_the_try_editor_page_of_implementation_using_collections_deque() {
-	    
-	    
-	}
-
-	@When("The user clicks Implementation using array button")
-	public void the_user_clicks_implementation_using_array_button() {
-	    
-	    
-	}
-
-	@Then("The user should be redirected to Implementation using array page")
-	public void the_user_should_be_redirected_to_implementation_using_array_page() {
-	    
-	    
-	}
-
-	@Given("The user is on the Implementation using array page")
-	public void the_user_is_on_the_Implementation_using_array_page() {
-	    
-	    
-	}
-
-	@When("The user clicks Try Here button in Implementation using array page")
-	public void the_user_clicks_try_here_button_in_implementation_using_array_page() {
-	    
-	    
-	}
-
-	@Given("The user is in the tryEditor page of Implementation using array")
-	public void the_user_is_in_the_try_editor_page_of_implementation_using_array() {
-	    
-	    
-	}
-
-	@When("The user clicks Queue Operations button")
-	public void the_user_clicks_queue_operations_button() {
-	    
-	    
-	}
-
-	@Then("The user should be redirected to Queue Operations page")
-	public void the_user_should_be_redirected_to_queue_operations_page() {
-	    
-	    
-	}
-
-	@Given("The user is on the Queue Operations page")
-	public void the_user_is_on_the_queue_operations_page() {
-	    
-	    
-	}
-
-	@When("The user clicks Try Here button in Queue Operations page")
-	public void the_user_clicks_try_here_button_in_queue_operations_page() {
-	    
-	    
-	}
-
-	@Given("The user is in the tryEditor page of Queue Operations")
-	public void the_user_is_in_the_try_editor_page_of_queue_operations() {
-	    
+		arrayPageObj.click_tryHere_btn();
 	    
 	}
 	
 	@Given("The user is in the Implementation of Queue in Python tryEditor page")
 	public void the_user_is_in_the_implementation_of_queue_in_python_try_editor_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implOfQueue_link();
+		arrayPageObj.click_tryHere_btn();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
 	}
 
+	@Given("The user is in the Implementation of Queue in Python page")
+	public void the_user_is_in_the_implementation_of_queue_in_python_page() {
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implOfQueue_link();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
+	    
+	}
+
+	@When("The user clicks Implementation using collections.deque button")
+	public void the_user_clicks_implementation_using_collections_deque_button() {
+	    queuePageObj.click_implUsingCollections_link();
+	    
+	}
+
+	@Then("The user should be redirected to Implementation using collections.deque page")
+	public void the_user_should_be_redirected_to_implementation_using_collections_deque_page() {
+		String expPageTitle = "Implementation using collections.deque";
+		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		Assert.assertEquals(expPageTitle,actPageTitle);
+	    
+	}
+
+	@Given("The user is on the Implementation using collections.deque page")
+	public void the_user_is_on_the_implementation_using_collections_deque_page() {
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implUsingCollections_link();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
+	    
+	}
+
+	@When("The user clicks Try Here button in Implementation using collections.deque page")
+	public void the_user_clicks_try_here_button_in_implementation_using_collections_deque_page() {
+	    arrayPageObj.click_tryHere_btn();
+	    
+	}
+	
 	@Given("The user is in the Implementation using collections.deque tryEditor page")
 	public void the_user_is_in_the_implementation_using_collections_deque_try_editor_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implUsingCollections_link();
+		arrayPageObj.click_tryHere_btn();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
 	}
 
+	@When("The user clicks Implementation using array button")
+	public void the_user_clicks_implementation_using_array_button() {
+	    queuePageObj.click_implUsingArray_link();
+	    
+	}
+
+	@Then("The user should be redirected to Implementation using array page")
+	public void the_user_should_be_redirected_to_implementation_using_array_page() {
+		String expPageTitle = "Implementation using array";
+		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		Assert.assertEquals(expPageTitle,actPageTitle);
+	    
+	}
+
+	@Given("The user is on the Implementation using array page")
+	public void the_user_is_on_the_Implementation_using_array_page() {
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implUsingArray_link();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
+	    
+	}
+
+	@When("The user clicks Try Here button in Implementation using array page")
+	public void the_user_clicks_try_here_button_in_implementation_using_array_page() {
+		arrayPageObj.click_tryHere_btn();
+	    
+	}
+	
 	@Given("The user is in the Implementation using array tryEditor page")
 	public void the_user_is_in_the_implementation_using_array_try_editor_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_implUsingArray_link();
+		arrayPageObj.click_tryHere_btn();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
 	}
+
+	@When("The user clicks Queue Operations button")
+	public void the_user_clicks_queue_operations_button() {
+	    queuePageObj.click_queueOperation_link();
+	    
+	}
+
+	@Then("The user should be redirected to Queue Operations page")
+	public void the_user_should_be_redirected_to_queue_operations_page() {
+		String expPageTitle = "Queue Operations";
+		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		Assert.assertEquals(expPageTitle,actPageTitle);
+	    
+	}
+
+	@Given("The user is on the Queue Operations page")
+	public void the_user_is_on_the_queue_operations_page() {
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_queueOperation_link();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
+	    
+	}
+
+	@When("The user clicks Try Here button in Queue Operations page")
+	public void the_user_clicks_try_here_button_in_queue_operations_page() {
+		arrayPageObj.click_tryHere_btn();
+	    
+	}
+
 
 	@Given("The user is in the Queue Operations tryEditor page")
 	public void the_user_is_in_the_queue_operations_try_editor_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		queuePageObj.click_queueGetStarted_btn();
+		queuePageObj.click_queueOperation_link();
+		arrayPageObj.click_tryHere_btn();
+		String currentTitle = arrayPageObj.get_currentPageTitle();
+		//add logger
 	}
-
 
 }
