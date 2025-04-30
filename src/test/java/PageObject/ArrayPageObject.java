@@ -1,7 +1,19 @@
 package PageObject;
 
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
 
@@ -11,15 +23,9 @@ public class ArrayPageObject {
 	
 	WebDriver driver= DriverFactory.getDriver();
 	
-//	public ArrayPageObject(WebDriver driver) {
-//		this.driver = driver;
-//	}
-	
 	By getStarted_btn = By.xpath("//button[@class='btn']");
 	By signIn_btn = By.linkText("Sign in");
-	By username = By.id("id_username");
-	By password = By.id("id_password");
-	By login_btn = By.xpath("//input[@value='Login']");
+	
 	By arrayGetStarted_btn = By.xpath("//a[@href='array']");
 	By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");
 	By arrayDropDown = By.xpath("//div[@class='nav-item dropdown show']//*[contains(text(),'Arrays')]");
@@ -29,16 +35,17 @@ public class ArrayPageObject {
 	By applicationsOfArray_link = By.linkText("Applications of Array");
 	By tryHere_btn = By.linkText("Try here>>>");
 	By run_btn = By.xpath("//button");
-	By tryHereEditor_box = By.xpath("//*[contains(@class,'CodeMirror')]");
+	//By tryHereEditor_box = By.xpath("//*[contains(@class,'CodeMirror')]");
+	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
 	By tryHereEditor_output = By.id("output");
 	By practiceQns_link = By.linkText("Practice Questions");
 	By searchTheArray_link = By.linkText("Search the array");
 	By maxConsOnes_link = By.linkText("Max Consecutive Ones");
 	By findNumbers_link = By.linkText("Find Numbers with Even Number of Digits");
-	By sqrsOfArray_link = By.linkText("Squares of  a Sorted Array");
+	By sqrsOfArray_link = By.linkText("Squares of a Sorted Array");
 	By submit_btn = By.xpath("//input[@value='Submit']");
 	
-	//Need to call method from Home Page
+	
 	public void click_getStarted_btn() {
 		driver.findElement(getStarted_btn).click();
 	}
@@ -47,18 +54,15 @@ public class ArrayPageObject {
 		driver.findElement(signIn_btn).click();
 	}
 	
-	public void enter_username() {
-		driver.findElement(username).sendKeys("ClubNinjas");
+	public String get_currentPageTitle() {
+		String currentTitle = driver.getTitle();
+		return currentTitle;
 	}
 	
-	public void enter_password() {
-		driver.findElement(password).sendKeys("qwertyui(");
+	public String get_currentPageURL() {
+		String currentURL = driver.getCurrentUrl();
+		return currentURL;
 	}
-	
-	public void click_login_btn() {
-		driver.findElement(login_btn).click();
-	}
-	
 	
 	//ArrayPage Methods
 	public void click_arrayGetStarted_btn() {
@@ -120,5 +124,49 @@ public class ArrayPageObject {
 	public void click_submit_btn() {
 		driver.findElement(submit_btn).click();
 	}
-
+	
+	public void enterCodeTryEditor(String pythonCode) {
+		JavascriptExecutor js = (JavascriptExecutor)driver;		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(run_btn));
+	    WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+		tryHereEditor.sendKeys(Keys.CONTROL + "a");
+		tryHereEditor.sendKeys(Keys.DELETE);
+		js.executeScript("arguments[0].value = arguments[1];", tryHereEditor, pythonCode);
+	}
+	
+	public String get_tryHereEditor_output() {
+		String output = null;
+		try {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
+		output = driver.findElement(tryHereEditor_output).getText();
+		}
+		catch (TimeoutException e) {
+			e.printStackTrace();
+		}
+		return output;
+	}
+	
+	public void acceptAlert(String errorMsg) {
+		try {
+			Alert alert = driver.switchTo().alert();
+			String alertMsg = alert.getText();
+			System.out.println("Alert Is:" + alertMsg);
+			alert.accept();
+			Assert.assertTrue(alertMsg.contains(errorMsg));
+		} catch (NoAlertPresentException e) {
+			Assert.fail("No Alert found");
+			System.out.println("NoAlertPresentException");
+		}
+		catch (UnhandledAlertException e) {
+			System.out.println("Unhandled alert exception: " + e.getMessage());
+		}
+		}
 }

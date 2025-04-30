@@ -1,0 +1,600 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 28 16:47:10 CDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>526 seconds (526672 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect code for "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1480179609", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1480179609'><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+</pre></div></td>
+<td>12</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
+</pre></div><a href='#' onClick='toggleBox("stack-trace205246907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace205246907'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
+</pre></div></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button for "Arrays in Python" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1192474161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1192474161'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+</pre></div></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [3.0] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+	at ✽.The user should able to see output in the console from &quot;PracticeQns&quot; and 7(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:123)
+</pre></div><a href='#' onClick='toggleBox("stack-trace503902413", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace503902413'><pre>java.lang.AssertionError: expected [3.0] but found [null]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+	at ✽.The user should able to see output in the console from &quot;PracticeQns&quot; and 7(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:123)
+</pre></div></td>
+<td>18</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Applications of Array" page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
+</pre></div><a href='#' onClick='toggleBox("stack-trace325009177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace325009177'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
+</pre></div></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to successfully submit valid correct python code for "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 12(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:232)
+</pre></div><a href='#' onClick='toggleBox("stack-trace407689479", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace407689479'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 12(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:232)
+</pre></div></td>
+<td>12</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1907169510", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907169510'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect code for "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1269190198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1269190198'><pre>java.lang.AssertionError: expected [Error occurred during submission] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
+</pre></div></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button for "Arrays in Python" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1438859728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1438859728'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+</pre></div></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [2.0] but found [2]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+	at ✽.The user should able to see output in the console from &quot;PracticeQns&quot; and 9(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:167)
+</pre></div><a href='#' onClick='toggleBox("stack-trace544543427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace544543427'><pre>java.lang.AssertionError: expected [2.0] but found [2]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
+	at ✽.The user should able to see output in the console from &quot;PracticeQns&quot; and 9(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:167)
+</pre></div></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to successfully submit valid correct python code for "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 8(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:143)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2017850685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2017850685'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 8(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:143)
+</pre></div></td>
+<td>9</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1392414086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1392414086'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to successfully submit valid correct python code for "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 6(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1613583383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1613583383'><pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+	at ✽.The user should see a message from &quot;PracticeQns&quot; and 6(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:99)
+</pre></div></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1067610456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1067610456'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
+	at ✽.The user should able to see a error message from &quot;ArrayTryCode&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+</pre></div></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td><div><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_error_message_in_alert_window_from_and(ArrayPageStep.java:221)
+	at ✽.The user should able to see error message in alert window from &quot;PracticeQns&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:69)
+</pre></div><a href='#' onClick='toggleBox("stack-trace913818888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace913818888'><pre>java.lang.AssertionError: No Alert found
+	at org.testng.Assert.fail(Assert.java:111)
+	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_error_message_in_alert_window_from_and(ArrayPageStep.java:221)
+	at ✽.The user should able to see error message in alert window from &quot;PracticeQns&quot; and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:69)
+</pre></div></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Squares of a Sorted Array" Page from Practice question page of "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Applications of Array" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Applications of Array" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page from "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>3</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to Array data structure page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>3</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Basic Operations in Lists" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button for "Arrays in Python" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Basic Operations in Lists" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "try Editor" page for "Arrays Using List" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Max Consecutive Ones" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Search the array" Page from Practice question page of "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>4</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Arrays Using List" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page from "Arrays Using List" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page from "Basic Operations in Lists" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Find Numbers with Even Number of Digits" Page from Practice question page of "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Arrays Using List" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to Array data structure page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>5</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Applications of Array" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives NameError, SyntaxError for invalid python code on running "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Applications of Array" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Arrays in Python" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>7</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to run valid python code for "Squares of a Sorted Array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Max Consecutive Ones" Page from Practice question page of "Arrays in Python" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>5</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to successfully submit valid correct python code for "Find Numbers with Even Number of Digits" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>11</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to navigate to "Practice Questions" Page for "Applications of Array" try Editor page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>6</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error on submitting invalid python code, incorrect answer for "Search the array" question", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>8</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+<tr>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user receives error when click on Run button without entering code for "Applications of Array" page", "Array Page of DSAlgo portal"</td>
+<td></td>
+<td>10</td>
+<td>Runner.TestRunner@72e34f77</td></tr>
+</table><p>
+</body>
+</html>

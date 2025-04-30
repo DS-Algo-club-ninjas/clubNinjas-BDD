@@ -13,11 +13,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 	
-	public String[] excelDataRead(String sheetName, int rowNumber) throws IOException {
-			String path = System.getProperty("user.dir") + "/src/test/resources/TestData/DsAlgo_TestData.xlsx";
-		
+	public String[] excelDataRead(String sheetName, int rowNumber) {
+		String path = System.getProperty("user.dir") + "/src/test/resources/TestData/DsAlgo_TestData.xlsx";
+		String[] credentials = new String[3];
 		File excelFile = new File(path);
-
+		try {
 		FileInputStream Fis = new FileInputStream(excelFile);
 		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
 		XSSFSheet sheet = workbook.getSheet(sheetName);
@@ -31,10 +31,14 @@ public class ExcelReader {
 		workbook.close();
 		Fis.close();
 
-		String[] credentials = new String[3];
+		
 		credentials[0] = username;
 		credentials[1] = password;
 		credentials[2] = passwordConfirmation;
+		}
+		catch (Exception e) {
+		e.printStackTrace();
+			}
 
 		return credentials;
 		}

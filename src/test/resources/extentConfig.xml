@@ -1,0 +1,5 @@
+<configuration>
+    <theme>standard</theme>
+    <documentTitle>Cucumber Test Report</documentTitle>
+    <reportName>Automation Execution</reportName>
+</configuration>

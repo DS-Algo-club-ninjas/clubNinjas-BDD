@@ -27,6 +27,8 @@ static WebDriver driver;
         case "edge" : 
         	driver = new EdgeDriver();
     		break;
+        default:
+            throw new RuntimeException("Unsupported webdriver: " + driver);
         }	
 		
 		driver.manage().window().maximize();
