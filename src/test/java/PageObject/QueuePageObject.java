@@ -10,9 +10,8 @@ public class QueuePageObject {
 	WebDriver driver= DriverFactory.getDriver();
 	
 	By queueGetStarted_btn = By.xpath("//a[@href='queue']");
-	By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");//repeat element
+	By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");
 	By queueDropDown = By.xpath("//div[@class='nav-item dropdown show']//*[contains(text(),'Queue')]");
-	
 	By implOfQueue_link = By.linkText("Implementation of Queue in Python");
 	By implUsingCollections_link = By.linkText("Implementation using collections.deque");
 	By implUsingArray_link = By.linkText("Implementation using array");
@@ -22,6 +21,9 @@ public class QueuePageObject {
 		driver.findElement(queueGetStarted_btn).click();
 	}
 	
+	public void click_dataStructutrDropDown() {
+		driver.findElement(dataStructutrDropDown).click();
+	}
 	public void click_queueDropDown() {
 		driver.findElement(queueDropDown).click();
 	}

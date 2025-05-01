@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -49,7 +50,9 @@ public class ExcelReader {
 			return "";
 		}
 		if (cell.getCellType() == CellType.NUMERIC) {
-			return String.valueOf(cell.getNumericCellValue());
+			DataFormatter formatter = new DataFormatter();
+			String value = formatter.formatCellValue(cell);
+			return value;
 		}
 		if (cell.getCellType() == CellType.STRING) {
 			System.out.println("Passed" + cell.getStringCellValue());

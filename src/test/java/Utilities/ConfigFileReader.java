@@ -16,7 +16,6 @@ private static Properties properties;
 		FileReader reader = new FileReader("src/test/resources/ConfigFIle/config.properties");
 			try {
 				properties.load(reader);
-				//System.out.println("config file load");
 			}
 			catch (IOException e){
 				e.printStackTrace();
@@ -26,7 +25,6 @@ private static Properties properties;
 			e.printStackTrace();
 		}
 		this.properties = properties;
-		//System.out.println(properties.getProperty("browser"));
 	}
 	
 	public static String getDSAlgoURL() {

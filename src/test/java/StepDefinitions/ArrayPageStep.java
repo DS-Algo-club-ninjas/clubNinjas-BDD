@@ -1,9 +1,9 @@
 package StepDefinitions;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import PageObject.ArrayPageObject;
+import PageObject.HomePageObject;
+import PageObject.LoginPageObject;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
 import io.cucumber.java.en.Given;
@@ -13,32 +13,19 @@ import io.cucumber.java.en.When;
 public class ArrayPageStep {
 	
 	ArrayPageObject arrayPageObj = new ArrayPageObject();
+	HomePageObject homePageObj = new HomePageObject();
+	LoginPageObject loginPageObj = new LoginPageObject();
 	ExcelReader readExcel = new ExcelReader();
 
 	
 	@Given("The user is on the Home page and clicks Sign In")
 	public void the_user_is_on_the_home_page_and_clicks_sign_in() {
 		
-		arrayPageObj.click_getStarted_btn();
-		arrayPageObj.click_signIn_btn();
+		homePageObj.click_getStarted_btn();
+		loginPageObj.clickSignInLink();
 		LoggerLoad.info("SignIn Page is displayed");
 	   
 	}
-
-//	@When("The user gets data from excel sheet for the login page")
-//	public void the_user_gets_data_from_excel_sheet_for_the_login_page() {
-//		arrayPageObj.enter_username();
-//		arrayPageObj.enter_password();
-//		arrayPageObj.click_login_btn();
-//	}
-
-//	@Then("The user should login successfully")
-//	public void the_user_should_login_successfully() {
-//	    String actSuccess = arrayPageObj.get_loginSuccessMsg() ;
-//	    String expSuccess = "You are logged in";
-//	    Assert.assertEquals(actSuccess,expSuccess);
-//	    System.out.println("actsuccess" +actSuccess);
-//	}
 	
 	@Given("The user is in the Home page after Sign in")
 	public void the_user_is_in_the_home_page_after_sign_in() {
@@ -132,14 +119,12 @@ public class ArrayPageStep {
 	    System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
-	    System.out.println("Error Msg from excel " +errorMsg);
 	    arrayPageObj.acceptAlert(errorMsg);
 	    
 	}
 
 	@Then("The user should able to see output in the console from {string} and {int}")
 	public void the_user_should_able_to_see_output_in_the_console_from_and(String sheetName, Integer rowNumber) {
-		System.out.println("Try Editor run valid");
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
 	    System.out.println("OutputCode from excel " +expOutput);
@@ -207,7 +192,6 @@ public class ArrayPageStep {
 
 	@Then("The user should able to see error message in alert window from {string} and {int}")
 	public void the_user_should_able_to_see_error_message_in_alert_window_from_and(String sheetName, Integer rowNumber) {
-		System.out.println("Practise Try Editor run valid");
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
 	    System.out.println("OutputCode from excel " +expOutput);
@@ -233,36 +217,15 @@ public class ArrayPageStep {
 
 	@Then("The user should see a message from {string} and {int}")
 	public void the_user_should_see_a_message(String sheetName, Integer rowNumber) {
-		System.out.println("Practise Try Editor Submit error occured");
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
 	    System.out.println("OutputCode from excel " +expOutput);
-	    //arrayPageObj.acceptAlert(expOutput);
 	    String actOutput = arrayPageObj.get_tryHereEditor_output();
 	    System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);
 	    
 	}
 
-//	@When("The user write the valid code from {string} and {int} in Editor and Click the Submit Button")
-//	public void the_user_write_the_valid_code_from_and_in_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//		String[] value = ExcelReader.readFromExcel(string, int1);
-//	    arrayPageObj.enterCodeTryEditor(value[0]);
-//	    arrayPageObj.click_submit_btn();
-//	    
-//	}
-
-//	@Then("The user see success message Submission successful from {string} and {int}")
-//	public void the_user_see_success_message(String sheetName, Integer rowNumber) {
-//		System.out.println("Practise Try Editor Submit submit successful");
-//		String[] value = ExcelReader.readFromExcel(string, int1);
-//	    String expOutput = value[1];
-//	    System.out.println("OutputCode from excel " +expOutput);
-//	    String actOutput = arrayPageObj.get_tryHereEditor_output();
-//	    System.out.println("Output from webpage " +actOutput);
-//	    Assert.assertEquals(actOutput,expOutput);
-//	    
-//	}
 
 	@When("The user clicks the Max Consecutive Ones link")
 	public void the_user_clicks_the_max_consecutive_ones_link() {
@@ -285,34 +248,11 @@ public class ArrayPageStep {
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_maxConsOnes_link();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		System.out.println(currentTitle);
+		//System.out.println(currentTitle);
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
-//	@When("The user write the invalid code from {string} and {int} in Max Consecutive Ones question Editor and click the Run Button")
-//	public void the_user_write_the_invalid_code_from_and_in_max_consecutive_ones_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Max Consecutive Ones question Editor and click the Run Button")
-//	public void the_user_write_the_valid_code_from_and_in_max_consecutive_ones_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the code from {string} and {int} in Max Consecutive Ones question Editor and Click the Submit Button")
-//	public void the_user_write_the_code_from_and_in_max_consecutive_ones_question_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Max Consecutive Ones Editor and Click the Submit Button")
-//	public void the_user_write_the_valid_code_from_and_in_max_consecutive_ones_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
 
 	@When("The user clicks the Find Numbers with Even Number of Digits link")
 	public void the_user_clicks_the_find_numbers_with_even_number_of_digits_link() {
@@ -339,29 +279,6 @@ public class ArrayPageStep {
 	    
 	}
 
-//	@When("The user write the invalid code from {string} and {int} in Find Numbers with Even Number of Digits question Editor and click the Run Button")
-//	public void the_user_write_the_invalid_code_from_and_in_find_numbers_with_even_number_of_digits_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Find Numbers with Even Number of Digits question Editor and click the Run Button")
-//	public void the_user_write_the_valid_code_from_and_in_find_numbers_with_even_number_of_digits_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the code from {string} and {int} in Find Numbers with Even Number of Digits question Editor and Click the Submit Button")
-//	public void the_user_write_the_code_from_and_in_find_numbers_with_even_number_of_digits_question_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Find Numbers with Even Number of Digits Editor and Click the Submit Button")
-//	public void the_user_write_the_valid_code_from_and_in_find_numbers_with_even_number_of_digits_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
 
 	@When("The user clicks the Squares of a Sorted Array link")
 	public void the_user_clicks_the_squares_of_a_sorted_array_link() {
@@ -388,29 +305,6 @@ public class ArrayPageStep {
 	    
 	}
 
-//	@When("The user write the invalid code from {string} and {int} in Squares of a Sorted Array question Editor and click the Run Button")
-//	public void the_user_write_the_invalid_code_from_and_in_squares_of_a_sorted_array_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Squares of a Sorted Array question Editor and click the Run Button")
-//	public void the_user_write_the_valid_code_from_and_in_squares_of_a_sorted_array_question_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the code from {string} and {int} in Squares of a Sorted Array question Editor and Click the Submit Button")
-//	public void the_user_write_the_code_from_and_in_squares_of_a_sorted_array_question_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
-//
-//	@When("The user write the valid code from {string} and {int} in Squares of a Sorted Array Editor and Click the Submit Button")
-//	public void the_user_write_the_valid_code_from_and_in_squares_of_a_sorted_array_editor_and_click_the_submit_button(String sheetName, Integer rowNumber) {
-//	    
-//	    
-//	}
 
 	@When("The user clicks Arrays Using List button")
 	public void the_user_clicks_arrays_using_list_button() {

@@ -15,8 +15,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"com.aventstack.chaintest.plugins.ChainTestCucumberListener:"}, //reporting purpose
 		monochrome=false,  //console output color
-		//tags = "@Sanity or @personalLeave", //tags from feature file
-		features = {"src/test/resources/features/ArrayPage.feature"}, //location of feature files
+		//tags = "", //tags from feature file
+		features = {"src/test/resources/features/ArrayPage.feature",
+				    "src/test/resources/features/QueuePage.feature"
+					}, //location of feature files
 		glue= {"StepDefinitions", "Hooks"}) //location of step definition files
 
 

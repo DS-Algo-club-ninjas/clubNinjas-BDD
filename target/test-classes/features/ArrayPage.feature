@@ -37,9 +37,9 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     	
    Scenario Outline: Verify that user is able to see output for valid python code for "Arrays in Python" try Editor page
     Given The user is in the Arrays in Python tryEditor page
@@ -48,7 +48,7 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
 
   
   Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Arrays in Python" page
@@ -251,9 +251,9 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     
     Scenario Outline: Verify that user is able to see output for valid python code for "Arrays Using List" try Editor page
     Given The user is in the tryEditor page of Arrays Using List
@@ -262,7 +262,7 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Arrays Using List" page
     Given The user is in the Arrays Using List page
@@ -286,9 +286,9 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     
     Scenario Outline: Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page
     Given The user is in the tryEditor page of Basic Operations in Lists
@@ -297,7 +297,7 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Basic Operations in Lists" page
     Given The user is in the Basic Operations in Lists page
@@ -321,9 +321,9 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     
     Scenario Outline: Verify that user is able to see output for valid python code for "Applications of Array" try Editor page
     Given The user is in the tryEditor page of Applications of Array
@@ -332,7 +332,7 @@ Feature: Array Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
 
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Applications of Array" try Editor page

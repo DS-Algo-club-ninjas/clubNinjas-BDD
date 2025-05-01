@@ -1,179 +1,1612 @@
-[INFO] 2025-04-28 16:34:46.048 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:34:49.935 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:34:53.605 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:34:57.710 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:35:02.113 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:14.891 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:16.452 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:16.467 [main] LoggerLoad - NumpyNinja is displayed
-[INFO] 2025-04-28 16:47:19.206 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:20.168 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:20.179 [main] LoggerLoad - NumpyNinja is displayed
-[INFO] 2025-04-28 16:47:22.909 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:23.932 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:24.203 [main] LoggerLoad - Array is displayed
-[INFO] 2025-04-28 16:47:27.106 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:28.099 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:28.734 [main] LoggerLoad - Arrays in Python is displayed
-[INFO] 2025-04-28 16:47:31.599 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:32.502 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:34.107 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:47:40.081 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:41.065 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:42.325 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:47:49.091 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:50.021 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:51.526 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:47:56.948 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:47:57.842 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:47:59.072 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:04.480 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:05.327 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:05.998 [main] LoggerLoad - Arrays in Python is displayed
-[INFO] 2025-04-28 16:48:08.529 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:09.495 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:10.403 [main] LoggerLoad - Practice Questions is displayed
-[INFO] 2025-04-28 16:48:13.144 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:13.977 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:15.420 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:21.243 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:22.160 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:23.683 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:29.202 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:30.109 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:31.519 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:36.948 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:37.811 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:39.236 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:45.218 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:46.102 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:47.529 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:48:53.500 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:48:54.376 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:48:55.913 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:02.711 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:03.579 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:04.626 [main] LoggerLoad - Practice Questions is displayed
-[INFO] 2025-04-28 16:49:08.156 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:09.027 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:10.734 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:16.128 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:17.040 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:18.536 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:23.972 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:24.960 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:26.533 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:42.370 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:43.247 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:44.795 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:50.941 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:49:51.877 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:49:53.437 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:49:59.386 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:00.495 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:02.185 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:50:10.171 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:11.454 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:13.161 [main] LoggerLoad - Practice Questions is displayed
-[INFO] 2025-04-28 16:50:17.613 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:19.062 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:21.937 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:50:29.066 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:30.633 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:33.443 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:50:40.210 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:41.467 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:44.309 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:50:51.971 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:50:53.120 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:50:56.009 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:51:03.391 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:04.746 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:51:07.461 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:51:14.913 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:16.246 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:51:18.729 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:51:26.491 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:27.778 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:51:29.590 [main] LoggerLoad - Practice Questions is displayed
-[INFO] 2025-04-28 16:51:34.541 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:35.947 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:51:38.952 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:51:45.842 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:47.191 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:51:49.895 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:51:56.726 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:51:58.016 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:00.643 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:52:07.824 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:09.339 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:12.348 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:52:20.379 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:21.531 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:24.302 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:52:32.178 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:33.496 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:36.666 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:52:44.950 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:46.526 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:46.979 [main] LoggerLoad - Array is displayed
-[INFO] 2025-04-28 16:52:51.106 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:52.540 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:52:53.718 [main] LoggerLoad - Arrays Using List is displayed
-[INFO] 2025-04-28 16:52:57.885 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:52:59.281 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:01.527 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:53:05.328 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:06.511 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:08.460 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:53:12.323 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:13.757 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:15.840 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:53:21.130 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:22.826 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:24.839 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:53:31.891 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:33.199 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:34.363 [main] LoggerLoad - Arrays Using List is displayed
-[INFO] 2025-04-28 16:53:38.429 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:39.893 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:40.555 [main] LoggerLoad - Array is displayed
-[INFO] 2025-04-28 16:53:44.559 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:46.190 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:47.353 [main] LoggerLoad - Basic Operations in Lists is displayed
-[INFO] 2025-04-28 16:53:51.749 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:53:53.275 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:53:55.326 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:54:02.793 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:04.036 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:06.042 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:54:12.994 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:14.247 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:16.313 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:54:23.147 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:24.379 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:26.690 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:54:33.660 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:35.022 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:36.157 [main] LoggerLoad - Basic Operations in Lists is displayed
-[INFO] 2025-04-28 16:54:40.097 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:41.515 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:42.132 [main] LoggerLoad - Array is displayed
-[INFO] 2025-04-28 16:54:46.104 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:47.638 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:48.897 [main] LoggerLoad - Applications of Array is displayed
-[INFO] 2025-04-28 16:54:53.100 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:54:54.372 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:54:56.361 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:55:03.673 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:55:05.329 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:55:07.381 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:55:14.261 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:55:15.684 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:55:17.748 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:55:24.557 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:55:26.020 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:55:28.102 [main] LoggerLoad - Assessment is displayed
-[INFO] 2025-04-28 16:55:35.178 [main] LoggerLoad - Sign Page is displayed
-[INFO] 2025-04-28 16:55:36.482 [main] LoggerLoad - Sign Out link is displayed successfully.
-[INFO] 2025-04-28 16:55:37.576 [main] LoggerLoad - Applications of Array is displayed
+[INFO] 2025-04-29 14:35:03.311 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:04.783 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:05.318 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-29 14:35:06.362 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:08.142 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:09.473 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:10.874 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:12.181 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-29 14:35:13.638 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:15.229 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:16.730 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:18.325 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:20.456 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-29 14:35:21.219 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-29 14:35:22.155 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:23.724 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:25.148 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:26.593 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:28.839 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-29 14:35:30.705 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:32.434 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:33.825 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:35.297 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:37.367 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-29 14:35:39.389 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:41.035 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:42.371 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:43.604 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:45.384 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-29 14:35:47.244 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-29 14:35:48.882 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-29 14:35:50.293 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-29 14:35:51.608 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-29 14:35:52.883 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-29 14:35:53.902 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:19.525 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:20.566 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:22.205 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:22.214 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 15:14:22.832 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:23.762 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:25.028 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:26.290 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:26.299 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 15:14:27.017 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:28.023 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:29.124 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:30.164 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:30.467 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 15:14:31.238 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:32.156 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:33.138 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:34.203 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:34.922 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 15:14:35.705 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:36.639 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:37.696 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:38.754 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:39.960 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:14:40.293 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:14:40.972 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:42.086 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:43.258 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:44.189 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:45.363 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:14:45.908 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:46.917 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:47.974 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:49.046 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:50.205 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:14:50.724 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:51.742 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:53.682 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:54.520 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:55.989 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:14:56.485 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:14:57.406 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:14:58.337 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:14:59.198 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:14:59.820 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 15:15:00.265 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:01.241 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:02.217 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:03.208 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:04.104 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 15:15:04.906 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:05.843 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:06.899 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:07.844 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:09.237 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:09.782 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:10.725 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:11.781 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:12.837 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:14.333 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:14.888 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:15.876 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:16.944 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:17.960 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:19.418 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:19.922 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:20.950 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:22.007 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:22.957 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:24.404 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:25.444 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:26.334 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:27.581 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:28.578 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:31.781 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:32.860 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:33.778 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:34.812 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:35.648 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:37.338 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:15:38.207 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:15:38.817 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:39.735 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:40.621 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:41.507 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:42.423 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 15:15:43.266 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:44.186 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:45.332 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:46.293 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:48.160 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:48.711 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:49.605 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:51.098 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:51.995 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:53.846 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:15:54.418 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:15:55.451 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:15:56.623 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:15:57.547 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:15:58.954 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:15:59.251 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:15:59.885 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:00.979 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:01.954 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:02.992 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:04.601 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:05.668 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:06.576 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:07.546 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:08.428 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:09.896 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:10.945 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:11.834 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:12.796 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:13.690 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:15.081 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:16:15.858 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:16:16.489 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:17.449 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:18.695 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:19.783 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:20.741 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 15:16:21.583 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:22.503 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:23.574 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:24.570 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:26.985 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:27.540 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:28.447 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:29.596 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:30.531 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:32.035 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:32.507 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:33.528 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:34.638 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:35.599 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:37.003 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:16:37.289 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:16:37.935 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:38.850 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:39.945 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:40.884 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:42.319 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:43.337 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:44.298 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:45.419 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:46.329 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:47.710 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:48.768 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:49.718 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:50.691 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:51.622 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:52.977 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:16:54.027 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:54.932 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:16:55.880 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:16:56.736 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:16:57.603 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 15:16:58.448 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:16:59.368 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:00.361 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:01.403 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:02.885 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:17:03.331 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:04.213 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:05.192 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:06.075 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:07.947 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:17:08.368 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:09.317 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:10.299 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:11.186 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:12.696 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:17:13.171 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:14.167 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:15.293 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:16.242 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:17.730 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:18.503 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:19.050 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:19.990 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:21.075 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:21.952 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:23.409 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:24.221 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:24.755 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:25.650 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:26.631 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:27.605 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:29.633 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:30.432 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:31.033 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:31.947 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:32.962 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:33.751 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:34.087 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 15:17:34.596 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:35.498 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:36.497 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:37.465 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:38.013 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 15:17:38.753 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:39.664 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:40.702 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:41.596 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:43.004 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:43.025 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:43.570 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:44.484 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:45.466 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:46.343 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:47.379 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:47.396 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:47.969 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:48.861 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:50.303 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:51.199 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:52.286 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:17:52.304 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:17:52.900 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:53.785 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:54.817 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:17:55.838 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:17:57.580 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:17:58.029 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:17:58.930 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:17:59.998 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:00.898 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:01.484 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 15:18:01.943 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:02.879 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:03.847 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:04.927 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:05.225 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 15:18:05.805 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:06.759 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:07.819 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:08.707 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:09.316 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 15:18:10.068 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:10.946 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:11.970 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:13.011 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:14.127 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:18:14.334 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:18:14.869 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:15.754 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:16.775 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:17.709 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:18.807 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:19.261 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:20.169 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:21.184 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:22.166 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:23.241 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:23.667 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:24.592 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:25.606 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:26.566 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:27.818 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:28.288 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:29.214 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:30.379 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:31.281 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:31.841 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 15:18:32.273 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:33.247 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:34.347 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:35.288 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:35.652 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 15:18:36.160 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:37.136 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:38.210 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:39.285 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:39.851 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 15:18:40.712 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:41.694 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:42.781 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:43.711 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:44.787 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 15:18:45.046 [main] LoggerLoad - Stes failed. Taking Screenshot
+[INFO] 2025-04-30 15:18:45.769 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:46.706 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:47.782 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:48.726 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:49.856 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:50.388 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:51.355 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:52.469 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:53.329 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:54.444 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:54.925 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:18:55.812 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:18:56.888 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:18:57.745 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:18:58.973 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 15:18:59.421 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 15:19:00.311 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 15:19:01.358 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 15:19:02.327 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 15:19:02.928 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 15:19:03.368 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:32:53.783 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:32:55.313 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:32:58.243 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:01.319 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:33:03.244 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:04.997 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:06.222 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:07.753 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:10.766 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:33:11.957 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:13.473 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:14.788 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:16.141 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:18.728 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:33:19.585 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:21.076 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:22.466 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:23.812 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:26.594 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:33:27.263 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:33:28.225 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:29.828 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:30.969 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:32.285 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:35.225 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:33:36.824 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:38.463 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:39.751 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:41.199 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:43.815 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:33:45.403 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:46.824 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:48.139 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:49.802 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:33:52.633 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:33:53.789 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:33:54.840 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:33:56.461 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:33:57.807 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:33:59.214 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:01.032 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:34:02.181 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:03.582 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:04.794 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:05.943 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:08.586 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:34:09.661 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:11.309 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:12.524 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:13.798 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:17.363 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:34:18.333 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:20.202 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:21.467 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:22.811 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:25.789 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:34:26.509 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:34:27.539 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:29.128 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:30.383 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:31.695 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:34.351 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:34:36.188 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:37.572 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:38.866 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:40.402 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:42.794 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:34:44.444 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:34:45.991 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:34:47.293 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:34:48.695 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:34:51.492 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:34:53.081 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:41:32.544 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:41:34.137 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:41:36.787 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:41:38.522 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:41:39.963 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:41:41.543 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:41:43.085 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:41:44.672 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:41:47.526 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:41:48.545 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:41:49.997 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:41:51.319 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:41:52.796 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:41:55.613 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:41:56.739 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:41:58.307 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:41:59.654 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:00.920 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:03.475 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:42:04.115 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:42:05.076 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:06.569 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:07.826 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:09.139 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:12.000 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:42:13.662 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:15.389 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:16.768 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:18.135 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:20.922 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:42:22.518 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:24.415 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:25.559 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:26.953 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:29.887 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:42:30.980 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:42:31.942 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:33.793 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:35.086 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:36.335 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:38.160 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:42:39.491 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:41.195 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:42.294 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:43.616 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:45.849 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:42:46.704 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:48.256 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:49.543 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:51.193 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:42:54.075 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:42:54.882 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:42:56.625 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:42:57.960 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:42:59.169 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:43:01.806 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:43:02.660 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:43:03.709 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:43:05.288 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:43:06.605 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:43:07.989 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:43:10.665 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:43:12.264 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:43:14.155 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:43:15.494 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:43:16.552 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:43:19.159 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:43:20.921 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:43:23.010 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:43:24.265 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:43:25.812 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:43:28.628 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:43:30.199 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:09.610 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:10.995 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:13.814 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:15.644 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:46:17.025 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:18.711 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:20.013 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:21.406 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:24.124 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:46:25.120 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:26.983 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:28.109 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:29.395 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:31.752 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:46:32.637 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:34.444 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:35.775 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:37.318 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:39.983 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:46:40.544 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:46:41.643 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:43.256 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:44.601 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:45.963 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:49.193 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:46:50.691 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:46:52.517 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:46:53.760 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:46:55.204 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:46:57.553 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:46:58.885 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:00.551 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:01.932 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:03.292 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:06.154 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:47:07.513 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:47:08.398 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:10.159 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:11.392 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:12.695 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:14.808 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:47:16.187 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:17.790 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:19.271 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:20.839 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:23.729 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:47:24.503 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:26.361 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:27.551 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:28.870 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:31.787 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:47:32.868 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:34.759 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:36.065 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:37.237 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:40.040 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:47:40.836 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:47:41.666 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:43.271 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:44.371 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:45.554 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:47.806 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:47:49.204 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:50.771 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:51.912 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:47:53.127 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:47:55.543 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:47:57.000 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:47:58.541 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:47:59.768 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:48:00.965 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:48:03.463 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:48:04.827 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:57:58.494 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:57:59.966 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:58:02.768 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:58:05.629 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:58:06.971 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:58:08.793 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:58:10.215 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:58:11.838 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:58:14.561 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 22:58:16.064 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 22:58:17.028 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:58:18.802 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:58:20.161 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:58:21.598 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:58:23.466 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 22:58:24.784 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:58:26.423 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:58:27.736 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:58:29.146 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:58:31.967 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:58:33.211 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 22:58:34.970 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 22:58:36.366 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 22:58:37.770 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 22:58:40.710 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 22:58:42.481 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:00:35.899 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:00:37.367 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:00:40.045 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:00:40.067 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:00:41.094 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:00:42.672 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:00:43.833 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:00:45.169 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:00:45.200 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:00:46.421 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:00:48.040 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:00:49.381 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:00:50.929 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:00:51.527 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:00:52.544 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:00:54.329 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:00:55.553 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:00:56.971 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:00:58.322 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 23:00:59.663 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:01.374 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:02.532 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:03.886 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:06.067 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:01:06.594 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:01:07.649 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:09.225 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:10.468 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:12.232 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:15.027 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:01:15.955 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:17.449 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:18.674 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:20.000 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:22.239 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:01:23.397 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:24.903 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:26.148 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:27.658 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:29.751 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:01:30.322 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:01:31.201 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:32.777 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:34.088 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:35.450 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:36.349 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 23:01:36.930 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:38.229 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:39.597 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:40.739 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:42.359 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:01:43.771 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:45.672 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:47.148 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:48.617 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:51.198 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:01:52.250 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:01:54.223 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:01:55.521 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:01:56.867 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:01:59.729 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:02:00.664 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:02.248 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:03.739 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:05.033 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:07.808 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:02:08.466 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:02:09.509 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:11.190 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:12.517 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:14.069 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:16.878 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:02:18.462 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:20.113 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:21.317 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:22.434 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:24.650 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:02:26.160 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:27.902 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:29.037 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:30.345 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:32.927 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:02:34.084 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:02:34.969 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:36.455 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:37.725 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:39.071 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:40.937 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:02:42.217 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:44.123 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:45.317 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:46.710 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:49.392 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:02:50.309 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:02:52.067 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:02:53.643 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:02:54.912 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:02:57.750 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:02:58.575 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:00.215 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:01.589 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:02.915 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:05.965 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:03:07.027 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:08.944 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:10.269 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:11.578 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:14.186 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:03:15.755 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:17.313 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:18.588 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:19.888 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:22.581 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:03:24.199 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:25.838 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:27.063 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:28.538 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:31.255 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:03:32.472 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:03:33.302 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:34.780 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:36.136 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:37.412 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:39.281 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:03:40.573 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:42.063 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:43.315 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:44.709 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:47.404 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:03:48.160 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:49.900 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:51.377 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:03:52.928 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:03:55.880 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:03:56.732 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:03:58.407 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:03:59.805 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:01.077 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:04.048 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:05.294 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:06.906 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:09.164 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:10.643 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:13.290 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:14.666 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:16.301 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:17.590 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:18.912 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:21.504 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:23.180 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:24.917 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:26.113 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:27.435 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:30.355 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:31.842 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:33.481 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:34.685 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:36.077 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:37.947 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:04:39.481 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:41.071 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:42.381 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:43.813 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:46.342 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:47.240 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:48.979 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:50.340 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:04:51.853 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:04:54.711 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:04:55.675 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:04:57.288 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:04:58.629 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:00.079 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:03.021 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:03.564 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:04.572 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:06.131 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:07.323 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:08.496 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:11.214 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:12.377 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:13.297 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:15.091 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:16.471 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:17.808 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:20.288 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:21.426 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:22.311 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:23.902 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:25.190 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:26.694 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:29.501 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:30.679 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:31.552 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:33.309 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:34.618 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:35.885 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:36.283 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:05:37.100 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:38.650 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:39.940 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:41.330 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:42.496 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 23:05:43.857 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:45.584 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:47.267 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:48.913 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:51.180 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:51.216 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:52.139 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:05:53.765 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:05:55.097 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:05:56.470 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:05:58.488 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:05:58.521 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:05:59.462 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:00.935 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:02.302 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:03.629 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:05.870 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:06:05.903 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:06:06.792 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:08.332 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:09.626 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:10.896 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:12.980 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:06:13.456 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:06:14.236 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:15.755 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:17.040 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:18.439 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:19.588 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 23:06:20.511 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:22.087 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:23.384 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:24.721 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:25.300 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:06:26.333 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:28.491 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:29.761 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:31.108 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:32.211 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 23:06:33.230 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:35.069 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:36.402 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:37.730 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:39.841 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:06:40.401 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:06:41.237 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:42.603 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:43.916 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:45.206 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:47.357 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:06:48.385 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:49.947 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:51.235 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:52.719 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:06:54.595 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:06:55.337 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:06:56.901 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:06:58.153 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:06:59.307 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:01.359 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:07:01.903 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:07:02.853 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:04.379 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:05.815 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:07.078 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:08.267 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 23:07:09.210 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:10.760 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:11.994 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:13.292 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:13.837 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:07:14.735 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:16.354 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:17.627 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:18.899 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:20.022 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 23:07:21.181 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:22.743 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:24.142 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:25.533 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:27.352 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:07:27.925 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:07:28.788 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:30.710 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:31.992 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:33.345 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:35.285 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:07:36.186 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:37.728 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:39.000 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:40.200 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:42.319 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:07:43.427 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:45.028 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:46.358 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:47.963 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:49.928 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:07:50.450 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:07:51.260 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:52.996 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:07:54.435 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:07:55.870 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:07:56.975 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 23:07:57.923 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:07:59.634 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:01.107 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:02.718 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:02.736 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:08:03.768 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:05.432 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:06.705 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:07.954 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:07.971 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:08:09.100 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:10.668 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:11.914 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:13.319 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:13.881 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:08:14.784 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:16.391 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:17.674 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:19.103 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:20.125 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:08:21.405 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:23.067 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:24.492 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:25.868 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:27.879 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:08:28.433 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:08:29.387 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:30.843 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:32.172 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:33.748 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:35.538 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:08:36.384 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:37.977 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:39.182 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:40.659 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:42.520 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:08:43.196 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:44.739 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:46.012 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:47.368 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:49.374 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:08:49.862 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:08:50.688 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:52.192 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:53.493 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:08:54.850 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:08:55.975 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:08:56.942 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:08:58.477 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:08:59.805 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:01.094 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:01.524 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:09:02.479 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:03.970 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:05.159 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:06.444 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:07.605 [main] LoggerLoad - Implementation using collections.deque page is displayed
+[INFO] 2025-04-30 23:09:08.811 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:10.611 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:11.803 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:12.987 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:14.817 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:09:15.291 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:09:16.181 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:17.880 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:19.210 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:20.508 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:22.438 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:09:23.485 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:25.134 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:26.247 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:27.619 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:29.484 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:09:30.204 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:31.800 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:33.048 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:34.321 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:35.956 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:09:36.419 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:09:37.252 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:38.800 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:40.073 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:41.431 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:41.977 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:09:43.012 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:44.646 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:45.991 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:47.403 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:48.562 [main] LoggerLoad - Implementation using array page is displayed
+[INFO] 2025-04-30 23:09:49.965 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:51.673 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:09:53.049 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:09:54.352 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:09:56.202 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:09:56.637 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:09:57.509 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:09:59.312 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:00.763 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:02.076 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:04.145 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:10:05.191 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:06.924 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:08.324 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:09.762 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:11.741 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:10:12.581 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:14.238 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:15.555 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:17.095 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:18.973 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:10:19.433 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:10:20.299 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:21.910 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:23.143 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:24.289 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:24.704 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:10:25.709 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:27.280 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:28.760 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:30.403 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:31.491 [main] LoggerLoad - Queue Operations page is displayed
+[INFO] 2025-04-30 23:10:32.773 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:34.285 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:35.680 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:36.920 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:38.841 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:10:39.367 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:10:40.314 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:41.917 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:43.225 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:44.448 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:46.278 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:10:47.072 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:48.662 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:49.978 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:51.279 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:10:53.282 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:10:54.193 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:10:55.648 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:10:57.051 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:10:58.357 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:11:00.410 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:11:00.871 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:11:01.859 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:18.526 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:19.904 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:22.480 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:22.497 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:27:23.467 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:24.973 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:26.125 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:27.663 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:27.691 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:27:28.613 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:30.271 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:31.544 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:32.972 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:33.473 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:27:34.593 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:36.303 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:37.471 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:38.929 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:39.969 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:27:41.540 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:43.195 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:44.434 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:45.897 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:48.095 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:27:48.632 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:27:49.673 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:51.491 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:52.726 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:27:54.022 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:27:55.923 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:27:57.000 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:27:58.317 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:27:59.517 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:00.652 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:02.509 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:28:03.503 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:05.126 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:06.384 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:07.653 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:09.820 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:28:11.177 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:12.756 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:13.949 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:15.272 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:16.530 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:28:17.539 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:19.548 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:21.133 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:22.672 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:23.195 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:28:24.057 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:25.768 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:27.052 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:28.477 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:29.570 [main] LoggerLoad - Implementation using collections.deque page is displayed
+[INFO] 2025-04-30 23:28:30.782 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:32.556 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:33.824 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:35.217 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:37.123 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:28:37.577 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:28:38.468 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:40.154 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:41.411 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:42.827 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:44.898 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:28:45.851 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:47.301 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:48.467 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:49.855 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:51.832 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:28:52.687 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:28:54.256 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:28:55.513 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:28:56.827 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:28:58.891 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:28:59.838 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:01.586 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:02.968 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:04.543 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:05.140 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:29:06.196 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:07.950 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:09.179 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:10.648 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:11.933 [main] LoggerLoad - Implementation using array page is displayed
+[INFO] 2025-04-30 23:29:12.997 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:14.534 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:15.742 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:17.104 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:19.008 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:29:19.681 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:29:20.568 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:22.045 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:23.412 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:24.780 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:26.733 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:29:27.655 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:29.255 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:30.528 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:31.959 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:33.941 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:29:35.008 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:36.932 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:38.204 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:39.720 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:41.761 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:29:42.796 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:44.410 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:45.694 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:46.824 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:47.320 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:29:48.330 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:49.793 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:51.112 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:52.489 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:29:53.653 [main] LoggerLoad - Queue Operations page is displayed
+[INFO] 2025-04-30 23:29:55.043 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:29:56.360 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:29:57.500 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:29:58.782 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:30:00.926 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:30:01.500 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:30:02.487 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:30:04.044 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:30:05.326 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:30:06.770 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:30:08.920 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:30:10.077 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:30:11.506 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:30:12.779 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:30:14.056 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:30:16.286 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:30:17.225 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:30:18.766 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:30:19.932 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:30:21.317 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:30:23.389 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:30:24.210 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:09.569 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:10.804 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:13.725 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:13.743 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:39:14.654 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:16.286 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:17.526 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:18.986 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:19.018 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:39:20.264 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:21.981 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:23.265 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:24.944 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:25.541 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:39:26.903 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:28.623 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:30.005 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:31.510 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:32.664 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 23:39:34.007 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:35.642 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:36.930 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:38.558 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:40.743 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:39:41.489 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:39:42.457 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:44.040 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:45.430 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:46.646 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:48.559 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:39:49.506 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:50.996 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:52.246 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:39:53.674 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:39:55.893 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:39:57.101 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:39:58.602 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:39:59.833 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:01.173 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:03.325 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:04.393 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:06.240 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:07.418 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:08.620 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:09.761 [main] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-04-30 23:40:10.789 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:12.481 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:13.799 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:15.051 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:16.684 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:40:17.975 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:19.595 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:20.902 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:22.340 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:25.150 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:26.086 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:27.752 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:29.044 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:30.446 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:33.057 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:34.021 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:35.610 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:36.858 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:38.317 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:40.959 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:41.882 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:43.667 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:44.976 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:46.209 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:48.889 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:50.397 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:40:52.268 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:40:53.689 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:40:55.216 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:40:57.908 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:40:59.265 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:00.708 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:02.021 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:03.315 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:06.038 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:41:07.356 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:41:08.347 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:10.014 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:11.342 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:12.519 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:14.149 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:41:15.455 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:17.419 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:18.912 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:20.396 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:23.380 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:41:24.363 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:26.382 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:27.647 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:29.172 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:31.935 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:41:32.817 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:34.501 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:35.741 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:37.010 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:39.775 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:41:40.918 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:42.423 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:43.630 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:45.078 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:47.896 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:41:49.610 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:51.118 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:41:52.514 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:41:53.867 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:41:56.663 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:41:58.133 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:41:59.692 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:00.905 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:02.300 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:05.005 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:42:06.274 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:42:07.171 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:08.666 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:10.187 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:11.565 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:13.492 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:42:14.880 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:16.363 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:17.694 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:18.966 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:21.559 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:42:22.564 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:24.209 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:25.508 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:26.838 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:29.496 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:42:30.412 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:32.039 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:33.381 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:34.727 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:37.416 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:42:38.402 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:40.007 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:41.274 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:42.605 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:45.592 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:42:47.251 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:48.932 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:50.191 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:42:51.746 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:42:54.641 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:42:56.170 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:42:57.878 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:42:58.995 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:00.362 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:03.202 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:43:04.744 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:06.298 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:07.632 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:08.906 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:10.424 [main] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-04-30 23:43:11.952 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:13.514 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:14.660 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:16.030 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:18.831 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:43:19.802 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:21.345 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:22.513 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:23.916 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:26.676 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:43:27.615 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:29.148 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:30.366 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:31.551 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:34.042 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:43:34.879 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:36.580 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:37.902 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:39.288 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:41.707 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:43:42.900 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:43:43.876 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:45.568 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:46.869 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:48.301 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:43:51.096 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:43:52.295 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:43:53.225 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:43:54.787 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:43:56.069 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:43:57.590 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:00.382 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:44:01.552 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:44:02.394 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:04.168 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:05.466 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:06.861 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:07.582 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:44:08.538 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:10.170 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:11.606 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:13.081 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:14.165 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 23:44:15.479 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:17.152 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:18.352 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:19.844 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:21.888 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:44:21.933 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:44:22.999 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:24.467 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:25.923 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:27.530 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:29.191 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:44:29.227 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:44:30.121 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:31.773 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:33.050 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:34.491 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:36.162 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:44:36.205 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:44:37.193 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:38.846 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:40.302 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:41.624 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:43.696 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:44:44.856 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:46.332 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:47.671 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:49.127 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:50.261 [main] LoggerLoad - Arrays Using List page is displayed
+[INFO] 2025-04-30 23:44:51.173 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:52.485 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:53.584 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:44:54.760 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:44:55.305 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:44:56.161 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:44:57.686 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:44:58.967 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:00.378 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:01.435 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 23:45:02.646 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:04.180 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:05.527 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:06.840 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:08.664 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:45:09.163 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:45:10.009 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:11.796 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:13.147 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:14.505 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:16.613 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:45:17.667 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:19.220 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:20.691 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:21.998 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:24.126 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:45:25.023 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:26.674 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:27.856 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:29.264 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:31.220 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:45:32.242 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:33.692 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:34.858 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:36.150 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:37.377 [main] LoggerLoad - Basic Operations in Lists page is displayed
+[INFO] 2025-04-30 23:45:38.240 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:39.843 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:41.147 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:42.566 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:43.103 [main] LoggerLoad - Array page is displayed
+[INFO] 2025-04-30 23:45:43.991 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:45.603 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:47.023 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:48.396 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:49.527 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 23:45:50.632 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:52.105 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:45:53.330 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:45:54.720 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:45:56.797 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:45:57.300 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:45:58.155 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:45:59.874 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:01.279 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:02.612 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:04.574 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:46:05.332 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:06.886 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:08.590 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:10.234 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:12.251 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:46:13.035 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:14.654 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:15.902 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:17.376 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:19.165 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:46:20.136 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:21.768 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:23.031 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:24.574 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:25.730 [main] LoggerLoad - Applications of Array page is displayed
+[INFO] 2025-04-30 23:46:26.706 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:28.569 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:29.815 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:31.406 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:31.423 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:46:32.286 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:33.844 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:35.180 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:36.517 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:36.535 [main] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-04-30 23:46:37.682 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:39.456 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:40.792 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:42.369 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:42.782 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:46:43.798 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:45.546 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:46.891 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:48.053 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:48.973 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:46:50.077 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:51.681 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:46:53.028 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:46:54.540 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:46:56.543 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:46:57.050 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:46:57.862 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:46:59.611 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:01.081 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:02.465 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:04.240 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:47:05.103 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:06.588 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:07.803 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:09.193 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:11.327 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:47:12.307 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:13.728 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:15.143 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:16.781 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:18.986 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:47:19.833 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:21.429 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:22.531 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:23.798 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:24.918 [main] LoggerLoad - Implementation of Queue in Python page is displayed
+[INFO] 2025-04-30 23:47:25.908 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:27.459 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:28.712 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:29.949 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:30.486 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:47:31.332 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:33.159 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:34.387 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:35.811 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:36.866 [main] LoggerLoad - Implementation using collections.deque page is displayed
+[INFO] 2025-04-30 23:47:38.052 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:39.591 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:40.743 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:42.071 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:44.018 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:47:44.363 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:47:45.352 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:46.923 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:48.375 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:49.735 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:51.498 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:47:52.498 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:47:54.456 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:47:55.716 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:47:57.129 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:47:59.150 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:47:59.964 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:01.425 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:02.799 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:04.191 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:06.148 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:48:07.219 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:08.999 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:10.325 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:11.748 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:12.302 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:48:13.344 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:14.934 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:16.010 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:17.394 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:18.528 [main] LoggerLoad - Implementation using array page is displayed
+[INFO] 2025-04-30 23:48:19.669 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:21.240 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:22.437 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:23.870 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:25.772 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:48:26.256 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:48:27.096 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:28.747 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:30.076 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:31.375 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:33.303 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:48:34.253 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:35.847 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:37.132 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:38.398 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:40.222 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:48:41.022 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:42.551 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:43.826 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:45.344 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:47.392 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:48:48.394 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:50.040 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:51.440 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:52.838 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:53.260 [main] LoggerLoad - Queue page is displayed
+[INFO] 2025-04-30 23:48:54.078 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:48:55.248 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:48:56.491 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:48:57.634 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:48:58.513 [main] LoggerLoad - Queue Operations page is displayed
+[INFO] 2025-04-30 23:48:59.660 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:49:01.197 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:49:02.528 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:49:03.868 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:49:05.795 [main] LoggerLoad - Assessment page is displayed
+[ERROR] 2025-04-30 23:49:06.188 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-04-30 23:49:07.050 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:49:08.594 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:49:09.931 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:49:11.196 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:49:12.902 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:49:13.599 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:49:15.149 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:49:16.290 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:49:17.691 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:49:19.667 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:49:20.571 [main] LoggerLoad - Closing Browser
+[INFO] 2025-04-30 23:49:22.163 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-04-30 23:49:23.538 [main] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-04-30 23:49:25.073 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-04-30 23:49:27.134 [main] LoggerLoad - Assessment page is displayed
+[INFO] 2025-04-30 23:49:28.244 [main] LoggerLoad - Closing Browser
