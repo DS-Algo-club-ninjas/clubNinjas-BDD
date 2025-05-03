@@ -21,14 +21,17 @@ public class Hooks {
 		
 		if (browser != null) {
 			browser = ConfigFileReader.getBrowser();
-			driver = DriverFactory.createDriver();
-			driver.get(ConfigFileReader.getDSAlgoURL());
+			DriverFactory.createDriver();
+			DriverFactory.getDriver().get(ConfigFileReader.getDSAlgoURL());
 		} 
+		else {
+			throw new RuntimeException("Browser not defined");
+		}
 	}
 	
 	@After
 	public static void teardown(Scenario scenario) throws Throwable {
-
+		driver = DriverFactory.getDriver();
 		if (scenario.isFailed()) {
 			LoggerLoad.error("Steps failed. Taking Screenshot");
 		    byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);

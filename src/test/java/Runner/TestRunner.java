@@ -15,7 +15,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"com.aventstack.chaintest.plugins.ChainTestCucumberListener:"}, //reporting purpose
 		monochrome=false,  //console output color
-		//tags = "", //tags from feature file
+		//tags = "@tag1", //tags from feature file
 		features = {"src/test/resources/features/ArrayPage.feature",
 				    "src/test/resources/features/QueuePage.feature"
 					}, //location of feature files

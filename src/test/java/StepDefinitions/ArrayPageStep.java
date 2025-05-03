@@ -119,7 +119,8 @@ public class ArrayPageStep {
 	    System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
-	    arrayPageObj.acceptAlert(errorMsg);
+	    String alertMsg = arrayPageObj.acceptAlert(errorMsg);
+	    Assert.assertTrue(alertMsg.contains(errorMsg));
 	    
 	}
 
@@ -127,9 +128,9 @@ public class ArrayPageStep {
 	public void the_user_should_able_to_see_output_in_the_console_from_and(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
-	    System.out.println("OutputCode from excel " +expOutput);
+	    //System.out.println("OutputCode from excel " +expOutput);
 	    String actOutput = arrayPageObj.get_tryHereEditor_output();
-	    System.out.println("Output from webpage " +actOutput);
+	   // System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);	   
 	}
 
@@ -143,7 +144,9 @@ public class ArrayPageStep {
 	public void the_user_should_be_redirected_to_practice_page() {
 		String expPageTitle = "Practice Questions";
 		String actPageTitle = arrayPageObj.get_currentPageTitle();
-		Assert.assertEquals(actPageTitle,expPageTitle);
+		boolean page = arrayPageObj.check_practiecQtns_avail();
+		//Assert.assertEquals(actPageTitle,expPageTitle);
+		Assert.assertTrue(page, "No Practise Questions found");
 	    
 	}
 

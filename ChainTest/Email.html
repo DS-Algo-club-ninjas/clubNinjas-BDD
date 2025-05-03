@@ -31,7 +31,7 @@
                   <tr>
                     <td>
                       <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
-                      <span style="">Apr 30, 2025, 11:39:03 PM &middot; 10m 24s</span>
+                      <span style="">May 2, 2025, 11:05:54 PM &middot; 5m 58s</span>
                     </td>
                   </tr>
                 </table>
@@ -56,11 +56,11 @@
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
-	                <h1 style="font-size:34px;">70</h1>
+	                <h1 style="font-size:34px;">67</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
-	                <h1 style="font-size:34px;">15</h1>
+	                <h1 style="font-size:34px;">18</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
@@ -114,7 +114,7 @@
                       <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
                         Feature: Queue Page of DSAlgo portal
                       <p style="font-size:12px;margin:0;">
-                        <span>Apr 30, 2025, 11:49:28 PM / 166ms</span>
+                        <span>May 2, 2025, 11:11:53 PM / 163ms</span>
                       </p>
                     </td>
                   </tr>
@@ -364,10 +364,12 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
 	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:34)
 </pre>
                       </p>
@@ -525,7 +527,7 @@
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Implementation of Queue in Python" page
                       </p>
@@ -567,9 +569,16 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should be redirected to Practice page
+<pre>java.lang.AssertionError: No Practise Questions found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at StepDefinitions.ArrayPageStep.the_user_should_be_redirected_to_practice_page(ArrayPageStep.java:149)
+	at ✽.The user should be redirected to Practice page(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:55)
+</pre>
                       </p>
                     </td>
                   </tr>
@@ -720,10 +729,12 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
 	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:70)
 </pre>
                       </p>
@@ -1026,10 +1037,12 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
 	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:100)
 </pre>
                       </p>
@@ -1332,10 +1345,12 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
 	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:130)
 </pre>
                       </p>
@@ -1505,7 +1520,7 @@
                       <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
                         Feature: Array Page of DSAlgo portal
                       <p style="font-size:12px;margin:0;">
-                        <span>Apr 30, 2025, 11:49:28 PM / 132ms</span>
+                        <span>May 2, 2025, 11:11:53 PM / 134ms</span>
                       </p>
                     </td>
                   </tr>
@@ -1755,10 +1770,12 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
 	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
 </pre>
                       </p>
@@ -1766,7 +1783,7 @@
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user receives error when click on Run button for "Arrays in Python" try Editor page
                       </p>
@@ -1808,9 +1825,17 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 2
+<pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
+	at ✽.The user should able to see a error message from "TryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+</pre>
                       </p>
                     </td>
                   </tr>
@@ -2318,7 +2343,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:228)
 	at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:99)
 </pre>
                       </p>
@@ -2476,7 +2501,7 @@
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user is able to run valid python code for "Max Consecutive Ones" question
                       </p>
@@ -2518,9 +2543,19 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see output in the console from "PracticeQns" and 7
+<pre>java.lang.AssertionError: expected [3] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:134)
+	at ✽.The user should able to see output in the console from "PracticeQns" and 7(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:123)
+</pre>
                       </p>
                     </td>
                   </tr>
@@ -2671,14 +2706,14 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should see a message from "PracticeQns" and 8
-<pre>java.lang.AssertionError: expected [Submission Successful] but found [ Some Tests failed. Please review code]
+<pre>java.lang.AssertionError: expected [Submission Successful] but found [Error occurred during submission]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:228)
 	at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:143)
 </pre>
                       </p>
@@ -3288,7 +3323,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:228)
 	at ✽.The user should see a message from "PracticeQns" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
 </pre>
                       </p>
@@ -3348,7 +3383,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:228)
 	at ✽.The user should see a message from "PracticeQns" and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
 </pre>
                       </p>
@@ -3408,7 +3443,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
+	at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:228)
 	at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:232)
 </pre>
                       </p>
@@ -3551,21 +3586,30 @@
                     </td>
                   </tr>
                   <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When The user enters "TryCode" and 1 clicks the Run Button in tryEditor page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
-	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
+	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:251)
 </pre>
                       </p>
                     </td>
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page
                       </p>
@@ -3600,21 +3644,22 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When The user enters "TryCode" and 2 clicks the Run Button in tryEditor page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 2
-<pre>java.lang.AssertionError: No Alert found
-	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
-	at ✽.The user should able to see a error message from "TryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
-</pre>
                       </p>
                     </td>
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page
                       </p>
@@ -3649,15 +3694,16 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        When The user enters "TryCode" and 3 clicks the Run Button in tryEditor page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 3
-<pre>java.lang.AssertionError: No Alert found
-	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
-	at ✽.The user should able to see a error message from "TryCode" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
-</pre>
                       </p>
                     </td>
                   </tr>
@@ -3908,11 +3954,13 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
-	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
+	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:286)
 </pre>
                       </p>
                     </td>
@@ -3969,7 +4017,7 @@
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user receives error when click on Run button without entering code for "Basic Operations in Lists" try Editor page
                       </p>
@@ -4011,15 +4059,23 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 3
+<pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
+	at ✽.The user should able to see a error message from "TryCode" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:286)
+</pre>
                       </p>
                     </td>
                   </tr>
                   <tr><td style="height:10px"></td></tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
                       <p style="font-size:13px;margin:0;">
                         Scenario Outline: Verify that user is able to see output for valid python code for "Basic Operations in Lists"try Editor page
                       </p>
@@ -4061,9 +4117,19 @@
                     </td>
                   </tr>
                   <tr>
-                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see output in the console from "TryCode" and 4
+<pre>java.lang.AssertionError: expected [Hello, World!] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:134)
+	at ✽.The user should able to see output in the console from "TryCode" and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:297)
+</pre>
                       </p>
                     </td>
                   </tr>
@@ -4264,11 +4330,13 @@
                     <td width="650px" class="bg-failed" style="padding:7px 20px;">
                       <p style="font-size:13px;margin:0;">
                         Then The user should able to see a error message from "TryCode" and 1
-<pre>java.lang.AssertionError: No Alert found
+<pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
-	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
-	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:123)
+	at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:321)
 </pre>
                       </p>
                     </td>
