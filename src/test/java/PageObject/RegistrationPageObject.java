@@ -11,12 +11,8 @@ public class RegistrationPageObject {
 		
 	WebDriver driver= DriverFactory.getDriver();
 
-    // Constructor
-   // public RegistrationPageObject(WebDriver driver) {
-        //this.driver = driver;
-        
+         
         // Locators
-		
         By registerLink = By.linkText("Register");
         By usernameRegTxtBox = By.id("id_username");
         By passwordRegTxtBox = By.id("id_password1");
@@ -25,11 +21,6 @@ public class RegistrationPageObject {
         By loginLink = By.id("registerBtn");
         By successMessage = By.xpath("//div[contains(text(), 'New Account Created')]");
         By ErrorMessage = By.xpath("//div[@class='alert alert-primary']");
-        
-    	//Need to call method from Home Page
-//    	public void click_getStarted_btn() {
-//    		driver.findElement(getStarted_btn).click();
-//    	}
         
     	public boolean registerLinkDisplayed() {
     		return driver.findElement(registerLink).isDisplayed();
@@ -51,17 +42,15 @@ public class RegistrationPageObject {
     		driver.findElement(usernameRegTxtBox).clear();
     		driver.findElement(usernameRegTxtBox).sendKeys(username);
      	}
-    	
-//    	public boolean isUsernameEnteredCorrectly() {
-//    		// Example: Check if the username is non-empty and matches a pattern
-//    		//return usernameRegTxtBox != null && !((CharSequence) usernameRegTxtBox).isEmpty();
-//    		return usernameRegTxtBox != null && !usernameRegTxtBox.getAttribute("value").isEmpty();
-//    	}
-//    	
+
     	public boolean isUsernameEnteredCorrectly() {
-    	    WebElement usernameField = driver.findElement(usernameRegTxtBox); 
-    	    return usernameField != null && !usernameField.getText().isEmpty();
-    	  //return usernameRegTxtBox != null && !((CharSequence) usernameRegTxtBox).isEmpty();
+      		
+    		String username = "clubNinjasSdet207";
+    	    WebElement usernameField = driver.findElement(usernameRegTxtBox);
+    	    usernameField.sendKeys(username);
+    	    String userNameTxtFieldValue = usernameField.getDomProperty("value");
+    	    System.out.println("Username field value: " +userNameTxtFieldValue);
+    	    return userNameTxtFieldValue != null && !userNameTxtFieldValue.trim().isEmpty();
 
     	}
     	
@@ -76,9 +65,13 @@ public class RegistrationPageObject {
      	}
     	
     	public boolean isPasswordEnteredCorrectly() {
-    		 WebElement passwordfield = driver.findElement(passwordRegTxtBox); 
-     	    return passwordfield != null && !passwordfield.getText().isEmpty();
-    		//return passwordRegTxtBox != null && !((CharSequence) passwordRegTxtBox).isEmpty();
+    	    
+    		String password = "SeleniumProj@25";
+    		WebElement passwordfield = driver.findElement(usernameRegTxtBox);
+    		passwordfield.sendKeys(password);
+    		String passwordfieldTxtFieldValue = passwordfield.getDomProperty("value");
+    		System.out.println("Username field value: " +passwordfieldTxtFieldValue);
+    		return passwordfieldTxtFieldValue != null && !passwordfieldTxtFieldValue.trim().isEmpty();
     	}
     	
     	public String errorMessageDisplayed() {

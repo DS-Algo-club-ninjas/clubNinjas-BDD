@@ -3,7 +3,7 @@ Feature: Graph
 #Scenario1
  Scenario: Verify that user able to see warning message while selecting Graph from the dropdown Data Structures without Sign in
   Given The user is on the Home page
-  When The user selects Graph frpm Data Structures
+  When The user selects Graph from Data Structures dropdown
   Then The user should able to see an warning message "You are not logged in"
 
 #Scenario2

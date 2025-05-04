@@ -22,7 +22,7 @@ public class LoginPageStep {
 	@Given("user is on the DS Algo Sign in Page")
 	public void user_is_on_the_ds_algo_sign_in_page() {
 		LoggerLoad.info("Launch page is displayed");
-		homePageObj.click_getStarted_btn();
+		homePageObj.clickGetStartedBtn();
 	}
 
 	

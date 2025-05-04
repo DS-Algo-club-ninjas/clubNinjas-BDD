@@ -4,15 +4,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import DriverFactory.DriverFactory;
+import Utilities.ConfigFileReader;
 
 public class HomePageObject {
 	
 	WebDriver driver = DriverFactory.getDriver();
+	ConfigFileReader ConfigFileRdr = new ConfigFileReader();
 	
 	// Locators
-    By signInLink = By.xpath("//a[text()='Sign in']");
    	By randomClick = By.xpath("//h1[text()='Preparing for the Interviews']");
-    By getStarted_btn = By.xpath("//button[@class='btn']");
+    By getStartedBtn = By.xpath("//button[@class='btn']");
     By homeLogInMsg = By.xpath("//div[contains(text(),'logged in')]");
     
     //DropDownsMenu
@@ -34,10 +35,80 @@ public class HomePageObject {
     By graphGetStartedBtn= By.xpath("//h5[contains(text(),'Graph')]/parent::div/a[contains(text(),'Get Started')]");
     
   
-    
-  //Need to call method from Home Page
-	public void click_getStarted_btn() {
-		driver.findElement(getStarted_btn).click();
+	public void clickGetStartedBtn() {
+		driver.findElement(getStartedBtn).click();
+	}
+	
+	public String getHomeLogInMsg() {
+		return driver.findElement(homeLogInMsg).getText();
+	}
+	
+	public void randomClickMethod() {
+		driver.navigate().back();
+		driver.findElement(randomClick).click();
+	}
+	public void launchURL() {
+		ConfigFileRdr.getDSAlgoURL();
+	}
+	
+	public boolean dataStructuresDrpDwnDisplayed() {
+		return driver.findElement(dataStructuresDrpDwn).isDisplayed();
+	}
+	
+	public void dataStructuresDrpDwnClick() {
+		driver.findElement(dataStructuresDrpDwn).click();
+	}
+	
+	public void arrayDrpDwnClick() {
+		driver.findElement(arrayDrpDwn).click();
+	}
+	
+	public void linkedListDrpDwnClick() {
+		driver.findElement(linkedListDrpDwn).click();
+	}
+	
+	public void stackDrpDwnClick() {
+		driver.findElement(stackDrpDwn).click();
+	}
+	
+	public void queueDrpDwnClick() {
+		driver.findElement(queueDrpDwn).click();
+	}
+	
+	public void treeDrpDwnClick() {
+		driver.findElement(treeDrpDwn).click();
+	}
+	
+	public void graphDrpDwnClick() {
+		driver.findElement(graphDrpDwn).click();
+	}
+	
+	public void dataStructuresGetStartedBtnClick() {
+		driver.findElement(dataStructuresGetStartedBtn).click();
+	}
+	
+	public void arrayGetStartedBtnClick() {
+		driver.findElement(arrayGetStartedBtn).click();
+	}
+	
+	public void linkedListGetStartedBtnClick() {
+		driver.findElement(linkedListGetStartedBtn).click();
+	}
+	
+	public void stackGetStartedBtnClick() {
+		driver.findElement(stackGetStartedBtn).click();
+	}
+	
+	public void queueGetStartedBtnClick() {
+		driver.findElement(queueGetStartedBtn).click();
+	}
+	
+	public void treeGetStartedBtnClick() {
+		driver.findElement(treeGetStartedBtn).click();
+	}
+	
+	public void graphGetStartedBtnClick() {
+		driver.findElement(graphGetStartedBtn).click();
 	}
 
 }
