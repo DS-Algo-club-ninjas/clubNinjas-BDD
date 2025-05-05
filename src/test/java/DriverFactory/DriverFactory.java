@@ -12,40 +12,39 @@ import Utilities.LoggerLoad;
 
 public class DriverFactory {
 	
-static WebDriver driver;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	
-	public static WebDriver createDriver() {
+	public static void createDriver() {
 		ConfigFileReader ConfigFileReader = new ConfigFileReader();
 		String browser = ConfigFileReader.getBrowser();
-		if (driver==null) {
 		switch (browser) {	    
         case "chrome" : 
-        	driver = new ChromeDriver();
+        	driver.set(new ChromeDriver());
 	    	break;
         case "firefox" : 
-        	driver = new FirefoxDriver();
+        	driver.set(new FirefoxDriver());
     		break;
         case "edge" : 
-        	driver = new EdgeDriver();
+        	driver.set(new EdgeDriver());
     		break;
         default:
             throw new RuntimeException("Unsupported webdriver: " + driver);
         }	
-		LoggerLoad.info("Initializing Browser");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		}
-		return driver;
+		LoggerLoad.info("Initializing Browser");		
+		driver.get().manage().window().maximize();
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	public static WebDriver getDriver() {
-		if(driver == null) driver = createDriver();
-		return driver;
+		//if(driver.get() == null) driver = createDriver();
+		return driver.get();
 	}
 
 	public static void quitDriver() {
-		driver.quit();
-		driver=null;
+		//System.out.println("inside quitdriver");
+		driver.get().quit();
+		//driver=null;
+		driver.remove();
 		LoggerLoad.info("Closing Browser");
 		
 	}
