@@ -5,7 +5,7 @@
   <suite started-at="2025-05-02T23:05:54 CDT" name="Default suite" finished-at="2025-05-02T23:12:10 CDT" duration-ms="376203">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@5c153b9e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
     <test started-at="2025-05-02T23:05:54 CDT" name="Default test" finished-at="2025-05-02T23:12:10 CDT" duration-ms="376203">
@@ -30,7 +30,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -46,7 +46,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -62,7 +62,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -73,12 +73,12 @@
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Arrays in Python" page"]]>
+                <![CDATA["Verify that the user is able to enter valid username in the username field"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -94,7 +94,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -110,7 +110,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>
@@ -142,7 +142,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
+                <![CDATA["Register Page"]]>
               </value>
             </param>
           </params>

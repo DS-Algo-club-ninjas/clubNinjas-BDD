@@ -4,6 +4,7 @@ import Utilities.LoggerLoad;
 
 import java.io.IOException;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -31,7 +32,7 @@ public class RegistrationPageStep {
 
 	@When("User clicks the Get Started button")
 	public void user_clicks_the_Get_Started_button() {
-		homePageObj.click_getStarted_btn();
+		homePageObj.clickGetStartedBtn();
 		}
 
 	
@@ -43,7 +44,7 @@ public class RegistrationPageStep {
 	@When("User clicks Register link in the home page")
 	public void user_clicks_register_link_in_the_home_page() {
 		registerPageObj.registerLinkClick();
-		System.out.println("User clicks Register link");
+		LoggerLoad.info("User clicks Register link");
 	}
 
 	@Then("User should be able to navigate to Register page")
@@ -67,7 +68,7 @@ public class RegistrationPageStep {
 			registerPageObj.enterUserNameRegTxtBox(Inputs[0]);
 			registerPageObj.registerBtnClick();
 		    
-		}		  
+		}	
 	
 	@Then("User should be able to enter username and click Register button")
 	public void user_should_be_able_to_enter_username_and_click_register_button() {
@@ -123,8 +124,15 @@ public class RegistrationPageStep {
 	@Then("User gets an error message for password in the Register page")
 	public void user_gets_an_error_message_for_password_in_the_register_page() {
 		String invalidMsg = registerPageObj.errorMessageDisplayed();
+		try {
 		Assert.assertNotNull(invalidMsg, "Error message for password is not displayed");
 		System.out.println(invalidMsg);
+		}
+		catch(NoSuchElementException e){
+			//defect to raise in jiira
+			Assert.fail("Password fields are accpeting commenly used words");
+			
+		}
 	    
 	}
 
