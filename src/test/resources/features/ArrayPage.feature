@@ -247,6 +247,7 @@ Feature: Array Page of DSAlgo portal
     
    Scenario Outline: Verify that user receives error when click on Run button without entering code for "Arrays Using List" try Editor page
     Given The user is in the tryEditor page of Arrays Using List
+    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in tryEditor page
     Then The user should able to see a error message from "<Sheetname>" and <RowNumber>
     
     Examples:
