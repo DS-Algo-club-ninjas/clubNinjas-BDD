@@ -1,6 +1,7 @@
 package PageObject;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -17,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class ArrayPageObject {	
 	WebDriver driver= DriverFactory.getDriver();
@@ -33,6 +35,7 @@ public class ArrayPageObject {
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
 	By tryHereEditor_output = By.id("output");
 	By practiceQns_link = By.linkText("Practice Questions");
+	By practiceQns_available = By.xpath("//div[@class='list-group']");
 	By searchTheArray_link = By.linkText("Search the array");
 	By maxConsOnes_link = By.linkText("Max Consecutive Ones");
 	By findNumbers_link = By.linkText("Find Numbers with Even Number of Digits");
@@ -113,42 +116,66 @@ public class ArrayPageObject {
 	
 	public void enterCodeTryEditor(String pythonCode) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    wait.until(ExpectedConditions.visibilityOfElementLocated(run_btn));
-	    WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
-		tryHereEditor.sendKeys(Keys.CONTROL + "a");
-		tryHereEditor.sendKeys(Keys.DELETE);
-		JavascriptExecutor js = (JavascriptExecutor)driver;	
-		js.executeScript(
-	            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
-	            pythonCode
-	        );
+		JavascriptExecutor js = (JavascriptExecutor)driver;		
+		for (int i = 0; i < 2; i++) {
+		    try {
+		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
+				tryHereEditor.sendKeys(Keys.DELETE);
+				js.executeScript(
+			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+			            pythonCode
+			        );
+		        break;
+		    } catch (Exception e) {
+		    	try {
+		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+		    	}
+		    	catch (Exception e1) {
+		    		e1.printStackTrace();
+		    	}
+		    }
+		}
 	}
 	
 	public String get_tryHereEditor_output() {
-		String output = null;
+		String output = "";
 		try {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
 		output = driver.findElement(tryHereEditor_output).getText();
 		}
-		catch (TimeoutException e) {
+		catch (Exception e) {
 			e.printStackTrace();
 		}
 		return output;
 	}
 	
-	public void acceptAlert(String errorMsg) {
+	public String acceptAlert(String errorMsg) {
+		String alertMsg = "";
 		try {
 			Alert alert = driver.switchTo().alert();
-			String alertMsg = alert.getText();
-			System.out.println("Alert Is:" + alertMsg);
+			alertMsg = alert.getText();
 			alert.accept();
-			Assert.assertTrue(alertMsg.contains(errorMsg));
+			//Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
-			Assert.fail("No Alert found");
+			//Assert.fail("No Alert found");
+			e.printStackTrace();
 		}
 		catch (UnhandledAlertException e) {
 			System.out.println("Unhandled alert exception: " + e.getMessage());
 		}
+		return alertMsg;
 		}
+	
+	public boolean check_practiecQtns_avail() {
+		List<WebElement> elements = driver.findElements(practiceQns_available);
+		if (!elements.isEmpty()) {
+		    System.out.println("Element is present.");
+		    return true;
+		} else {
+		    System.out.println("Element is NOT present.");
+		    return false;
+		}
+	}
 }
