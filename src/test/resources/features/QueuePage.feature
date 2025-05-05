@@ -1,8 +1,11 @@
 Feature: Queue Page of DSAlgo portal
 
-	Background: The user is signed into dsAlgo Portal  
+	Background: The user is signed into dsAlgo Portal 
+		Given The user is on the Home page and clicks Sign In
+    When The user gets data from excel sheet "Valid_Login" and 1 for the login page
+    Then The user is in the Home page after Sign In  
 	
-  @tag1
+
   Scenario: Verify that user is able to navigate to Queue data structure page
     Given The user is in the Home page after Sign in
     When The user clicks the Get Started button in Queue Panel 
@@ -32,9 +35,9 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     	
    Scenario Outline: Verify that user is able to see output for valid python code for "Implementation of Queue in Python" try Editor page
     Given The user is in the Implementation of Queue in Python tryEditor page
@@ -43,7 +46,7 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
     
     
    Scenario: Verify that user is able to navigate to "Practice Questions" Page for "Implementation of Queue in Python" page
@@ -68,9 +71,9 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     	
    Scenario Outline: Verify that user is able to see output for valid python code for "Implementation using collections.deque" try Editor page
     Given The user is in the Implementation using collections.deque tryEditor page
@@ -79,7 +82,7 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Implementation using array" page
     Given The user is in the Queue page
@@ -98,9 +101,9 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     	
    Scenario Outline: Verify that user is able to see output for valid python code for "Implementation using array" try Editor page
     Given The user is in the Implementation using array tryEditor page
@@ -109,7 +112,7 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |
     
    Scenario: Verify that user is able to navigate to "Queue Operations" page
     Given The user is in the Queue page
@@ -128,9 +131,9 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         1 |
-    	| ArrayTryCode |         2 |
-    	| ArrayTryCode |         3 |
+    	| TryCode |         1 |
+    	| TryCode |         2 |
+    	| TryCode |         3 |
     	
    Scenario Outline: Verify that user is able to see output for valid python code for "Queue Operations" try Editor page
     Given The user is in the Queue Operations tryEditor page
@@ -139,4 +142,4 @@ Feature: Queue Page of DSAlgo portal
     
     Examples:
     	|  Sheetname   | RowNumber |
-    	| ArrayTryCode |         4 |
+    	| TryCode |         4 |

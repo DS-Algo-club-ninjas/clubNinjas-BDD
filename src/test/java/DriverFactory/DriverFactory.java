@@ -8,6 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import Utilities.ConfigFileReader;
+import Utilities.LoggerLoad;
 
 public class DriverFactory {
 	
@@ -30,11 +31,10 @@ static WebDriver driver;
         default:
             throw new RuntimeException("Unsupported webdriver: " + driver);
         }	
-		
+		LoggerLoad.info("Initializing Browser");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
-		//System.out.println("driver in create driver " +driver);
 		return driver;
 	}
 	
@@ -46,6 +46,7 @@ static WebDriver driver;
 	public static void quitDriver() {
 		driver.quit();
 		driver=null;
+		LoggerLoad.info("Closing Browser");
 		
 	}
 

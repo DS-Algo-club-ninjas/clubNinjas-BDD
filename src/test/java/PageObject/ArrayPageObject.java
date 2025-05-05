@@ -11,20 +11,15 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
 
-public class ArrayPageObject {
-	
-
-	
+public class ArrayPageObject {	
 	WebDriver driver= DriverFactory.getDriver();
-	
-	By getStarted_btn = By.xpath("//button[@class='btn']");
-	By signIn_btn = By.linkText("Sign in");
 	
 	By arrayGetStarted_btn = By.xpath("//a[@href='array']");
 	By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");
@@ -35,7 +30,6 @@ public class ArrayPageObject {
 	By applicationsOfArray_link = By.linkText("Applications of Array");
 	By tryHere_btn = By.linkText("Try here>>>");
 	By run_btn = By.xpath("//button");
-	//By tryHereEditor_box = By.xpath("//*[contains(@class,'CodeMirror')]");
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
 	By tryHereEditor_output = By.id("output");
 	By practiceQns_link = By.linkText("Practice Questions");
@@ -45,14 +39,6 @@ public class ArrayPageObject {
 	By sqrsOfArray_link = By.linkText("Squares of a Sorted Array");
 	By submit_btn = By.xpath("//input[@value='Submit']");
 	
-	
-	public void click_getStarted_btn() {
-		driver.findElement(getStarted_btn).click();
-	}
-	
-	public void click_signIn_btn() {
-		driver.findElement(signIn_btn).click();
-	}
 	
 	public String get_currentPageTitle() {
 		String currentTitle = driver.getTitle();
@@ -126,19 +112,16 @@ public class ArrayPageObject {
 	}
 	
 	public void enterCodeTryEditor(String pythonCode) {
-		JavascriptExecutor js = (JavascriptExecutor)driver;		
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(run_btn));
 	    WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
 		tryHereEditor.sendKeys(Keys.CONTROL + "a");
 		tryHereEditor.sendKeys(Keys.DELETE);
-		js.executeScript("arguments[0].value = arguments[1];", tryHereEditor, pythonCode);
+		JavascriptExecutor js = (JavascriptExecutor)driver;	
+		js.executeScript(
+	            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+	            pythonCode
+	        );
 	}
 	
 	public String get_tryHereEditor_output() {
@@ -163,7 +146,6 @@ public class ArrayPageObject {
 			Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
 			Assert.fail("No Alert found");
-			System.out.println("NoAlertPresentException");
 		}
 		catch (UnhandledAlertException e) {
 			System.out.println("Unhandled alert exception: " + e.getMessage());
