@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="58" passed="43" failed="15" skipped="0">
+<testng-results ignored="0" total="85" passed="70" failed="15" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T16:47:10 CDT" name="Default suite" finished-at="2025-04-28T16:55:57 CDT" duration-ms="526672">
+  <suite started-at="2025-04-30T23:39:02 CDT" name="Default suite" finished-at="2025-04-30T23:49:45 CDT" duration-ms="642538">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-28T16:47:10 CDT" name="Default test" finished-at="2025-04-28T16:55:57 CDT" duration-ms="526672">
+    <test started-at="2025-04-30T23:39:02 CDT" name="Default test" finished-at="2025-04-30T23:49:45 CDT" duration-ms="642538">
       <class name="Runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:10 CDT" name="setUpClass" finished-at="2025-04-28T16:47:11 CDT" duration-ms="1085" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:02 CDT" name="setUpClass" finished-at="2025-04-30T23:39:04 CDT" duration-ms="1954" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@40d3f93d]]>
+                <![CDATA[org.testng.TestRunner@244f86ff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:17 CDT" duration-ms="5731" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:05 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:14 CDT" duration-ms="9687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:20 CDT" duration-ms="3694" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:20 CDT" duration-ms="5583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:25 CDT" duration-ms="4267" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:26 CDT" duration-ms="6627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:25 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:29 CDT" duration-ms="4333" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:34 CDT" duration-ms="7104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:29 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:37 CDT" duration-ms="8492" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:34 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:42 CDT" duration-ms="8446" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -105,45 +105,16 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:46 CDT" duration-ms="8225" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user receives error when click on Run button for "Arrays in Python" try Editor page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[No Alert found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: No Alert found
-at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:36)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:47:55 CDT" duration-ms="8839" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:49 CDT" duration-ms="7041" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,7 +130,23 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 2(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:47:55 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:02 CDT" duration-ms="7563" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:49 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:39:57 CDT" duration-ms="7593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Arrays in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:39:57 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:04 CDT" duration-ms="7289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,7 +162,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 2(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:06 CDT" duration-ms="3888" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:10 CDT" duration-ms="6397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +178,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 2(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:06 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:11 CDT" duration-ms="4735" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:10 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:17 CDT" duration-ms="7181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,36 +194,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 2(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:19 CDT" duration-ms="8060" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Array Page of DSAlgo portal"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[No Alert found]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: No Alert found
-at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_error_message_in_alert_window_from_and(ArrayPageStep.java:221)
-at ✽.The user should able to see error message in alert window from "PracticeQns" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:69)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:27 CDT" duration-ms="7930" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:26 CDT" duration-ms="8109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -252,7 +210,23 @@ at ✽.The user should able to see error message in alert window from "PracticeQ
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:27 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:35 CDT" duration-ms="7829" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:34 CDT" duration-ms="7938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives NameError, SyntaxError for invalid python code on running "Search the array" question"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:34 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:41 CDT" duration-ms="7859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,7 +242,7 @@ at ✽.The user should able to see error message in alert window from "PracticeQ
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:35 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:43 CDT" duration-ms="8258" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:50 CDT" duration-ms="8511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,7 +258,7 @@ at ✽.The user should able to see error message in alert window from "PracticeQ
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:48:51 CDT" duration-ms="8261" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:40:59 CDT" duration-ms="8863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -300,7 +274,7 @@ at ✽.The user should able to see error message in alert window from "PracticeQ
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:48:51 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:00 CDT" duration-ms="8803" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:40:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:08 CDT" duration-ms="9083" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -325,7 +299,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
 at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:99)
 ]]>
             </full-stacktrace>
@@ -333,7 +307,7 @@ at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:06 CDT" duration-ms="5762" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:15 CDT" duration-ms="7106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,7 +323,7 @@ at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:06 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:14 CDT" duration-ms="8089" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:15 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:24 CDT" duration-ms="8901" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -365,7 +339,7 @@ at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:22 CDT" duration-ms="7816" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:24 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:32 CDT" duration-ms="8451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,7 +355,7 @@ at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:22 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:40 CDT" duration-ms="18455" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:40 CDT" duration-ms="8098" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -394,27 +368,10 @@ at ✽.The user should see a message from "PracticeQns" and 6(file:///C:/Users/j
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [3.0] but found [null]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [3.0] but found [null]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
-at ✽.The user should able to see output in the console from "PracticeQns" and 7(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:40 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:48 CDT" duration-ms="8319" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:40 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:49 CDT" duration-ms="8690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -430,7 +387,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:49:57 CDT" duration-ms="8689" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:49 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:41:58 CDT" duration-ms="8528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -446,7 +403,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:49:57 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:07 CDT" duration-ms="9619" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:41:58 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:07 CDT" duration-ms="9034" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -471,7 +428,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
 at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:143)
 ]]>
             </full-stacktrace>
@@ -479,7 +436,7 @@ at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:07 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:14 CDT" duration-ms="7456" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:07 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:14 CDT" duration-ms="7707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,7 +452,7 @@ at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:26 CDT" duration-ms="11520" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:22 CDT" duration-ms="7681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -511,7 +468,7 @@ at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:37 CDT" duration-ms="11220" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:22 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:30 CDT" duration-ms="7848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -527,7 +484,7 @@ at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:50:48 CDT" duration-ms="11478" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:38 CDT" duration-ms="7991" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,27 +497,10 @@ at ✽.The user should see a message from "PracticeQns" and 8(file:///C:/Users/j
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [2.0] but found [2]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2.0] but found [2]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_output_in_the_console_from_and(ArrayPageStep.java:155)
-at ✽.The user should able to see output in the console from "PracticeQns" and 9(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:167)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:50:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:00 CDT" duration-ms="11671" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:47 CDT" duration-ms="8848" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -576,7 +516,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:11 CDT" duration-ms="11454" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:47 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:42:56 CDT" duration-ms="8915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -592,7 +532,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:23 CDT" duration-ms="11450" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:42:56 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:04 CDT" duration-ms="8570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -608,7 +548,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:31 CDT" duration-ms="7912" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:11 CDT" duration-ms="7209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -624,7 +564,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:31 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:42 CDT" duration-ms="11548" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:19 CDT" duration-ms="7849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -640,7 +580,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:42 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:51:53 CDT" duration-ms="10840" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:27 CDT" duration-ms="7811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -656,7 +596,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:51:53 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:04 CDT" duration-ms="11024" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:27 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:34 CDT" duration-ms="7263" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -672,7 +612,7 @@ at ✽.The user should able to see output in the console from "PracticeQns" and 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:17 CDT" duration-ms="12875" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:34 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:43 CDT" duration-ms="8996" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -697,7 +637,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
 at ✽.The user should see a message from "PracticeQns" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
 ]]>
             </full-stacktrace>
@@ -705,7 +645,7 @@ at ✽.The user should see a message from "PracticeQns" and 3(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:29 CDT" duration-ms="11574" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:43:53 CDT" duration-ms="9348" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -730,7 +670,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
 at ✽.The user should see a message from "PracticeQns" and 4(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:221)
 ]]>
             </full-stacktrace>
@@ -738,7 +678,7 @@ at ✽.The user should see a message from "PracticeQns" and 4(file:///C:/Users/j
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:29 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:41 CDT" duration-ms="12773" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:43:53 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:02 CDT" duration-ms="9168" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -763,7 +703,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:250)
+at StepDefinitions.ArrayPageStep.the_user_should_see_a_message(ArrayPageStep.java:234)
 at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:232)
 ]]>
             </full-stacktrace>
@@ -771,7 +711,7 @@ at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:48 CDT" duration-ms="6023" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:08 CDT" duration-ms="6142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -787,7 +727,7 @@ at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:52:54 CDT" duration-ms="6913" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:08 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:15 CDT" duration-ms="6947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -803,7 +743,7 @@ at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:52:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:02 CDT" duration-ms="7559" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:15 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:23 CDT" duration-ms="7508" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -823,16 +763,16 @@ at ✽.The user should see a message from "PracticeQns" and 12(file:///C:/Users/
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:09 CDT" duration-ms="6923" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:23 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:30 CDT" duration-ms="7123" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -852,16 +792,16 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 2(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:16 CDT" duration-ms="7561" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:37 CDT" duration-ms="7074" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -881,16 +821,16 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 2(fil
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 3(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:250)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:16 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:28 CDT" duration-ms="11941" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:44 CDT" duration-ms="7663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -906,7 +846,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 3(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:28 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:35 CDT" duration-ms="6468" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:44 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:51 CDT" duration-ms="6315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -922,7 +862,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 3(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:35 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:41 CDT" duration-ms="6240" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:51 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:44:56 CDT" duration-ms="4987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -938,7 +878,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 3(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:48 CDT" duration-ms="7092" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:44:56 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:02 CDT" duration-ms="6484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -954,7 +894,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 3(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:53:59 CDT" duration-ms="11061" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:02 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:10 CDT" duration-ms="7363" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -974,16 +914,16 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 3(fil
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:285)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:53:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:09 CDT" duration-ms="10172" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:10 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:17 CDT" duration-ms="7656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -999,7 +939,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:09 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:20 CDT" duration-ms="10295" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:17 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:25 CDT" duration-ms="7354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1015,7 +955,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:30 CDT" duration-ms="10483" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:25 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:32 CDT" duration-ms="7215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1031,7 +971,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:30 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:37 CDT" duration-ms="6405" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:38 CDT" duration-ms="5997" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1047,7 +987,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:43 CDT" duration-ms="6013" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:43 CDT" duration-ms="5750" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1063,7 +1003,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:54:50 CDT" duration-ms="7072" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:50 CDT" duration-ms="6639" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1079,7 +1019,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:54:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:00 CDT" duration-ms="10533" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:45:58 CDT" duration-ms="7523" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1099,16 +1039,16 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: No Alert found
 at org.testng.Assert.fail(Assert.java:111)
-at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:190)
-at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:143)
-at ✽.The user should able to see a error message from "ArrayTryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/ArrayPage.feature:320)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:00 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:11 CDT" duration-ms="10636" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:45:58 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:05 CDT" duration-ms="7176" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1124,7 +1064,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:11 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:21 CDT" duration-ms="10364" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:05 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:13 CDT" duration-ms="7701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1140,7 +1080,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:21 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:32 CDT" duration-ms="10325" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:20 CDT" duration-ms="7100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1156,7 +1096,7 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-28T16:55:38 CDT" duration-ms="6425" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:26 CDT" duration-ms="6571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1172,7 +1112,491 @@ at ✽.The user should able to see a error message from "ArrayTryCode" and 1(fil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-28T16:55:38 CDT" name="tearDownClass" finished-at="2025-04-28T16:55:57 CDT" duration-ms="18496" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:26 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:32 CDT" duration-ms="5576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to Queue data structure page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:37 CDT" duration-ms="5396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to Queue data structure page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:43 CDT" duration-ms="6117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation of Queue in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:43 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:50 CDT" duration-ms="6275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation of Queue in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:46:57 CDT" duration-ms="7782" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation of Queue in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:46:57 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:05 CDT" duration-ms="7246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation of Queue in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:05 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:12 CDT" duration-ms="7193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation of Queue in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:12 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:19 CDT" duration-ms="7524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Implementation of Queue in Python" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:25 CDT" duration-ms="6075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Practice Questions" Page for "Implementation of Queue in Python" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:25 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:31 CDT" duration-ms="5423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation using collections.deque" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:31 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:38 CDT" duration-ms="6717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation using collections.deque" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:38 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:45 CDT" duration-ms="7298" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using collections.deque" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:52 CDT" duration-ms="7147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using collections.deque" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:47:59 CDT" duration-ms="7463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using collections.deque" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:47:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:07 CDT" duration-ms="7253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Implementation using collections.deque" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:07 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:13 CDT" duration-ms="6125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Implementation using array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:19 CDT" duration-ms="6325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Implementation using array" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:19 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:27 CDT" duration-ms="7426" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:100)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:27 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:34 CDT" duration-ms="7155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:34 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:41 CDT" duration-ms="6767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Implementation using array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:41 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:48 CDT" duration-ms="7372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Implementation using array" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:54 CDT" duration-ms="5684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "Queue Operations" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:54 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:48:59 CDT" duration-ms="5582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to navigate to "try Editor" page for "Queue Operations" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:48:59 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:49:07 CDT" duration-ms="7388" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Queue Operations" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Alert found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Alert found
+at org.testng.Assert.fail(Assert.java:111)
+at PageObject.ArrayPageObject.acceptAlert(ArrayPageObject.java:152)
+at StepDefinitions.ArrayPageStep.the_user_should_able_to_see_a_error_message_from_and(ArrayPageStep.java:126)
+at ✽.The user should able to see a error message from "TryCode" and 1(file:///C:/Users/jimre/eclipse-workspace/DSAlgoBDD_ClubNinjas/clubNinjas-BDD/src/test/resources/features/QueuePage.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:49:07 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:49:13 CDT" duration-ms="6548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Queue Operations" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:49:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:49:20 CDT" duration-ms="6972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user receives error when click on Run button for "Queue Operations" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:49:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-30T23:49:28 CDT" duration-ms="7673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to see output for valid python code for "Queue Operations" try Editor page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue Page of DSAlgo portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@72e34f77]" started-at="2025-04-30T23:49:28 CDT" name="tearDownClass" finished-at="2025-04-30T23:49:45 CDT" duration-ms="17173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

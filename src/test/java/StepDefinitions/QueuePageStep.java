@@ -1,24 +1,18 @@
 package StepDefinitions;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import PageObject.ArrayPageObject;
+import PageObject.HomePageObject;
 import PageObject.QueuePageObject;
+import Utilities.LoggerLoad;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class QueuePageStep {
 	
-	WebDriver driver;
-	ArrayPageObject arrayPageObj;
-	QueuePageObject queuePageObj;
-	
-	public QueuePageStep() {
-		QueuePageObject queuePageObj = new QueuePageObject();
-		this.queuePageObj = queuePageObj;
-	}
+	ArrayPageObject arrayPageObj = new ArrayPageObject();
+	QueuePageObject queuePageObj = new QueuePageObject();
 	
 	@When("The user clicks the Get Started button in Queue Panel")
 	public void the_user_clicks_the_get_started_button_in_queue_panel() {
@@ -28,7 +22,6 @@ public class QueuePageStep {
 
 	@Then("The user should be directed to Queue Data Structure Page")
 	public void the_user_should_be_directed_to_queue_data_structure_page() {
-		System.out.println("Queue ds page");
 		String expPageTitle = "Queue";
 		String actPageTitle = arrayPageObj.get_currentPageTitle();
 		Assert.assertEquals(expPageTitle,actPageTitle);
@@ -37,7 +30,7 @@ public class QueuePageStep {
 
 	@When("The user select Queue item from the drop down menu")
 	public void the_user_select_queue_item_from_the_drop_down_menu() {
-		arrayPageObj.click_dataStructutrDropDown();
+		queuePageObj.click_dataStructutrDropDown();
 		queuePageObj.click_queueDropDown();
 	    
 	}
@@ -46,7 +39,7 @@ public class QueuePageStep {
 	public void the_user_is_in_the_queue_page() {
 		queuePageObj.click_queueGetStarted_btn();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
@@ -77,7 +70,7 @@ public class QueuePageStep {
 		queuePageObj.click_implOfQueue_link();
 		arrayPageObj.click_tryHere_btn();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
 	@Given("The user is in the Implementation of Queue in Python page")
@@ -85,7 +78,7 @@ public class QueuePageStep {
 		queuePageObj.click_queueGetStarted_btn();
 		queuePageObj.click_implOfQueue_link();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
@@ -108,7 +101,7 @@ public class QueuePageStep {
 		queuePageObj.click_queueGetStarted_btn();
 		queuePageObj.click_implUsingCollections_link();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
@@ -124,7 +117,7 @@ public class QueuePageStep {
 		queuePageObj.click_implUsingCollections_link();
 		arrayPageObj.click_tryHere_btn();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
 	@When("The user clicks Implementation using array button")
@@ -146,7 +139,7 @@ public class QueuePageStep {
 		queuePageObj.click_queueGetStarted_btn();
 		queuePageObj.click_implUsingArray_link();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
@@ -162,7 +155,7 @@ public class QueuePageStep {
 		queuePageObj.click_implUsingArray_link();
 		arrayPageObj.click_tryHere_btn();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
 	@When("The user clicks Queue Operations button")
@@ -184,7 +177,7 @@ public class QueuePageStep {
 		queuePageObj.click_queueGetStarted_btn();
 		queuePageObj.click_queueOperation_link();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
 
@@ -201,7 +194,7 @@ public class QueuePageStep {
 		queuePageObj.click_queueOperation_link();
 		arrayPageObj.click_tryHere_btn();
 		String currentTitle = arrayPageObj.get_currentPageTitle();
-		//add logger
+		LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
 }
