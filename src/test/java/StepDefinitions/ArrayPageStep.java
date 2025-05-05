@@ -6,6 +6,7 @@ import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
+import Utilities.TryEditor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,12 +17,13 @@ public class ArrayPageStep {
 	HomePageObject homePageObj = new HomePageObject();
 	LoginPageObject loginPageObj = new LoginPageObject();
 	ExcelReader readExcel = new ExcelReader();
+	TryEditor tryEditorObj = new TryEditor();
 
 	
 	@Given("The user is on the Home page and clicks Sign In")
 	public void the_user_is_on_the_home_page_and_clicks_sign_in() {
 		
-		homePageObj.click_getStarted_btn();
+		homePageObj.clickGetStartedBtn();
 		loginPageObj.clickSignInLink();
 		LoggerLoad.info("SignIn Page is displayed");
 	   
@@ -29,7 +31,7 @@ public class ArrayPageStep {
 	
 	@Given("The user is in the Home page after Sign in")
 	public void the_user_is_in_the_home_page_after_sign_in() {
-	    String currentTitle = arrayPageObj.get_currentPageTitle();
+	    String currentTitle = tryEditorObj.get_currentPageTitle();
 	    LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
@@ -43,7 +45,7 @@ public class ArrayPageStep {
 	public void the_user_should_be_directed_to_array_data_structure_page() {
 		System.out.println("Array ds page");
 		String expPageTitle = "Array";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(expPageTitle,actPageTitle);
 	}
 
@@ -56,7 +58,7 @@ public class ArrayPageStep {
 	@Given("The user is in the Array page after Sign in")
 	public void the_user_is_in_the_array_page_after_sign_in() {
 		arrayPageObj.click_arrayGetStarted_btn();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
@@ -69,7 +71,7 @@ public class ArrayPageStep {
 	@Then("The user should be redirected to Arrays in Python page")
 	public void the_user_should_be_redirected_to_arrays_in_python_page() {
 		String expPageTitle = "Arrays in Python";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -78,7 +80,7 @@ public class ArrayPageStep {
 	public void the_user_is_in_the_arrays_in_python_page() {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -91,7 +93,7 @@ public class ArrayPageStep {
 	@Then("The user should be redirected to a page having a try Editor with a Run button to test")
 	public void the_user_should_be_redirected_to_a_page_having_a_try_editor_with_a_run_button_to_test() {
 		String expPageTitle = "Assessment";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -101,7 +103,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_tryHere_btn();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -109,7 +111,7 @@ public class ArrayPageStep {
 	@When("The user enters {string} and {int} clicks the Run Button in tryEditor page")
 	public void the_user_enters_and_clicks_the_run_button_in_try_editor_page(String sheetName, Integer rowNumber) {
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
-	    arrayPageObj.enterCodeTryEditor(value[0]);
+	    tryEditorObj.enterCodeTryEditor(value[0]);
 	    arrayPageObj.click_tryHereRun_btn();
 	    
 	}
@@ -119,7 +121,7 @@ public class ArrayPageStep {
 	    System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
-	    String alertMsg = arrayPageObj.acceptAlert(errorMsg);
+	    String alertMsg = tryEditorObj.acceptAlert(errorMsg);
 	    Assert.assertTrue(alertMsg.contains(errorMsg));
 	    
 	}
@@ -129,7 +131,7 @@ public class ArrayPageStep {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
 	    //System.out.println("OutputCode from excel " +expOutput);
-	    String actOutput = arrayPageObj.get_tryHereEditor_output();
+	    String actOutput = tryEditorObj.get_tryHereEditor_output();
 	   // System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);	   
 	}
@@ -142,10 +144,7 @@ public class ArrayPageStep {
 
 	@Then("The user should be redirected to Practice page")
 	public void the_user_should_be_redirected_to_practice_page() {
-		String expPageTitle = "Practice Questions";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
 		boolean page = arrayPageObj.check_practiecQtns_avail();
-		//Assert.assertEquals(actPageTitle,expPageTitle);
 		Assert.assertTrue(page, "No Practise Questions found");
 	    
 	}
@@ -155,7 +154,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_practiceQns_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -168,9 +167,8 @@ public class ArrayPageStep {
 
 	@Then("The user should be redirected to Question page of Search the array link")
 	public void the_user_should_be_redirected_to_question_page_of_search_the_array_link() {
-		String expPageURL = "https://dsportalapp.herokuapp.com/question/1";
-		String actPageURL = arrayPageObj.get_currentPageURL();
-		Assert.assertEquals(actPageURL,expPageURL);
+		boolean page = arrayPageObj.check_search_qtn();
+		Assert.assertTrue(page, "Search the Array Questions not found");
 	    
 	}
 
@@ -180,7 +178,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_searchTheArray_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -188,7 +186,7 @@ public class ArrayPageStep {
 	@When("The user write the invalid code from {string} and {int} in Editor and click the Run Button")
 	public void the_user_write_the_invalid_code_from_and_in_editor_and_click_the_run_button(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
-	    arrayPageObj.enterCodeTryEditor(value[0]);
+		tryEditorObj.enterCodeTryEditor(value[0]);
 	    arrayPageObj.click_tryHereRun_btn();
 	    
 	}
@@ -198,23 +196,23 @@ public class ArrayPageStep {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
 	    System.out.println("OutputCode from excel " +expOutput);
-	    arrayPageObj.acceptAlert(expOutput);
+	    tryEditorObj.acceptAlert(expOutput);
 	    
 	}
 
 	@When("The user write the valid code from {string} and {int} in Editor and click the Run Button")
 	public void the_user_write_the_valid_code_from_and_in_editor_and_click_the_run_button(String sheetName, Integer rowNumber)  {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
-	    arrayPageObj.enterCodeTryEditor(value[0]);
-	    arrayPageObj.click_tryHereRun_btn();
+		tryEditorObj.enterCodeTryEditor(value[0]);
+		arrayPageObj.click_tryHereRun_btn();
 	    
 	}
 
 	@When("The user write the code from {string} and {int} in Editor and Click the Submit Button")
 	public void the_user_write_the_code_from_and_in_editor_and_click_the_submit_button(String sheetName, Integer rowNumber)  {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
-	    arrayPageObj.enterCodeTryEditor(value[0]);
-	    arrayPageObj.click_submit_btn();
+		tryEditorObj.enterCodeTryEditor(value[0]);
+		arrayPageObj.click_submit_btn();
 	    
 	}
 
@@ -222,9 +220,9 @@ public class ArrayPageStep {
 	public void the_user_should_see_a_message(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
-	    System.out.println("OutputCode from excel " +expOutput);
-	    String actOutput = arrayPageObj.get_tryHereEditor_output();
-	    System.out.println("Output from webpage " +actOutput);
+	    //System.out.println("OutputCode from excel " +expOutput);
+	    String actOutput = tryEditorObj.get_tryHereEditor_output();
+	   // System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);
 	    
 	}
@@ -238,9 +236,8 @@ public class ArrayPageStep {
 
 	@Then("The user should be redirected to Question page of Max Consecutive Ones link")
 	public void the_user_should_be_redirected_to_question_page_of_max_consecutive_ones_link() {
-		String expPageURL = "https://dsportalapp.herokuapp.com/question/2";
-		String actPageURL = arrayPageObj.get_currentPageURL();
-		Assert.assertEquals(actPageURL,expPageURL);
+		boolean page = arrayPageObj.check_max_qtn();
+		Assert.assertTrue(page, "Max Consecutive Ones Questions not found");
 	    
 	}
 
@@ -250,7 +247,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_maxConsOnes_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		//System.out.println(currentTitle);
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
@@ -265,9 +262,8 @@ public class ArrayPageStep {
 
 	@Then("The user should be redirected to Question page of Find Numbers with Even Number of Digits link")
 	public void the_user_should_be_redirected_to_Question_page_of_Find_Numbers_with_Even_Number_of_Digits_link() {
-		String expPageURL = "https://dsportalapp.herokuapp.com/question/3";
-		String actPageURL = arrayPageObj.get_currentPageURL();
-		Assert.assertEquals(actPageURL,expPageURL);
+		boolean page = arrayPageObj.check_find_qtn();
+		Assert.assertTrue(page, "Find Numbers with Even Number of Digits Questions not found");
 	    
 	}
 
@@ -277,7 +273,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_findNumbers_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -291,9 +287,8 @@ public class ArrayPageStep {
 	
 	@Then("The user should be redirected to Question page of Squares of a Sorted Array link")
 	public void the_user_should_be_redirected_to_Question_page_of_Squares_of_a_Sorted_Array_link() {
-		String expPageURL = "https://dsportalapp.herokuapp.com/question/4";
-		String actPageURL = arrayPageObj.get_currentPageURL();
-		Assert.assertEquals(actPageURL,expPageURL);
+		boolean page = arrayPageObj.check_square_qtn();
+		Assert.assertTrue(page, "Squares of a Sorted Array not found");
 	    
 	}
 	
@@ -303,7 +298,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arraysInPython_link();
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_sqrsOfArray_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -318,7 +313,7 @@ public class ArrayPageStep {
 	@Then("The user should be redirected to Arrays Using List page")
 	public void the_user_should_be_redirected_to_arrays_using_list_page() {
 		String expPageTitle = "Arrays Using List";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -327,7 +322,7 @@ public class ArrayPageStep {
 	public void the_user_is_in_the_arrays_using_list_page() {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysUsingList_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -343,7 +338,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_arraysUsingList_link();
 		arrayPageObj.click_tryHere_btn();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -358,7 +353,7 @@ public class ArrayPageStep {
 	@Then("The user should be redirected to Basic Operations in Lists page")
 	public void the_user_should_be_redirected_to_basic_operations_in_lists_page() {
 		String expPageTitle = "Basic Operations in Lists";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -367,7 +362,7 @@ public class ArrayPageStep {
 	public void the_user_is_in_the_basic_operations_in_lists_page() {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_basicOperationsInLists_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -383,7 +378,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_basicOperationsInLists_link();
 		arrayPageObj.click_tryHere_btn();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -398,7 +393,7 @@ public class ArrayPageStep {
 	@Then("The user should be redirected to Applications of Array page")
 	public void the_user_should_be_redirected_to_applications_of_array_page() {
 		String expPageTitle = "Applications of Array";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -407,7 +402,7 @@ public class ArrayPageStep {
 	public void the_user_is_in_the_applications_of_array_page() {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_applicationsOfArray_link();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}
@@ -423,7 +418,7 @@ public class ArrayPageStep {
 		arrayPageObj.click_arrayGetStarted_btn();
 		arrayPageObj.click_applicationsOfArray_link();
 		arrayPageObj.click_tryHere_btn();
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}

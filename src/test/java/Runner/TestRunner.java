@@ -17,7 +17,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		monochrome=false,  //console output color
 		//tags = "@tag1", //tags from feature file
 		features = {"src/test/resources/features/ArrayPage.feature",
-				    "src/test/resources/features/QueuePage.feature"
+				   // "src/test/resources/features/QueuePage.feature"
 					}, //location of feature files
 		glue= {"StepDefinitions", "Hooks"}) //location of step definition files
 

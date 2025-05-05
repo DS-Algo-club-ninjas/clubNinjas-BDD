@@ -41,17 +41,20 @@ public class ArrayPageObject {
 	By findNumbers_link = By.linkText("Find Numbers with Even Number of Digits");
 	By sqrsOfArray_link = By.linkText("Squares of a Sorted Array");
 	By submit_btn = By.xpath("//input[@value='Submit']");
+	By searchQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'search')]");	
+	By maxQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'maximum')]");	
+	By findQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'even number')]");	
+	By squaresQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'the squares of each number')]");	
 	
+//	public String get_currentPageTitle() {
+//		String currentTitle = driver.getTitle();
+//		return currentTitle;
+//	}
 	
-	public String get_currentPageTitle() {
-		String currentTitle = driver.getTitle();
-		return currentTitle;
-	}
-	
-	public String get_currentPageURL() {
-		String currentURL = driver.getCurrentUrl();
-		return currentURL;
-	}
+//	public String get_currentPageURL() {
+//		String currentURL = driver.getCurrentUrl();
+//		return currentURL;
+//	}
 	
 	//ArrayPage Methods
 	public void click_arrayGetStarted_btn() {
@@ -114,68 +117,106 @@ public class ArrayPageObject {
 		driver.findElement(submit_btn).click();
 	}
 	
-	public void enterCodeTryEditor(String pythonCode) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		JavascriptExecutor js = (JavascriptExecutor)driver;		
-		for (int i = 0; i < 2; i++) {
-		    try {
-		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
-		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
-				tryHereEditor.sendKeys(Keys.DELETE);
-				js.executeScript(
-			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
-			            pythonCode
-			        );
-		        break;
-		    } catch (Exception e) {
-		    	try {
-		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
-		    	}
-		    	catch (Exception e1) {
-		    		e1.printStackTrace();
-		    	}
-		    }
-		}
-	}
-	
-	public String get_tryHereEditor_output() {
-		String output = "";
-		try {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
-		output = driver.findElement(tryHereEditor_output).getText();
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		return output;
-	}
-	
-	public String acceptAlert(String errorMsg) {
-		String alertMsg = "";
-		try {
-			Alert alert = driver.switchTo().alert();
-			alertMsg = alert.getText();
-			alert.accept();
-			//Assert.assertTrue(alertMsg.contains(errorMsg));
-		} catch (NoAlertPresentException e) {
-			//Assert.fail("No Alert found");
-			e.printStackTrace();
-		}
-		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
-		}
-		return alertMsg;
-		}
-	
+//	public void enterCodeTryEditor(String pythonCode) {
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		JavascriptExecutor js = (JavascriptExecutor)driver;		
+//		for (int i = 0; i < 2; i++) {
+//		    try {
+//		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+//		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
+//				tryHereEditor.sendKeys(Keys.DELETE);
+//				js.executeScript(
+//			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+//			            pythonCode
+//			        );
+//		        break;
+//		    } catch (Exception e) {
+//		    	try {
+//		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+//		    	}
+//		    	catch (Exception e1) {
+//		    		e1.printStackTrace();
+//		    	}
+//		    }
+//		}
+//	}
+//	
+//	public String get_tryHereEditor_output() {
+//		String output = "";
+//		try {
+//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
+//		output = driver.findElement(tryHereEditor_output).getText();
+//		}
+//		catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		return output;
+//	}
+//	
+//	public String acceptAlert(String errorMsg) {
+//		String alertMsg = "";
+//		try {
+//			Alert alert = driver.switchTo().alert();
+//			alertMsg = alert.getText();
+//			alert.accept();
+//			//Assert.assertTrue(alertMsg.contains(errorMsg));
+//		} catch (NoAlertPresentException e) {
+//			//Assert.fail("No Alert found");
+//			e.printStackTrace();
+//		}
+//		catch (UnhandledAlertException e) {
+//			System.out.println("Unhandled alert exception: " + e.getMessage());
+//		}
+//		return alertMsg;
+//		}
+//	
 	public boolean check_practiecQtns_avail() {
 		List<WebElement> elements = driver.findElements(practiceQns_available);
 		if (!elements.isEmpty()) {
-		    System.out.println("Element is present.");
+		    //System.out.println("Element is present.");
 		    return true;
 		} else {
-		    System.out.println("Element is NOT present.");
+		    //System.out.println("Element is NOT present.");
 		    return false;
 		}
 	}
+	
+	public boolean check_search_qtn() {
+		List<WebElement> elements = driver.findElements(searchQtn);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+	
+	public boolean check_max_qtn() {
+		List<WebElement> elements = driver.findElements(maxQtn);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+	
+	public boolean check_find_qtn() {
+		List<WebElement> elements = driver.findElements(findQtn);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+	
+	public boolean check_square_qtn() {
+		List<WebElement> elements = driver.findElements(squaresQtn);
+		if (!elements.isEmpty()) {
+		    return true;
+		} else {
+		    return false;
+		}
+	}
+	
+	
 }
