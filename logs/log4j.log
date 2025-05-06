@@ -1154,3 +1154,48 @@
 [INFO] 2025-05-05 16:09:02.376 [main] LoggerLoad - Sign Out link is displayed successfully.
 [INFO] 2025-05-05 16:09:03.497 [main] LoggerLoad - Practice Questions page is displayed
 [INFO] 2025-05-05 16:09:04.401 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:07:47.193 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-05 23:07:59.148 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:07:59.766 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:01.151 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:02.688 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:03.798 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:07.270 [main] LoggerLoad - Graph page is displayed
+[INFO] 2025-05-05 23:08:07.472 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:08.545 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:11.228 [main] LoggerLoad - Graph page is displayed
+[INFO] 2025-05-05 23:08:11.744 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:12.814 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-05 23:08:23.331 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:08:23.948 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:25.274 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:28.233 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:08:38.287 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:08:38.703 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:39.800 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:42.446 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:08:52.454 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:08:52.815 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:08:54.100 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:08:57.208 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:09:07.258 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:09:07.762 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:09:08.890 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:09:11.557 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:09:21.607 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:09:22.091 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:09:23.208 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:09:25.656 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:09:35.690 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:09:36.177 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:09:37.427 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:09:40.285 [main] LoggerLoad - Graph page is displayed
+[ERROR] 2025-05-05 23:09:50.321 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:09:50.931 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:09:52.151 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-05 23:09:55.263 [main] LoggerLoad - Graph page is displayed
+[INFO] 2025-05-05 23:09:56.010 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:09:57.197 [main] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-05 23:10:07.609 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-05 23:10:08.079 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-05 23:10:09.167 [main] LoggerLoad - Initializing Browser

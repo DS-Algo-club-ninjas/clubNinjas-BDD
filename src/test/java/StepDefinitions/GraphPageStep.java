@@ -12,6 +12,8 @@ import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
+import Utilities.TryEditor;
+
 import org.openqa.selenium.WebDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -25,6 +27,7 @@ public class GraphPageStep {
 	ArrayPageObject arrayPageObj = new ArrayPageObject();
 	ExcelReader readExcel = new ExcelReader();
 	WebDriver driver= DriverFactory.getDriver();
+	TryEditor tryEditorObj = new TryEditor();
 	
 	@Given("The user is on the Home page")
 	public void the_user_is_on_the_home_page() {
@@ -73,8 +76,7 @@ public class GraphPageStep {
 
 	@Then("The user should able to redirect to the Graph page")
 	public void the_user_should_able_to_redirect_to_the_graph_page() {
-		
-		String currentTitle = arrayPageObj.get_currentPageTitle();
+		String currentTitle = tryEditorObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 		Assert.assertEquals("Graph", currentTitle);
 		}
@@ -97,8 +99,8 @@ public class GraphPageStep {
 
 	@Then("The user should redirect to the sublink Graph page")
 	public void the_user_should_redirect_to_the_sublink_graph_page() {
-		String expPageTitle = "Graph";//reusing it multiple times
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String expPageTitle = "Graph";//reusing lines of code multiple times
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle, expPageTitle);
 	    
 	}
@@ -129,27 +131,40 @@ public class GraphPageStep {
 	}
 
 	@When("The user gets python code from excel sheet {string} and {int} for the tryeditor and click run button")
-	public void the_user_gets_python_code_from_excel_sheet_and_for_the_tryeditor_and_click_run_button(String sheetName, Integer rowNumber)
-			throws IOException {
-
-		    
+	public void the_user_gets_python_code_from_excel_sheet_and_for_the_tryeditor_and_click_run_button(String sheetName, Integer rowNumber) throws IOException {
+		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
+		tryEditorObj.enterCodeTryEditor(value[0]);
+	    graphPageObj.click_tryHereRun_btn();
+	    
 	}
 
 	@Then("The user should able to get the result from excel sheet {string} and {int}")
-	public void the_user_should_able_to_get_the_result_from_excel_sheet_and(String string, Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
+	public void the_user_should_able_to_get_the_result_from_excel_sheet_and(String sheetName, Integer rowNumber) throws IOException{
+		   
+		String expectedResult = readExcel.excelDataRead(sheetName, rowNumber)[1];
+		String actualResult = graphPageObj.getResultText();
+
+		Assert.assertEquals(actualResult, expectedResult);
+		System.out.println("Expected Result: " + expectedResult);
+		System.out.println("Actual Result: " + actualResult);
 	    
 	}
 
 	@When("I enter the code from excel sheet {string} and {int}")
-	public void i_enter_the_code_from_excel_sheet_and(String string, Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
-	    
+	public void i_enter_the_code_from_excel_sheet_and(String sheetName, Integer rowNumber) throws IOException {
+		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
+
+		tryEditorObj.enterCodeTryEditor(value[0]);
+		graphPageObj.click_tryHereRun_btn();
 	}
 
 	@Then("The user should be able to receive an alert message from excel sheet {string} and {int}")
-	public void the_user_should_be_able_to_receive_an_alert_message_from_excel_sheet_and(String string, Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
+	public void the_user_should_be_able_to_receive_an_alert_message_from_excel_sheet_and(String sheetName, Integer rowNumber) throws IOException {
+		System.out.println("Try Editor run invalid");
+	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
+	    String errorMsg = value[1];
+	    String alertMsg = tryEditorObj.acceptAlert(errorMsg);
+	    Assert.assertTrue(alertMsg.contains(errorMsg));
 	    
 	}
 
@@ -173,7 +188,7 @@ public class GraphPageStep {
 	@Then("The user should redirect to the Graph Representations page")
 	public void the_user_should_redirect_to_the_graph_representations_page() {
 		String expPageTitle = "Graph Representations";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	        
 	}
@@ -213,7 +228,7 @@ public class GraphPageStep {
 	@Then("The user should redirect to the Practice Questions page")
 	public void the_user_should_redirect_to_the_practice_questions_page() {
 		String expPageTitle = "Practice Questions";
-		String actPageTitle = arrayPageObj.get_currentPageTitle();
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
