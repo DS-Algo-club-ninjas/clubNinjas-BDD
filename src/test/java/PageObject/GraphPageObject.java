@@ -2,6 +2,9 @@ package PageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
 
 import DriverFactory.DriverFactory;
 
@@ -17,7 +20,7 @@ public class GraphPageObject {
 	By tryHere_btn = By.linkText("Try here>>>");
 	By run_btn = By.xpath("//button");
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
-	By tryHereEditor_output = By.id("output");
+	By tryHereEditor_output = By.xpath("//pre[@id='output']");
 	
 	public void clickGraphLink() {
 		driver.findElement(graphLink).click();
@@ -40,6 +43,10 @@ public class GraphPageObject {
 	
 	public boolean runBtnDisplayed() {
 		return driver.findElement(run_btn).isDisplayed();
+	}
+
+	public String getResultText() {
+		return driver.findElement(tryHereEditor_output).getText();
 	}
 
 }
