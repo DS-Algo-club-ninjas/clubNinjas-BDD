@@ -25,7 +25,6 @@ public class LoginPageStep {
 		homePageObj.clickGetStartedBtn();
 	}
 
-	
 	@Given("The user clicks the Sign In link")
 	public void the_user_clicks_the_sign_in_link() {
 		loginPageObj.clickSignInLink();
@@ -54,7 +53,7 @@ public class LoginPageStep {
 
 	@Then("The user should be redirected to home page with message {string}")
 	public void the_user_should_be_redirected_to_home_page_with_message(String loggedOutMessage) {
-		String actualMessage = loginPageObj.LoggedMessageSignOut(loggedOutMessage);
+		String actualMessage = loginPageObj.LoggedMessageSignOut();
 		Assert.assertEquals(actualMessage, loggedOutMessage,
 				"User was not redirected to home page with the correct logout message.");
 	}
@@ -85,7 +84,7 @@ public class LoginPageStep {
 
 	@Then("The user should be able to see an error message {string}")
 	public void the_user_should_be_able_to_see_an_error_message(String errorMessage) {
-		String actualMessage = loginPageObj.invalidUserNameAndPassword(errorMessage);
+		String actualMessage = loginPageObj.invalidUserNameAndPassword();
 		Assert.assertEquals(actualMessage, errorMessage,
 				"The error message displayed does not match the expected error message.");
 	    

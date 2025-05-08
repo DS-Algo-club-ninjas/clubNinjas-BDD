@@ -1826,3 +1826,19 @@
 [INFO] 2025-05-07 22:57:21.757 [main] LoggerLoad - Launch page is displayed
 [INFO] 2025-05-07 22:57:22.515 [main] LoggerLoad - Registration page is displayed
 [INFO] 2025-05-07 22:57:23.711 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-07 23:27:15.303 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-07 23:27:16.130 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-07 23:27:21.204 [main] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-07 23:27:23.646 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-07 23:27:25.462 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-07 23:27:26.355 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-07 23:27:29.082 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-07 23:27:30.718 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-07 23:27:31.187 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-07 23:27:35.888 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-07 23:27:37.651 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-07 23:27:38.127 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-07 23:27:41.416 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-07 23:27:43.274 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-07 23:27:43.724 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-07 23:27:46.546 [main] LoggerLoad - Closing Browser

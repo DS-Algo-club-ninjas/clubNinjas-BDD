@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 07 22:56:06 EDT 2025</td>
+<td>Started on:</td><td>Wed May 07 23:27:08 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>82 seconds (82015 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41089 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,131 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets an error message upon entering invalid username", "Register Page"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-primary&apos;]&quot;}
-  (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de9fbcd17a9725e526596e8689111126, findElement {value=//div[@class=&apos;alert alert-primary&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52363/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de9fbcd17a9725e526596e8689111126
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:78)
-	at StepDefinitions.RegistrationPageStep.user_gets_error_message_for_username_in_the_register_page(RegistrationPageStep.java:92)
-	at ✽.User gets error message for username in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:26)
-</pre></div><a href='#' onClick='toggleBox("stack-trace527482085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace527482085'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-primary&apos;]&quot;}
-  (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de9fbcd17a9725e526596e8689111126, findElement {value=//div[@class=&apos;alert alert-primary&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52363}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52363/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de9fbcd17a9725e526596e8689111126
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:78)
-	at StepDefinitions.RegistrationPageStep.user_gets_error_message_for_username_in_the_register_page(RegistrationPageStep.java:92)
-	at ✽.User gets error message for username in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:26)
-</pre></div></td>
-<td>15</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user gets error upon entering invalid passwords", "Register Page"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-primary&apos;]&quot;}
-  (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c00dbcc5ea17ab4ae2f6464d3f100700, findElement {value=//div[@class=&apos;alert alert-primary&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52506}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52506/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c00dbcc5ea17ab4ae2f6464d3f100700
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:78)
-	at StepDefinitions.RegistrationPageStep.user_gets_an_error_message_for_password_in_the_register_page(RegistrationPageStep.java:126)
-	at ✽.User gets an error message for password in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1439452257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1439452257'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-primary&apos;]&quot;}
-  (Session info: chrome=135.0.7049.115)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c00dbcc5ea17ab4ae2f6464d3f100700, findElement {value=//div[@class=&apos;alert alert-primary&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52506}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52506/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c00dbcc5ea17ab4ae2f6464d3f100700
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:78)
-	at StepDefinitions.RegistrationPageStep.user_gets_an_error_message_for_password_in_the_register_page(RegistrationPageStep.java:126)
-	at ✽.User gets an error message for password in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:47)
-</pre></div></td>
-<td>15</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -201,62 +76,27 @@ Session ID: c00dbcc5ea17ab4ae2f6464d3f100700
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets an error message upon entering invalid username", "Register Page"</td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
 <td></td>
-<td>3</td>
+<td>5</td>
 <td>Runner.TestRunner@5c153b9e</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter valid passwords in the field", "Register Page"</td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
 <td></td>
-<td>3</td>
+<td>6</td>
 <td>Runner.TestRunner@5c153b9e</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user gets an error message upon entering invalid username", "Register Page"</td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>Runner.TestRunner@5c153b9e</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter valid username in the username field", "Register Page"</td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password fields", "Login Functionality"</td>
 <td></td>
-<td>3</td>
+<td>13</td>
 <td>Runner.TestRunner@5c153b9e</td></tr>
 <tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pop-up message when password and password confirmation fields are left blank", "Register Page"</td>
-<td></td>
-<td>4</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter valid username in the username field", "Register Page"</td>
-<td></td>
-<td>3</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter valid username in the username field", "Register Page"</td>
-<td></td>
-<td>4</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pop-up message when password and password confirmation fields are left blank", "Register Page"</td>
-<td></td>
-<td>3</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user gets error upon entering invalid passwords", "Register Page"</td>
-<td></td>
-<td>3</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter valid passwords in the field", "Register Page"</td>
-<td></td>
-<td>3</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user gets error upon entering invalid passwords", "Register Page"</td>
-<td></td>
-<td>3</td>
-<td>Runner.TestRunner@5c153b9e</td></tr>
-<tr>
-<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that User is able to launch ds-algo portal", "Register Page"</td>
+<td title='Runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
 <td></td>
 <td>5</td>
 <td>Runner.TestRunner@5c153b9e</td></tr>
