@@ -1,7 +1,5 @@
 package PageObject;
 
-import static org.testng.Assert.assertTrue;
-
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -15,12 +13,7 @@ import DriverFactory.DriverFactory;
 public class LoginPageObject {
 	
 	WebDriver driver= DriverFactory.getDriver();
-
-	
-	 // Constructor
-//    public LoginPageObject(WebDriver driver) {
-//        this.driver = driver;
-       
+      
         // Locators
         By signInLink = By.xpath("//a[text()='Sign in']");
         By userNameTxtBox = By.name("username");
@@ -71,17 +64,22 @@ public class LoginPageObject {
     		
     	}
 
-    	public String LoggedMessageSignOut(String loggedOutMsg) {
-    		String verifyLogMessage = driver.findElement(loggedOutMessage).getText();
-    		assertTrue(verifyLogMessage.contains(loggedOutMsg));
-    		return verifyLogMessage;
-    	}
+    	public String LoggedMessageSignOut() {
+    		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    		
+    		// wait until element is visible
+    		wait.until(ExpectedConditions.visibilityOfElementLocated(loggedOutMessage));
+    		return driver.findElement(loggedOutMessage).getText();
+    		}
 
-    	public String invalidUserNameAndPassword(String invalidMsg) {
-    		String verifyLogMessage = driver.findElement(invalidMessage).getText();
-    		assertTrue(verifyLogMessage.contains(invalidMsg));
-    		return verifyLogMessage;
-    	}
+    	public String invalidUserNameAndPassword() {
+    		
+    		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    		
+    		// wait until element is visible
+    		wait.until(ExpectedConditions.visibilityOfElementLocated(invalidMessage));
+    		return driver.findElement(invalidMessage).getText();
+    		 }
         
         public String getPopUpMessage() {
             WebElement activeElement = driver.switchTo().activeElement();
