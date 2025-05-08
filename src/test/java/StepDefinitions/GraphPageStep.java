@@ -43,10 +43,9 @@ public class GraphPageStep {
 	}
 
 	@Then("The user should able to see an warning message {string}")
-	public void the_user_should_able_to_see_an_warning_message(String string) {
-		loginPageObj.LoggedMessageSignIn("You are not logged in");
-		String homeText = homePageObj.getHomeLogInMsg();
-		assertEquals("You are not logged in", homeText);
+	public void the_user_should_able_to_see_an_warning_message(String expectedMessage) {
+		String actualMessage = loginPageObj.getNotLoggedInMessageText();
+		assertEquals(expectedMessage, actualMessage);
    
 	}
 
@@ -56,16 +55,15 @@ public class GraphPageStep {
 	}
 
 	@Then("The user should able to see an warning message_graph {string}")
-	public void the_user_should_able_to_see_an_warning_message_graph(String string) {
-		loginPageObj.LoggedMessageSignIn("You are not logged in");
-		String homeText = homePageObj.getHomeLogInMsg();
-		assertEquals("You are not logged in", homeText);
+	public void the_user_should_able_to_see_an_warning_message_graph(String expectedMessage) {
+		String actualMessage = loginPageObj.getNotLoggedInMessageText();
+		assertEquals(expectedMessage, actualMessage);
 	    
 	}
 
 	@When("The user gets data from excel sheet {string} and {int} for the login page and clicks Graphs Get Started button")
 	public void the_user_gets_data_from_excel_sheet_and_for_the_login_page_and_clicks_graphs_get_started_button(String sheetName, Integer rowNumber) throws IOException {
-		loginPageObj.clickSignInLink();// Sign in should common from object file
+		loginPageObj.clickSignInLink();// Sign in should come from object file
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
 		loginPageObj.enterUserNameTxtBox(credentials[0]);
 		loginPageObj.enterPasswordRegTxtBox(credentials[1]);
@@ -106,7 +104,8 @@ public class GraphPageStep {
 	}
 
 	@Given("The user is on the sublink Graph page")
-	public void the_user_is_on_the_sublink_graph_page() {
+	public void the_user_is_on_the_sublink_graph_page() throws IOException{
+		the_user_is_on_the_graph_page();
 		graphPageObj.clickGraphLink();
 	    
 	}
@@ -125,7 +124,7 @@ public class GraphPageStep {
 
 	@Given("The user is on the try here textarea of sublink Graph page")
 	public void the_user_is_on_the_try_here_textarea_of_sublink_graph_page() throws IOException {
-		the_user_is_on_the_graph_page();
+		the_user_is_on_the_sublink_graph_page();
 		graphPageObj.click_tryHere_btn();
 	    
 	}
@@ -174,27 +173,27 @@ public class GraphPageStep {
 	}
 
 	@Then("The user should be able to navigate to the previous page from the try here page ie, Graph page")
-	public void the_user_should_be_able_to_navigate_to_the_previous_page_from_the_try_here_page_ie_graph_page() {
-		the_user_should_redirect_to_the_sublink_graph_page();
-	    
-	}
+	public void the_user_should_be_able_to_navigate_to_the_previous_page_from_the_try_here_page_ie_graph_page()throws IOException  {
+		String expPageTitle = "Graph";
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		Assert.assertEquals(actPageTitle,expPageTitle);
+	    }
 
 	@When("The user clicks on the link Graph Representations on the Graph page")
-	public void the_user_clicks_on_the_link_graph_representations_on_the_graph_page() {
+	public void the_user_clicks_on_the_link_graph_representations_on_the_graph_page() throws IOException {
 		graphPageObj.clickGraphRepresentationsLink();
-	    
-	}
+	    }
 
 	@Then("The user should redirect to the Graph Representations page")
 	public void the_user_should_redirect_to_the_graph_representations_page() {
 		String expPageTitle = "Graph Representations";
 		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
-	        
-	}
+	   }
 
 	@Given("The user is on the Graph Representations page")
-	public void the_user_is_on_the_graph_representations_page() {
+	public void the_user_is_on_the_graph_representations_page() throws IOException{
+		the_user_is_on_the_graph_page();
 		graphPageObj.clickGraphRepresentationsLink();
 	    	    
 	}
@@ -206,7 +205,7 @@ public class GraphPageStep {
 	}
 
 	@Given("The user is on the try here textarea of Graph Representations page")
-	public void the_user_is_on_the_try_here_textarea_of_graph_representations_page() {
+	public void the_user_is_on_the_try_here_textarea_of_graph_representations_page()  throws IOException {
 		the_user_is_on_the_graph_representations_page();
 		graphPageObj.click_tryHere_btn();
 	    
@@ -214,7 +213,10 @@ public class GraphPageStep {
 
 	@Then("The user should be able to navigate to the previous page from the try here page ie, Graph Representations page")
 	public void the_user_should_be_able_to_navigate_to_the_previous_page_from_the_try_here_page_ie_graph_representations_page() {
-		the_user_should_redirect_to_the_graph_representations_page();
+		//the_user_should_redirect_to_the_graph_representations_page();
+		String expPageTitle = "Graph Representations";
+		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
 

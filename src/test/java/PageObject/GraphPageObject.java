@@ -1,10 +1,14 @@
 package PageObject;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
 
@@ -13,8 +17,8 @@ public class GraphPageObject {
 	WebDriver driver= DriverFactory.getDriver();
 	
 	//Locators
-	By graphLink = By.linkText("Graph");
-	By graphRepresentationsLink = By.linkText("Graph Representations");
+	By graphLink = By.xpath("//p[text()='Topics Covered']/following-sibling::ul[1]//a[text()='Graph']");
+	By graphRepresentationsLink = By.xpath("//p[text()='Topics Covered']/following-sibling::ul[2]//a[text()='Graph Representations']");
 	By practiceQuestions = By.xpath("//a[normalize-space()='Practice Questions']");
 	
 	By tryHere_btn = By.linkText("Try here>>>");
@@ -23,6 +27,9 @@ public class GraphPageObject {
 	By tryHereEditor_output = By.xpath("//pre[@id='output']");
 	
 	public void clickGraphLink() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(graphLink));
 		driver.findElement(graphLink).click();
 	}
 	
