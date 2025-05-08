@@ -12,7 +12,6 @@ import io.cucumber.java.en.When;
 
 public class QueuePageStep {
 	
-	//ArrayPageObject arrayPageObj = new ArrayPageObject();
 	QueuePageObject queuePageObj = new QueuePageObject();
 	TryEditor tryEditorObj = new TryEditor();
 	

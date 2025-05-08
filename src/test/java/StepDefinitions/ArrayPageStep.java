@@ -43,7 +43,6 @@ public class ArrayPageStep {
 
 	@Then("The user should be directed to ARRAY Data Structure Page")
 	public void the_user_should_be_directed_to_array_data_structure_page() {
-		System.out.println("Array ds page");
 		String expPageTitle = "Array";
 		String actPageTitle = tryEditorObj.get_currentPageTitle();
 		Assert.assertEquals(expPageTitle,actPageTitle);
@@ -118,7 +117,6 @@ public class ArrayPageStep {
 
 	@Then("The user should able to see a error message from {string} and {int}")
 	public void the_user_should_able_to_see_a_error_message_from_and(String sheetName, Integer rowNumber) {
-	    System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
 	    String alertMsg = tryEditorObj.acceptAlert(errorMsg);
@@ -130,9 +128,7 @@ public class ArrayPageStep {
 	public void the_user_should_able_to_see_output_in_the_console_from_and(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
-	    //System.out.println("OutputCode from excel " +expOutput);
 	    String actOutput = tryEditorObj.get_tryHereEditor_output();
-	   // System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);	   
 	}
 
@@ -195,7 +191,6 @@ public class ArrayPageStep {
 	public void the_user_should_able_to_see_error_message_in_alert_window_from_and(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
-	    System.out.println("OutputCode from excel " +expOutput);
 	    tryEditorObj.acceptAlert(expOutput);
 	    
 	}
@@ -220,9 +215,7 @@ public class ArrayPageStep {
 	public void the_user_should_see_a_message(String sheetName, Integer rowNumber) {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String expOutput = value[1];
-	    //System.out.println("OutputCode from excel " +expOutput);
 	    String actOutput = tryEditorObj.get_tryHereEditor_output();
-	   // System.out.println("Output from webpage " +actOutput);
 	    Assert.assertEquals(actOutput,expOutput);
 	    
 	}
@@ -248,7 +241,6 @@ public class ArrayPageStep {
 		arrayPageObj.click_practiceQns_link();
 		arrayPageObj.click_maxConsOnes_link();
 		String currentTitle = tryEditorObj.get_currentPageTitle();
-		//System.out.println(currentTitle);
 		LoggerLoad.info(currentTitle+ " page is displayed");
 	    
 	}

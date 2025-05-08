@@ -46,15 +46,6 @@ public class ArrayPageObject {
 	By findQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'even number')]");	
 	By squaresQtn = By.xpath("//span[@id='questionText']//*[contains(text(),'the squares of each number')]");	
 	
-//	public String get_currentPageTitle() {
-//		String currentTitle = driver.getTitle();
-//		return currentTitle;
-//	}
-	
-//	public String get_currentPageURL() {
-//		String currentURL = driver.getCurrentUrl();
-//		return currentURL;
-//	}
 	
 	//ArrayPage Methods
 	public void click_arrayGetStarted_btn() {
@@ -174,10 +165,8 @@ public class ArrayPageObject {
 	public boolean check_practiecQtns_avail() {
 		List<WebElement> elements = driver.findElements(practiceQns_available);
 		if (!elements.isEmpty()) {
-		    //System.out.println("Element is present.");
 		    return true;
 		} else {
-		    //System.out.println("Element is NOT present.");
 		    return false;
 		}
 	}
