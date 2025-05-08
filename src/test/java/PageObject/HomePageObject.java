@@ -18,12 +18,12 @@ public class HomePageObject {
     
     //DropDownsMenu
     By dataStructuresDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By arrayDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By linkedListDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By stackDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By queueDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By treeDrpDwn= By.xpath("//a[text()='Data Structures']");
-    By graphDrpDwn= By.xpath("//a[text()='Data Structures']");
+    By arrayDrpDwn= By.xpath("//a[text()='Arrays']");
+    By linkedListDrpDwn= By.xpath("//a[text()='Linked List']");
+    By stackDrpDwn= By.xpath("//a[text()='Stack']");
+    By queueDrpDwn= By.xpath("//a[text()='Queue']");
+    By treeDrpDwn= By.xpath("//a[text()='Tree']");
+    By graphDrpDwn= By.xpath("//a[text()='Graph']");
     
     //Get Started Buttons on HomePage
     By dataStructuresGetStartedBtn= By.xpath("//h5[contains(text(),'Data Structures')]/parent::div/a[contains(text(),'Get Started')]");
