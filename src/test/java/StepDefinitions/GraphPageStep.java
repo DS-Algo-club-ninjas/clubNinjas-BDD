@@ -6,13 +6,11 @@ import java.io.IOException;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
-import PageObject.ArrayPageObject;
 import PageObject.GraphPageObject;
 import PageObject.HomePageObject;
 import PageObject.LoginPageObject;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
-import Utilities.TryEditor;
 
 import org.openqa.selenium.WebDriver;
 import io.cucumber.java.en.Given;
@@ -24,11 +22,9 @@ public class GraphPageStep {
 	LoginPageObject loginPageObj = new LoginPageObject();
 	HomePageObject homePageObj = new HomePageObject();
 	GraphPageObject graphPageObj = new GraphPageObject();
-	ArrayPageObject arrayPageObj = new ArrayPageObject();
 	ExcelReader readExcel = new ExcelReader();
 	WebDriver driver= DriverFactory.getDriver();
-	TryEditor tryEditorObj = new TryEditor();
-	
+		
 	@Given("The user is on the Home page")
 	public void the_user_is_on_the_home_page() {
 		homePageObj.launchURL();
@@ -74,7 +70,7 @@ public class GraphPageStep {
 
 	@Then("The user should able to redirect to the Graph page")
 	public void the_user_should_able_to_redirect_to_the_graph_page() {
-		String currentTitle = tryEditorObj.get_currentPageTitle();
+		String currentTitle = graphPageObj.get_currentPageTitle();
 		LoggerLoad.info(currentTitle+ " page is displayed");
 		Assert.assertEquals("Graph", currentTitle);
 		}
@@ -98,7 +94,7 @@ public class GraphPageStep {
 	@Then("The user should redirect to the sublink Graph page")
 	public void the_user_should_redirect_to_the_sublink_graph_page() {
 		String expPageTitle = "Graph";//reusing lines of code multiple times
-		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		String actPageTitle = graphPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle, expPageTitle);
 	    
 	}
@@ -132,7 +128,7 @@ public class GraphPageStep {
 	@When("The user gets python code from excel sheet {string} and {int} for the tryeditor and click run button")
 	public void the_user_gets_python_code_from_excel_sheet_and_for_the_tryeditor_and_click_run_button(String sheetName, Integer rowNumber) throws IOException {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
-		tryEditorObj.enterCodeTryEditor(value[0]);
+		graphPageObj.enterCodeTryEditor(value[0]);
 	    graphPageObj.click_tryHereRun_btn();
 	    
 	}
@@ -153,7 +149,7 @@ public class GraphPageStep {
 	public void i_enter_the_code_from_excel_sheet_and(String sheetName, Integer rowNumber) throws IOException {
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 
-		tryEditorObj.enterCodeTryEditor(value[0]);
+		graphPageObj.enterCodeTryEditor(value[0]);
 		graphPageObj.click_tryHereRun_btn();
 	}
 
@@ -162,7 +158,7 @@ public class GraphPageStep {
 		System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
-	    String alertMsg = tryEditorObj.acceptAlert(errorMsg);
+	    String alertMsg = graphPageObj.acceptAlert(errorMsg);
 	    Assert.assertTrue(alertMsg.contains(errorMsg));
 	    
 	}
@@ -175,7 +171,7 @@ public class GraphPageStep {
 	@Then("The user should be able to navigate to the previous page from the try here page ie, Graph page")
 	public void the_user_should_be_able_to_navigate_to_the_previous_page_from_the_try_here_page_ie_graph_page()throws IOException  {
 		String expPageTitle = "Graph";
-		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		String actPageTitle = graphPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    }
 
@@ -187,7 +183,7 @@ public class GraphPageStep {
 	@Then("The user should redirect to the Graph Representations page")
 	public void the_user_should_redirect_to_the_graph_representations_page() {
 		String expPageTitle = "Graph Representations";
-		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		String actPageTitle = graphPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	   }
 
@@ -215,7 +211,7 @@ public class GraphPageStep {
 	public void the_user_should_be_able_to_navigate_to_the_previous_page_from_the_try_here_page_ie_graph_representations_page() {
 		//the_user_should_redirect_to_the_graph_representations_page();
 		String expPageTitle = "Graph Representations";
-		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		String actPageTitle = graphPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}
@@ -230,7 +226,7 @@ public class GraphPageStep {
 	@Then("The user should redirect to the Practice Questions page")
 	public void the_user_should_redirect_to_the_practice_questions_page() {
 		String expPageTitle = "Practice Questions";
-		String actPageTitle = tryEditorObj.get_currentPageTitle();
+		String actPageTitle = graphPageObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	    
 	}

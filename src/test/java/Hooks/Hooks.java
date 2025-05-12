@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import DriverFactory.DriverFactory;
 import Utilities.ConfigFileReader;
+import Utilities.CrossBrowserReader;
 import Utilities.LoggerLoad;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -17,7 +18,10 @@ public class Hooks {
 
 	@Before
 	public void setup() {
-		String browser = ConfigFileReader.getBrowser();
+		String browser = ConfigFileReader.getBrowser();//Should comment this line to execute without crossbrowser 
+		//String browser = CrossBrowserReader.getBrowserType();//Should Uncomment this line for Crossbrowser testing
+		
+		LoggerLoad.info("Print the browser in hooks:" +browser);
 		if (browser != null) {
 			DriverFactory.createDriver(browser);
 			DriverFactory.getDriver().get(ConfigFileReader.getDSAlgoURL());

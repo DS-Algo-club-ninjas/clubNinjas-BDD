@@ -70,8 +70,9 @@ public class RegistrationPageStep {
 		    
 		}	
 	
-	@Then("User should be able to enter username and click Register button")
-	public void user_should_be_able_to_enter_username_and_click_register_button() {
+	@Then("User should be able to enter username from {string} and {int} and click Register button")
+	public void user_should_be_able_to_enter_username_and_click_register_button(String sheetName, int rowNumber) 
+			throws IOException {
 		Assert.assertTrue(registerPageObj.isUsernameEnteredCorrectly(), "Username was not entered correctly");
 		
 	}
@@ -91,22 +92,22 @@ public class RegistrationPageStep {
 		registerPageObj.registerBtnClick();
 		String invalidMsg = registerPageObj.errorMessageDisplayed();
 		Assert.assertNotNull(invalidMsg, "Error message for username is not displayed");
-		System.out.println(invalidMsg);
-	}
+		}
 
 	@When("User enters data from excel sheet {string} and {int} for the password fields")
 	public void user_enters_data_from_excel_sheet_and_for_the_password_fields(String sheetName, Integer rowNumber)
 			throws IOException {
 		registerPageObj.registerLinkClick();
 		String[] Inputs = readExcel.excelDataRead(sheetName, rowNumber);
-		registerPageObj.enterUserNameRegTxtBox(Inputs[0]);
-				
+		registerPageObj.enterPasswordRegTxtBox(Inputs[1]);
+		registerPageObj.registerBtnClick();		
 	}
 
-	@Then("User should be able to enter password and click Register button")
-	public void user_should_be_able_to_enter_password_and_click_register_button() {
+	@Then("User should be able to enter password {string} and {int} and click Register button")
+	public void user_should_be_able_to_enter_password_and_click_register_button(String sheetName, int rowNumber) 
+			throws IOException {
 		Assert.assertTrue(registerPageObj.isPasswordEnteredCorrectly(), "Password was not entered correctly");
-		registerPageObj.registerBtnClick();
+		
 	}
 
 	@When("User enters invalid data from excel sheet {string} and {int} for the password field")
@@ -126,7 +127,7 @@ public class RegistrationPageStep {
 		String invalidMsg = registerPageObj.errorMessageDisplayed();
 		try {
 		Assert.assertNotNull(invalidMsg, "Error message for password is not displayed");
-		System.out.println(invalidMsg);
+		
 		}
 		catch(NoSuchElementException e){
 			//defect to raise in jiira
@@ -152,7 +153,6 @@ public class RegistrationPageStep {
 	public void user_gets_error_message_in_register_page() {
 		String actualmessage = loginPageObj.getPopUpMessage();
 		Assert.assertNotNull(actualmessage, "Error message popup is not displayed");
-		System.out.println(actualmessage);
-	    
+		    
 	}
 }

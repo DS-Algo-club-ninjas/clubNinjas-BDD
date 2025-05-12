@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import DriverFactory.DriverFactory;
+
 public class ConfigFileReader {
 	
 private static Properties properties;
@@ -44,5 +46,14 @@ private static Properties properties;
 			throw new RuntimeException("Browser not specified in the Configuration property file.");
 		}
 	}
+	
+	public static String browserfromconfigfile() throws IOException {
+
+		properties.load(DriverFactory.class.getClassLoader().getResourceAsStream("config.properties"));
+		String browserType = properties.getProperty("browser");
+		System.out.println("Print Browser value from config file:" +browserType);
+		return browserType;
+	}
+
 
 }

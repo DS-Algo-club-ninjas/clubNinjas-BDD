@@ -1842,3 +1842,1367 @@
 [INFO] 2025-05-07 23:27:43.274 [main] LoggerLoad - Initializing Browser
 [INFO] 2025-05-07 23:27:43.724 [main] LoggerLoad - Launch page is displayed
 [INFO] 2025-05-07 23:27:46.546 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 13:22:18.418 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:22:22.757 [TestNG-PoolService-8] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:22:22.893 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:22:22.984 [TestNG-PoolService-7] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-8] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-7] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-9] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-10] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-9] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-6] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-8] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-6] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-7] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:20.455 [TestNG-PoolService-10] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:35:49.722 [TestNG-PoolService-6] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:49.206 [TestNG-PoolService-10] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:49.208 [TestNG-PoolService-2] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:49.221 [TestNG-PoolService-3] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:50.001 [TestNG-PoolService-8] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:50.929 [TestNG-PoolService-2] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:50.936 [TestNG-PoolService-5] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:50.938 [TestNG-PoolService-7] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:51.452 [TestNG-PoolService-10] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:51.543 [TestNG-PoolService-1] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:51.667 [TestNG-PoolService-8] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:52.005 [TestNG-PoolService-9] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:52.317 [TestNG-PoolService-4] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:35:52.690 [TestNG-PoolService-6] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:36:06.805 [TestNG-PoolService-9] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:36:08.250 [TestNG-PoolService-2] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:36:08.468 [TestNG-PoolService-2] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:36:08.486 [TestNG-PoolService-1] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:36:11.354 [TestNG-PoolService-3] LoggerLoad - Array page is displayed
+[INFO] 2025-05-09 13:36:20.527 [TestNG-PoolService-4] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-05-09 13:36:21.130 [TestNG-PoolService-9] LoggerLoad - Arrays in Python page is displayed
+[INFO] 2025-05-09 13:36:24.421 [TestNG-PoolService-10] LoggerLoad - Practice Questions page is displayed
+[INFO] 2025-05-09 13:36:25.403 [TestNG-PoolService-7] LoggerLoad - Assessment page is displayed
+[INFO] 2025-05-09 13:36:25.502 [TestNG-PoolService-6] LoggerLoad - Assessment page is displayed
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-8] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-7] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-10] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-9] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-6] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-9] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-7] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-10] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-8] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.075 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:06.074 [TestNG-PoolService-6] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 13:51:30.935 [TestNG-PoolService-3] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:35.581 [TestNG-PoolService-6] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:35.809 [TestNG-PoolService-5] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:35.871 [TestNG-PoolService-2] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:36.346 [TestNG-PoolService-9] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:36.367 [TestNG-PoolService-6] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:36.546 [TestNG-PoolService-1] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:36.553 [TestNG-PoolService-2] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:36.696 [TestNG-PoolService-5] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:37.419 [TestNG-PoolService-10] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:38.820 [TestNG-PoolService-1] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:39.008 [TestNG-PoolService-8] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:39.032 [TestNG-PoolService-7] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:39.855 [TestNG-PoolService-4] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:40.092 [TestNG-PoolService-8] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:40.699 [TestNG-PoolService-4] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:40.943 [TestNG-PoolService-9] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:51:41.026 [TestNG-PoolService-7] LoggerLoad - SignIn Page is displayed
+[INFO] 2025-05-09 13:52:00.802 [TestNG-PoolService-2] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:52:01.745 [TestNG-PoolService-2] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:52:02.214 [TestNG-PoolService-1] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 13:52:03.933 [TestNG-PoolService-1] LoggerLoad - NumpyNinja page is displayed
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-3] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:49.005 [TestNG-PoolService-5] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:50.201 [TestNG-PoolService-4] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:01:57.469 [TestNG-PoolService-4] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.469 [TestNG-PoolService-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.469 [TestNG-PoolService-3] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.469 [TestNG-PoolService-5] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.470 [TestNG-PoolService-3] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.470 [TestNG-PoolService-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.470 [TestNG-PoolService-4] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.470 [TestNG-PoolService-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:57.726 [TestNG-PoolService-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:01:59.173 [TestNG-PoolService-5] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:02:13.434 [TestNG-PoolService-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-09 14:02:13.547 [TestNG-PoolService-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-09 14:02:21.370 [TestNG-PoolService-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.370 [TestNG-PoolService-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.567 [TestNG-PoolService-5] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.584 [TestNG-PoolService-4] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.770 [TestNG-PoolService-3] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.786 [TestNG-PoolService-5] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.802 [TestNG-PoolService-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:21.802 [TestNG-PoolService-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:22.836 [TestNG-PoolService-3] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:02:22.904 [TestNG-PoolService-4] LoggerLoad - Closing Browser
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-3] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-4] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-5] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-5] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-3] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:16:39.405 [TestNG-PoolService-4] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.126 [TestNG-PoolService-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.125 [TestNG-PoolService-5] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.125 [TestNG-PoolService-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.125 [TestNG-PoolService-4] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.125 [TestNG-PoolService-3] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.125 [TestNG-PoolService-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.126 [TestNG-PoolService-3] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.126 [TestNG-PoolService-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.126 [TestNG-PoolService-4] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-09 14:24:54.126 [TestNG-PoolService-5] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-09 14:31:12.501 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:12.501 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:13.624 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:13.624 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:20.539 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-09 14:31:20.738 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-09 14:31:23.699 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:25.577 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:25.645 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:26.230 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:29.217 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:30.283 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:33.307 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:33.582 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:35.584 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:36.416 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:36.882 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:37.743 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:41.432 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:42.015 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:42.954 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:43.654 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:45.509 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:46.140 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:49.658 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:50.731 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:50.958 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:51.639 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:54.026 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-09 14:31:54.966 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-09 14:31:57.016 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-09 14:31:59.394 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:40:46.195 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:40:46.195 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:40:53.512 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:40:53.512 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:40:57.985 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-10 06:40:57.993 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-10 06:40:59.341 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:40:59.373 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:01.210 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:01.250 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:01.634 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:01.800 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:04.695 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:04.758 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:06.331 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:06.511 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:06.641 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:06.924 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:09.240 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:09.288 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:10.791 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:10.933 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:11.225 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:11.377 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:14.283 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:14.345 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:15.854 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:15.970 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:41:16.175 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:16.592 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:41:18.655 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:41:19.056 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:46:56.908 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:46:56.908 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:46:57.623 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:46:57.623 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:02.499 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-10 06:47:02.576 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-10 06:47:04.311 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:05.053 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:05.738 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:06.222 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:07.977 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:08.504 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:10.476 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:11.898 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:12.063 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:12.300 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:14.198 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:14.716 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:15.565 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:17.257 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:17.728 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:17.733 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:19.437 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:19.869 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:21.876 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:23.328 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:23.337 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:23.862 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:25.173 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-10 06:47:25.767 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-10 06:47:27.496 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-10 06:47:29.509 [TestNG-tests-2] LoggerLoad - Closing Browser
+[ERROR] 2025-05-10 23:58:57.199 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.276 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.311 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.338 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.359 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.379 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.399 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.416 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.434 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.456 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.474 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.490 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.514 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-10 23:58:57.533 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.193 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.251 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.279 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.302 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.322 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.344 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.366 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.389 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.412 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.433 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.456 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.494 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.516 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:08:00.540 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:12:27.131 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:27.133 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:27.976 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:27.976 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:32.095 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:12:32.095 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:12:33.302 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:33.304 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:35.431 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:35.529 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:35.848 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:35.948 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:39.506 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:39.556 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:41.344 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:41.553 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:41.923 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:42.502 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:44.839 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:45.363 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:46.706 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:47.211 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:47.279 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:47.608 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:50.768 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:50.805 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:52.662 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:52.753 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:12:53.807 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:54.000 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:12:57.796 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:12:57.893 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:14.827 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:14.827 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:15.424 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:15.425 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:19.425 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:16:19.425 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:16:20.498 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:20.524 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:22.262 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:22.725 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:22.857 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:23.309 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:25.775 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:25.950 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:27.573 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:27.685 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:27.984 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:27.985 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:30.651 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:30.730 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:32.281 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:32.466 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:32.631 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:32.924 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:36.104 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:36.180 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:38.008 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:38.199 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:16:38.419 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:38.777 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:16:41.505 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:16:41.588 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:20:32.315 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:20:32.315 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:20:33.215 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:20:33.246 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:20:37.961 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:20:37.965 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 00:20:50.270 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:20:50.413 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:20:52.494 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:20:52.690 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:20:53.165 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:20:53.254 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:20:56.036 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:20:57.322 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:20:57.364 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:20:57.757 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:20:59.785 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:21:00.642 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:21:02.869 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:21:04.416 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:21:04.536 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:21:04.798 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:21:06.777 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:21:07.067 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:21:09.242 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:21:10.538 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:21:10.750 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:21:11.049 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:21:12.647 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:21:13.090 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:21:15.804 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:21:17.058 [TestNG-tests-2] LoggerLoad - Closing Browser
+[ERROR] 2025-05-11 00:22:08.909 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:08.976 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.007 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.033 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.056 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.076 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.096 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.117 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.138 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.160 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.180 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.199 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.220 [main] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 00:22:09.240 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:23:56.869 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:23:57.490 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:23:58.076 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 00:23:58.334 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 00:23:59.782 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:01.163 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:01.620 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:02.476 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:24:03.958 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:24:06.144 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:07.500 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:07.813 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:08.791 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:24:09.321 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:24:11.111 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:12.339 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:12.845 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:13.635 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:24:14.153 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:24:15.877 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:17.022 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:17.612 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:18.507 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:24:20.981 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:22.113 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:22.369 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:23.199 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:24:25.548 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:26.758 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:27.178 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:27.994 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:24:38.877 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:24:40.478 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:41.652 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:43.229 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:43.889 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:24:45.771 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:46.972 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:47.468 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:48.295 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:24:50.211 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:51.390 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:52.329 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:53.053 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:24:55.237 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:24:56.564 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:24:56.962 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:24:57.961 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:25:00.607 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:25:01.955 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:25:02.481 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:25:03.304 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:25:14.190 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:25:15.768 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:25:16.971 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:25:17.573 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:25:18.364 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:25:20.044 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:25:21.346 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:25:21.846 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:25:22.639 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:25:24.024 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:31:52.176 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:31:52.843 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:31:53.615 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 00:31:53.975 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 00:31:54.323 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:31:55.587 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:31:56.116 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:31:57.023 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:32:01.757 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:32:14.429 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:32:15.606 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:32:16.081 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:32:16.844 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:32:17.347 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:32:18.155 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:32:19.221 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:32:19.464 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:32:20.327 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 00:32:20.777 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 00:32:21.676 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:32:22.865 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:32:23.355 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:32:24.106 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:32:25.455 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:32:26.585 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:32:26.996 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:32:27.950 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 00:32:29.153 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 00:32:30.303 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 00:32:31.586 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 00:32:32.545 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:46:46.701 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:46:46.701 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:46:47.445 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:46:47.445 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:46:51.549 [TestNG-tests-2] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 21:46:51.693 [TestNG-tests-1] LoggerLoad - Sign Out link is displayed successfully.
+[INFO] 2025-05-11 21:46:52.595 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:46:53.774 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:46:53.949 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:46:54.136 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:46:55.563 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:46:55.988 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:46:57.184 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:46:58.167 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:46:58.723 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:46:59.060 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:00.006 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:47:00.338 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:02.916 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:47:02.964 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:47:04.441 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:47:04.543 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:47:05.055 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:05.119 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:07.542 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:47:07.575 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:47:09.188 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:47:09.190 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:47:09.551 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:09.658 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:47:12.370 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:47:12.451 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:52:59.826 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:52:59.826 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:00.737 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:00.737 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:02.298 [TestNG-tests-2] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 21:53:02.373 [TestNG-tests-1] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 21:53:02.787 [TestNG-tests-2] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 21:53:02.818 [TestNG-tests-1] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 21:53:03.513 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:04.998 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:05.532 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:05.608 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:06.432 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:07.703 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:08.276 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:09.937 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:53:10.830 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 21:53:10.850 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:12.702 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:14.157 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:14.614 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:15.304 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:15.465 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:53:16.031 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:16.982 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:17.541 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:18.394 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:18.724 [TestNG-tests-2] LoggerLoad - Closing Browser
+[ERROR] 2025-05-11 21:53:18.724 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:20.389 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:20.935 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:21.769 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:21.776 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:53:22.384 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:23.430 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:23.812 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:24.609 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:53:24.992 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:25.059 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:26.462 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:27.078 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:27.360 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:28.047 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:29.063 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:29.554 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:30.492 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:31.446 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:31.805 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:32.934 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:33.834 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:33.944 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:34.549 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:34.970 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:35.596 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:37.213 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:37.937 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:38.265 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:38.509 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:39.832 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:40.243 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:40.591 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:41.421 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:53:52.319 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 21:53:52.570 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:53:53.537 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:54.472 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:53:54.910 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:55.444 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:56.776 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:53:57.087 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:57.676 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:53:58.874 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:53:58.905 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:00.710 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:01.108 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:02.023 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:02.432 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:03.025 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:04.081 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:04.661 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:04.992 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:05.794 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:06.024 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:07.098 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:08.591 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:09.102 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:09.717 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:10.098 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:11.155 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:11.573 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:12.091 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:13.051 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:13.379 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:14.711 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:15.079 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:15.791 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:16.151 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:17.685 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:18.314 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:19.380 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:21.883 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:23.272 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:23.817 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:24.789 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:54:26.553 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:54:27.344 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:28.897 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:29.350 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:30.421 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:31.782 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:33.553 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:33.936 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:35.006 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 21:54:36.125 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 21:54:36.444 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:37.867 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:42.779 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:43.367 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:44.179 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:46.272 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 21:54:47.376 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 21:54:47.753 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 21:54:49.453 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 21:54:51.504 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:34.162 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:34.162 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:35.095 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:35.127 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:36.210 [TestNG-tests-2] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 22:10:36.278 [TestNG-tests-1] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 22:10:36.581 [TestNG-tests-2] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 22:10:36.667 [TestNG-tests-1] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 22:10:37.129 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:38.409 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:38.449 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:38.864 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:40.393 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:10:40.753 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:41.364 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:42.435 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:10:43.232 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 22:10:43.587 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:10:45.309 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:46.781 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:47.334 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:48.161 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:10:48.486 [TestNG-tests-1] LoggerLoad - Closing Browser
+[ERROR] 2025-05-11 22:10:48.707 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:10:50.009 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:50.391 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:50.980 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:51.179 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:10:51.590 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:10:52.667 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:53.363 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:53.523 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:54.210 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:10:55.044 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:10:55.082 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:55.480 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:10:56.505 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:10:56.909 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:10:57.127 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:10:58.616 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:10:59.129 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:00.053 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:00.340 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:01.748 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:02.309 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:03.008 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:03.371 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:04.807 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:05.162 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:05.314 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:06.243 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:06.742 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:07.081 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:08.251 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:09.480 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:09.797 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:10.728 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:11.158 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:12.295 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:12.771 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:12.838 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:13.716 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:11:24.391 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 22:11:24.798 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:11:25.610 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:26.880 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:27.171 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:27.514 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:29.561 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:29.612 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:30.022 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:31.380 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:31.506 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:33.031 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:33.553 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:33.563 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:34.607 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:35.344 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:35.948 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:37.257 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:37.479 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:39.124 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:39.390 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:39.548 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:40.498 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:41.240 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:41.588 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:42.798 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:43.446 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:45.024 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:45.408 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:46.040 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:46.276 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:49.172 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:49.573 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:49.787 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:50.422 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:51.318 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:51.779 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:52.692 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:11:53.039 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:11:54.752 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:11:55.270 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:11:56.244 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 22:12:03.473 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:12:04.535 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:12:06.215 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:12:06.738 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[ERROR] 2025-05-11 22:12:07.240 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 22:12:07.767 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:12:08.823 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:12:09.186 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:12:09.923 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:12:10.243 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:12:11.197 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:12:11.862 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:12:12.098 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:12:12.838 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:12:13.896 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:12:15.438 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 22:12:20.511 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 22:12:20.997 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 22:12:21.800 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 22:12:23.983 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:16:55.244 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:16:55.244 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:16:55.926 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:16:55.926 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:16:57.576 [TestNG-tests-1] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 23:16:58.131 [TestNG-tests-2] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-11 23:16:58.328 [TestNG-tests-1] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 23:16:58.885 [TestNG-tests-2] LoggerLoad - User clicks Register link
+[INFO] 2025-05-11 23:17:00.546 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:01.813 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:02.268 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:02.768 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:04.456 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:04.718 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:05.209 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:06.641 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 23:17:08.331 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-11 23:17:08.495 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:10.248 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:11.627 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:11.908 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:12.963 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 23:17:13.665 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:14.325 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:15.630 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:15.636 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:16.128 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:17.465 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:17.952 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:18.439 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[ERROR] 2025-05-11 23:17:18.825 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:19.435 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 23:17:20.067 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:20.143 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:21.547 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:21.903 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:21.905 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:22.756 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:23.794 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-11 23:17:24.341 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:24.423 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:25.525 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:26.467 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:27.855 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:28.245 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:28.260 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:29.811 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:30.190 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:30.351 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:31.223 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:32.425 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:35.982 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:36.177 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:36.462 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:37.621 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:38.022 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:38.307 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:39.883 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:39.887 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:41.305 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:41.760 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:42.639 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 23:17:50.690 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:52.440 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:53.796 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[ERROR] 2025-05-11 23:17:53.840 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:17:54.377 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:55.015 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:55.104 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:56.312 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:56.774 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:56.897 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:57.502 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:17:58.521 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:17:58.956 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:17:59.804 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:17:59.948 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:01.488 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:01.848 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:01.932 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:02.684 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:03.688 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:04.092 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:05.000 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:05.201 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:06.510 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:06.804 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:07.843 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:08.518 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:08.969 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:10.600 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:10.857 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:11.245 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:11.392 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:12.781 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:12.864 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:14.501 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:15.685 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:15.835 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:16.055 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:17.185 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:17.677 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:18.097 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:19.133 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-11 23:18:29.361 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:18:30.077 [TestNG-tests-1] LoggerLoad - Closing Browser
+[ERROR] 2025-05-11 23:18:30.442 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-11 23:18:31.451 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:31.886 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:32.671 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:33.160 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:33.658 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:34.801 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:35.195 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:35.650 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:35.968 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:36.792 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:37.255 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:38.877 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:39.769 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-11 23:18:45.762 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-11 23:18:46.131 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-11 23:18:47.291 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-11 23:18:49.866 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:27:59.853 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:00.856 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:02.121 [TestNG-tests-2] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 00:28:02.532 [TestNG-tests-2] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 00:28:04.477 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:04.912 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:05.592 [TestNG-tests-1] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 00:28:05.761 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:06.058 [TestNG-tests-1] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 00:28:06.559 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:08.896 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:09.046 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:10.214 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:10.322 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:11.797 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:12.078 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:28:14.784 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-12 00:28:14.832 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:28:16.543 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:17.641 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:17.977 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:18.659 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:20.171 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:20.804 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:21.472 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[ERROR] 2025-05-12 00:28:22.080 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:28:22.882 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:28:23.662 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:28:23.870 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:25.547 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:25.756 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:25.960 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:27.844 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:28.521 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:28.790 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[ERROR] 2025-05-12 00:28:29.620 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:28:29.988 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:28:30.847 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:28:31.375 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:32.896 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:33.224 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:33.890 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:35.226 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:36.245 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:36.256 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:37.418 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:39.106 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:40.459 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:40.484 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:40.872 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:42.647 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:43.122 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:43.827 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:45.052 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:45.564 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:47.409 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:47.925 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:48.784 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:28:48.954 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:28:50.831 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:28:51.561 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:28:52.722 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:28:59.786 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:29:00.534 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:02.270 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:02.743 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[ERROR] 2025-05-12 00:29:03.910 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:29:03.961 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:05.190 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:06.050 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:06.474 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:07.017 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:08.637 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:09.193 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:09.369 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:10.571 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:11.118 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:12.655 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:12.811 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:13.125 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:14.510 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:15.013 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:15.131 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:16.443 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:17.246 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:18.756 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:18.877 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:19.191 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:20.640 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:21.013 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:21.416 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:22.567 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:24.096 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:25.638 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:25.907 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:25.947 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:27.921 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:28.181 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:28.950 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:29.947 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:32.538 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:34.092 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:34.606 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:35.901 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:29:40.301 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:29:41.074 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:42.571 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:43.499 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:44.647 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:46.323 [TestNG-tests-1] LoggerLoad - Closing Browser
+[ERROR] 2025-05-12 00:29:47.298 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:29:48.252 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:49.458 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:49.912 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:50.398 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:52.036 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:29:52.547 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:29:53.869 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:29:54.067 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:29:56.524 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:30:03.690 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:30:04.396 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:30:05.586 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:30:08.342 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:29.231 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:29.231 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:30.776 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:30.836 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:31.945 [TestNG-tests-2] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 00:35:32.334 [TestNG-tests-1] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 00:35:32.387 [TestNG-tests-2] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 00:35:33.200 [TestNG-tests-1] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 00:35:33.861 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:34.816 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:35.710 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:36.276 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:38.819 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:39.574 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:41.153 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:35:41.356 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:35:46.866 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:46.961 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:49.536 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:49.840 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:50.306 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:50.407 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:52.005 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:35:52.607 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:35:55.988 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:56.114 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:35:57.934 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:58.849 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:35:59.378 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:35:59.566 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:00.953 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:01.600 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:04.977 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:05.856 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:06.674 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:07.529 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:09.898 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:10.499 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:11.325 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:12.873 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:19.171 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:20.015 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:21.113 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:21.723 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:23.741 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:24.425 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:25.033 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:25.837 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:30.403 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:31.387 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:32.244 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:32.917 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:35.164 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:35.815 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:36.299 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:36:37.486 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:36:49.850 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-12 00:36:50.680 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:36:52.646 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:53.263 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:36:55.450 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:56.349 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:36:57.829 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:36:59.364 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:01.052 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:01.713 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:05.337 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:05.735 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:10.352 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:10.749 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:12.426 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:12.437 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:15.150 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:15.332 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:17.380 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:18.531 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:19.345 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:19.921 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:22.907 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:23.822 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:25.777 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:25.883 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:29.932 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:30.030 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:33.679 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:33.886 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:34.572 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:34.776 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:36.690 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:39.625 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:42.471 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:42.941 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:37:45.792 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:46.437 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:37:46.876 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:47.789 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:37:48.947 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:37:49.649 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 00:38:01.537 [TestNG-tests-2] LoggerLoad - Steps failed. Taking Screenshot
+[ERROR] 2025-05-12 00:38:02.096 [TestNG-tests-1] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 00:38:04.469 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:38:04.656 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:38:08.703 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:38:08.900 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:38:09.798 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:38:10.591 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:38:11.942 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:38:15.605 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:38:18.282 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:38:18.968 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:38:20.906 [TestNG-tests-2] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:38:22.178 [TestNG-tests-2] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:38:22.550 [TestNG-tests-1] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:38:23.267 [TestNG-tests-1] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:38:24.259 [TestNG-tests-2] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:38:25.132 [TestNG-tests-1] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:38:28.284 [TestNG-tests-1] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:38:29.315 [TestNG-tests-2] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:40:35.708 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:40:36.601 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:40:37.389 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 00:40:37.802 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 00:40:38.720 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:40:40.368 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:40:41.110 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:40:42.523 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:40:46.017 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:40:47.828 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:40:48.599 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:40:50.013 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:40:51.772 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:40:53.336 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:40:53.754 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:40:55.342 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:40:56.921 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:40:58.667 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:40:59.144 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:41:00.629 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:41:03.889 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:41:06.003 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:41:06.564 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:41:08.286 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 00:41:11.092 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 00:41:12.877 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 00:41:13.533 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 00:41:14.867 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:08:55.287 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:08:59.203 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:08:59.967 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:00.705 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 01:09:01.062 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 01:09:01.757 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:01.811 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:03.501 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:03.875 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:04.762 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:07.781 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:07.799 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:09.094 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:09.681 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:10.522 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:11.720 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:11.737 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:13.058 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:13.370 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:14.432 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:15.562 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:15.584 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:16.752 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:17.008 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:18.121 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:19.392 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:19.392 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:20.551 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:20.964 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:21.791 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:22.896 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:22.911 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:24.019 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:24.593 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:25.480 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:09:36.332 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:09:36.937 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:36.976 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:38.418 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:38.946 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:40.121 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:09:41.215 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:09:41.738 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:41.752 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:43.128 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:43.688 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:44.617 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:46.133 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:46.165 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:47.666 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:48.037 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:49.817 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:51.565 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:51.584 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:52.849 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:53.195 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:54.073 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:09:55.400 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:09:55.419 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:09:56.505 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:09:56.945 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:09:57.802 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:10:08.607 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:10:09.335 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:10:09.358 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:10:10.607 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:10:11.247 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:10:12.121 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:10:13.432 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:10:13.457 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:10:14.768 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:10:15.528 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:10:16.501 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:10:18.059 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:17.643 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:23.568 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:25.057 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:26.385 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 01:30:26.753 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 01:30:28.638 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:28.677 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:30.208 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:30.673 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:31.911 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:30:34.939 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:34.959 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:36.431 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:36.952 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:38.155 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:30:39.432 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:39.449 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:40.714 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:41.204 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:42.346 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:30:43.721 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:43.743 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:45.055 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:45.639 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:46.678 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:30:48.500 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:48.522 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:49.760 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:50.459 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:51.453 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:30:53.061 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:30:53.082 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:30:54.448 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:30:55.066 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:30:56.096 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:31:07.289 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:31:09.900 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:09.917 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:11.315 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:11.866 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:13.167 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:31:14.211 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:31:20.839 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:20.859 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:22.243 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:22.785 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:24.147 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:31:25.769 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:25.787 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:27.168 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:27.795 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:28.762 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:31:30.599 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:30.615 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:31.940 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:32.439 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:33.573 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:31:35.302 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:35.318 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:36.734 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:37.278 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:38.409 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:31:49.462 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:31:50.455 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:50.470 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:51.831 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:52.635 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:53.748 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:31:55.596 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:31:55.622 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:31:57.588 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:31:58.693 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:31:59.778 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:32:01.243 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:22.065 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:26.956 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:28.044 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:29.142 [main] LoggerLoad - Home Page is displayed
+[INFO] 2025-05-12 01:34:29.783 [main] LoggerLoad - User clicks Register link
+[INFO] 2025-05-12 01:34:30.859 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:30.906 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:32.563 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:33.147 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:34.255 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:34:37.081 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:37.102 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:38.426 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:39.141 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:40.400 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:34:41.719 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:41.736 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:43.025 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:43.893 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:44.891 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:34:46.223 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:46.246 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:47.640 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:48.145 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:49.411 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:34:51.344 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:51.364 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:52.901 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:53.279 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:34:54.516 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:34:56.352 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:34:56.373 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:34:58.039 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:34:58.522 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:00.789 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:35:11.839 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:35:12.772 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:12.799 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:14.398 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:14.990 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:16.002 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:17.125 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:17.143 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:18.492 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:19.038 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:20.032 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:21.148 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:21.168 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:22.441 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:23.041 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:24.023 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:25.462 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:25.477 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:26.819 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:27.526 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:28.496 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:29.987 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:30.007 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:31.624 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:32.032 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:33.342 [main] LoggerLoad - Registration page is displayed
+[ERROR] 2025-05-12 01:35:44.366 [main] LoggerLoad - Steps failed. Taking Screenshot
+[INFO] 2025-05-12 01:35:45.436 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:45.450 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:46.761 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:47.133 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:48.501 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:50.014 [main] LoggerLoad - Closing Browser
+[INFO] 2025-05-12 01:35:50.043 [main] LoggerLoad - Print the browser in hooks:chrome
+[INFO] 2025-05-12 01:35:51.435 [main] LoggerLoad - Initializing Browser
+[INFO] 2025-05-12 01:35:51.878 [main] LoggerLoad - Launch page is displayed
+[INFO] 2025-05-12 01:35:53.125 [main] LoggerLoad - Registration page is displayed
+[INFO] 2025-05-12 01:35:54.521 [main] LoggerLoad - Closing Browser
