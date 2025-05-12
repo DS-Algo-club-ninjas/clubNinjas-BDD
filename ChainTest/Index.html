@@ -16,12 +16,12 @@
     <div class="container d-flex justify-content-between">
       <div>
         <a class="navbar-brand" href="#">ChainTest</a>
-        <span class="ms-3 fs-6">ChaninTest Report with Cucumber and TestNG</span>
+        <span class="ms-3 fs-6">ChaninTest Report with Cucumber BDD</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 37s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-07 11:27:09 PM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-07 11:27:46 PM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 1m 35s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-12 01:34:19 AM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-12 01:35:54 AM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">1</span> Passed,
-                <span id="sf1">0</span> Failed,
+                <span id="sp1">0</span> Passed,
+                <span id="sf1">1</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">5</span> Passed,
-                <span id="sf2">0</span> Failed,
+                <span id="sp2">12</span> Passed,
+                <span id="sf2">2</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">27</span> Passed,
-                  <span id="sf3">0</span> Failed,
+                  <span id="sp3">68</span> Passed,
+                  <span id="sf3">2</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -108,17 +108,17 @@
         </div>
       </div>
     </div>
-      <div class="test-container passed">
+      <div class="test-container failed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 passed">Feature: Login Functionality</h6>
+              <h6 class="mb-3 testname fs-6 failed">Feature: Register Page</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 31ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 91ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-05-07 11:27:46 PM</span>
+                  2025-05-12 01:35:54 AM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-05-07 11:27:46 PM</span>
+                  2025-05-12 01:35:54 AM</span>
               </div>
               
             </div>
@@ -128,54 +128,10 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify user enters username and password fields</span>
+                        <span class="fs-6 ms-2">Scenario: Verify that User is able to launch ds-algo portal</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">8ms</span>
-                      </div>
-                    </div>
-                    
-  <div class="mt-2">
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given User is in the ds-algo launch page</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When User clicks the Get Started button</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given The user clicks the Sign In link</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When The user gets data from excel sheet 'Valid_Login' and 1 for the login page</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The user is in the Home page after Sign In</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">And The user clicks Sign Out</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The user should be redirected to home page with message "Logged out successfully"</span>
-        </div>
-  </div>
-                  </div>
-                </div>
-                <div class="card mb-3 result passed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify user receives error message when username and password fields are blank during Login</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">2ms</span>
+                        <span class="badge text-dark bg-light">7ms</span>
                       </div>
                     </div>
                     
@@ -190,15 +146,15 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given The user clicks the Sign In link</span>
+          <span class="ms-2">Given User is in the home page after launching ds-algo portal page</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When The user gets data from excel sheet 'Login' and 1 for the login page</span>
+          <span class="ms-2">When User clicks Register link in the home page</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The error message appears below Username and Password textbox like "Please fill out this field."</span>
+          <span class="ms-2">Then User should be able to navigate to Register page</span>
         </div>
   </div>
                   </div>
@@ -208,7 +164,115 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify user receives error message when username and password fields are blank during Login</span>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user is able to enter valid username in the username field</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 1 for the username field</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User should be able to enter username from "Register" and 1 and click Register button</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user is able to enter valid username in the username field</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 2 for the username field</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User should be able to enter username from "Register" and 2 and click Register button</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user is able to enter valid username in the username field</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 3 for the username field</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User should be able to enter username from "Register" and 3 and click Register button</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that user gets an error message upon entering invalid username</span>
                       </div>
                       <div>
                         <span class="badge text-dark bg-light">0ms</span>
@@ -226,15 +290,15 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given The user clicks the Sign In link</span>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When The user gets data from excel sheet 'Login' and 2 for the login page</span>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 5 for the username field</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The error message appears below Username and Password textbox like "Please fill out this field."</span>
+          <span class="ms-2">Then User gets error message for username in the Register page</span>
         </div>
   </div>
                   </div>
@@ -244,10 +308,10 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify user receives error message for Invalid Username and Password during Login</span>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that user gets an error message upon entering invalid username</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">0ms</span>
+                        <span class="badge text-dark bg-light">1ms</span>
                       </div>
                     </div>
                     
@@ -262,15 +326,119 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given The user clicks the Sign In link</span>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When The user gets invalid data from excel sheet 'Login' and 3 for the login page</span>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 6 for the username field</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The user should be able to see an error message "Invalid Username and Password"</span>
+          <span class="ms-2">Then User gets error message for username in the Register page</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that user gets an error message upon entering invalid username</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">17ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 7 for the username field</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then User gets error message for username in the Register page</span>
+            <pre class="py-2 mt-2">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-primary']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dba22dfb51cf000a9b52f9bafed041bd, findElement {value=//div[@class='alert alert-primary'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50952/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dba22dfb51cf000a9b52f9bafed041bd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:75)
+	at StepDefinitions.RegistrationPageStep.user_gets_error_message_for_username_in_the_register_page(RegistrationPageStep.java:93)
+	at ✽.User gets error message for username in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:26)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/7bd23571-895e-4069-9dce-fcaf2b4ac139.png" />
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user is able to enter valid passwords in the field</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 8 for the password fields</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User should be able to enter password 'Register' and 8 and click Register button</span>
         </div>
   </div>
                   </div>
@@ -280,7 +448,43 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario Outline: Verify user receives error message for Invalid Username and Password during Login</span>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user is able to enter valid passwords in the field</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 9 for the password fields</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User should be able to enter password 'Register' and 9 and click Register button</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user gets error upon entering invalid passwords</span>
                       </div>
                       <div>
                         <span class="badge text-dark bg-light">2ms</span>
@@ -298,15 +502,191 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Given The user clicks the Sign In link</span>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When The user gets invalid data from excel sheet 'Login' and 4 for the login page</span>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 10 for the password field</span>
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then The user should be able to see an error message "Invalid Username and Password"</span>
+          <span class="ms-2">Then User gets an error message for password in the Register page</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user gets error upon entering invalid passwords</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 11 for the password field</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User gets an error message for password in the Register page</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify that the user gets error upon entering invalid passwords</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">14ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters invalid data from excel sheet 'Register' and 12 for the password field</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then User gets an error message for password in the Register page</span>
+            <pre class="py-2 mt-2">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-primary']"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [108c53d396a8a7b411168275ea38e2df, findElement {value=//div[@class='alert alert-primary'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\skurr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51105/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 108c53d396a8a7b411168275ea38e2df
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at PageObject.RegistrationPageObject.errorMessageDisplayed(RegistrationPageObject.java:75)
+	at StepDefinitions.RegistrationPageStep.user_gets_an_error_message_for_password_in_the_register_page(RegistrationPageStep.java:127)
+	at ✽.User gets an error message for password in the Register page(file:///C:/Users/skurr/eclipse-workspace/ClubNinjas-dsAlgoBDD/src/test/resources/features/RegisterPage.feature:47)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/63ba2b15-0d97-46dc-93ba-4f8a78c9afa0.png" />
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify pop-up message when password and password confirmation fields are left blank</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 13 for blank feilds</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User gets error message in register page</span>
+        </div>
+  </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Verify pop-up message when password and password confirmation fields are left blank</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">2ms</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User is in the ds-algo launch page</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User clicks the Get Started button</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given User navigates to register page after clicking register link</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">When User enters data from excel sheet 'Register' and 14 for blank feilds</span>
+        </div>
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Then User gets error message in register page</span>
         </div>
   </div>
                   </div>
@@ -319,22 +699,22 @@
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 1};
+    const stats1Annotation = {'total': 1, 'passed': 0};
     const stats1 = [
-      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 5, 'passed': 5};
+      const stats2Annotation = {'total': 14, 'passed': 12};
       const stats2 = [
-        { result: 'Passed', count: 5, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 12, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 27, 'passed': 27};
+      const stats3Annotation = {'total': 70, 'passed': 68};
       const stats3 = [
-        { result: 'Passed', count: 27, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 68, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      

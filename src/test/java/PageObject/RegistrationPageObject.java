@@ -10,7 +10,6 @@ public class RegistrationPageObject {
 	
 		
 	WebDriver driver= DriverFactory.getDriver();
-
          
         // Locators
         By registerLink = By.linkText("Register");
@@ -45,11 +44,8 @@ public class RegistrationPageObject {
 
     	public boolean isUsernameEnteredCorrectly() {
       		
-    		String username = "clubNinjasSdet207";
-    	    WebElement usernameField = driver.findElement(usernameRegTxtBox);
-    	    usernameField.sendKeys(username);
+    		WebElement usernameField = driver.findElement(usernameRegTxtBox);
     	    String userNameTxtFieldValue = usernameField.getDomProperty("value");
-    	    System.out.println("Username field value: " +userNameTxtFieldValue);
     	    return userNameTxtFieldValue != null && !userNameTxtFieldValue.trim().isEmpty();
 
     	}
@@ -66,11 +62,8 @@ public class RegistrationPageObject {
     	
     	public boolean isPasswordEnteredCorrectly() {
     	    
-    		String password = "SeleniumProj@25";
-    		WebElement passwordfield = driver.findElement(usernameRegTxtBox);
-    		passwordfield.sendKeys(password);
+    		WebElement passwordfield = driver.findElement(passwordRegTxtBox);
     		String passwordfieldTxtFieldValue = passwordfield.getDomProperty("value");
-    		System.out.println("Username field value: " +passwordfieldTxtFieldValue);
     		return passwordfieldTxtFieldValue != null && !passwordfieldTxtFieldValue.trim().isEmpty();
     	}
     	

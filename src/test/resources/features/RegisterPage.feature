@@ -12,7 +12,7 @@ Feature: Register Page
   Scenario Outline: Verify that the user is able to enter valid username in the username field
     Given User navigates to register page after clicking register link
     When User enters data from excel sheet '<Sheetname>' and <RowNumber> for the username field
-    Then User should be able to enter username and click Register button
+    Then User should be able to enter username from "<Sheetname>" and <RowNumber> and click Register button
 
     Examples: 
       | Sheetname | RowNumber |
@@ -34,7 +34,7 @@ Feature: Register Page
   Scenario Outline: Verify that the user is able to enter valid passwords in the field
     Given User navigates to register page after clicking register link
     When User enters data from excel sheet '<Sheetname>' and <RowNumber> for the password fields
-    Then User should be able to enter password and click Register button
+    Then User should be able to enter password '<Sheetname>' and <RowNumber> and click Register button
 
     Examples: 
       | Sheetname | RowNumber |

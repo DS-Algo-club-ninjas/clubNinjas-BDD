@@ -6,11 +6,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
+
 import Utilities.LoggerLoad;
+import Utilities.ConfigFileReader;
 
 public class DriverFactory {
 	
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	public static ConfigFileReader configFileReader = new ConfigFileReader();
 	
 	public static void createDriver(String browser) {
 		switch (browser) {	    
@@ -42,5 +46,4 @@ public class DriverFactory {
 		
 	}
 
-
-}
+	}
