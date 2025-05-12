@@ -2,8 +2,6 @@ package Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -55,7 +53,6 @@ public class ExcelReader {
 			return value;
 		}
 		if (cell.getCellType() == CellType.STRING) {
-			System.out.println("Passed" + cell.getStringCellValue());
 			return cell.getStringCellValue();
 		}
 		return "";

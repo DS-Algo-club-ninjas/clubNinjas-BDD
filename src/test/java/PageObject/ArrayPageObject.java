@@ -8,17 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-
 import DriverFactory.DriverFactory;
-import Utilities.LoggerLoad;
 
 public class ArrayPageObject {	
 	WebDriver driver= DriverFactory.getDriver();
@@ -108,60 +103,7 @@ public class ArrayPageObject {
 		driver.findElement(submit_btn).click();
 	}
 	
-//	public void enterCodeTryEditor(String pythonCode) {
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		JavascriptExecutor js = (JavascriptExecutor)driver;		
-//		for (int i = 0; i < 2; i++) {
-//		    try {
-//		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
-//		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
-//				tryHereEditor.sendKeys(Keys.DELETE);
-//				js.executeScript(
-//			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
-//			            pythonCode
-//			        );
-//		        break;
-//		    } catch (Exception e) {
-//		    	try {
-//		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
-//		    	}
-//		    	catch (Exception e1) {
-//		    		e1.printStackTrace();
-//		    	}
-//		    }
-//		}
-//	}
-//	
-//	public String get_tryHereEditor_output() {
-//		String output = "";
-//		try {
-//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
-//		output = driver.findElement(tryHereEditor_output).getText();
-//		}
-//		catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//		return output;
-//	}
-//	
-//	public String acceptAlert(String errorMsg) {
-//		String alertMsg = "";
-//		try {
-//			Alert alert = driver.switchTo().alert();
-//			alertMsg = alert.getText();
-//			alert.accept();
-//			//Assert.assertTrue(alertMsg.contains(errorMsg));
-//		} catch (NoAlertPresentException e) {
-//			//Assert.fail("No Alert found");
-//			e.printStackTrace();
-//		}
-//		catch (UnhandledAlertException e) {
-//			System.out.println("Unhandled alert exception: " + e.getMessage());
-//		}
-//		return alertMsg;
-//		}
-//	
+
 	public boolean check_practiecQtns_avail() {
 		List<WebElement> elements = driver.findElements(practiceQns_available);
 		if (!elements.isEmpty()) {
@@ -207,5 +149,62 @@ public class ArrayPageObject {
 		}
 	}
 	
+	public String get_currentPageTitle() {
+		String currentTitle = driver.getTitle();
+		return currentTitle;
+	}
+	
+	
+	public void enterCodeTryEditor(String pythonCode) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		JavascriptExecutor js = (JavascriptExecutor)driver;		
+		for (int i = 0; i < 2; i++) {
+		    try {
+		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
+				tryHereEditor.sendKeys(Keys.DELETE);
+				js.executeScript(
+			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+			            pythonCode
+			        );
+		        break;
+		    } catch (Exception e) {
+		    	try {
+		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+		    	}
+		    	catch (Exception e1) {
+		    		e1.printStackTrace();
+		    	}
+		    }
+		}
+	}
+	
+	public String get_tryHereEditor_output() {
+		String output = "";
+		try {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
+		output = driver.findElement(tryHereEditor_output).getText();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		return output;
+	}
+	
+	public String acceptAlert(String errorMsg) {
+		String alertMsg = "";
+		try {
+			Alert alert = driver.switchTo().alert();
+			alertMsg = alert.getText();
+			alert.accept();
+		} catch (NoAlertPresentException e) {
+			e.printStackTrace();
+		}
+		catch (UnhandledAlertException e) {
+			System.out.println("Unhandled alert exception: " + e.getMessage());
+		}
+		return alertMsg;
+	}
 	
 }

@@ -28,64 +28,64 @@ public class TryEditor {
 		String currentTitle = driver.getTitle();
 		return currentTitle;
 	}
-	
-	public void click_tryHere_btn() {
-		driver.findElement(tryHere_btn).click();
-	}
-	
-	public void enterCodeTryEditor(String pythonCode) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		JavascriptExecutor js = (JavascriptExecutor)driver;		
-		for (int i = 0; i < 2; i++) {
-		    try {
-		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
-		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
-				tryHereEditor.sendKeys(Keys.DELETE);
-				js.executeScript(
-			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
-			            pythonCode
-			        );
-		        break;
-		    } catch (Exception e) {
-		    	try {
-		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
-		    	}
-		    	catch (Exception e1) {
-		    		e1.printStackTrace();
-		    	}
-		    }
-		}
-	}
-	
-	public String get_tryHereEditor_output() {
-		String output = "";
-		try {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
-		output = driver.findElement(tryHereEditor_output).getText();
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-		return output;
-	}
-	
-	public String acceptAlert(String errorMsg) {
-		String alertMsg = "";
-		try {
-			Alert alert = driver.switchTo().alert();
-			alertMsg = alert.getText();
-			alert.accept();
-			//Assert.assertTrue(alertMsg.contains(errorMsg));
-		} catch (NoAlertPresentException e) {
-			//Assert.fail("No Alert found");
-			e.printStackTrace();
-		}
-		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
-		}
-		return alertMsg;
-	}
-	
+//	
+//	public void click_tryHere_btn() {
+//		driver.findElement(tryHere_btn).click();
+//	}
+//	
+//	public void enterCodeTryEditor(String pythonCode) {
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		JavascriptExecutor js = (JavascriptExecutor)driver;		
+//		for (int i = 0; i < 2; i++) {
+//		    try {
+//		    	WebElement tryHereEditor = driver.findElement(tryHereEditor_box);
+//		    	tryHereEditor.sendKeys(Keys.CONTROL + "a");
+//				tryHereEditor.sendKeys(Keys.DELETE);
+//				js.executeScript(
+//			            "document.querySelector('.CodeMirror').CodeMirror.setValue(arguments[0]);",
+//			            pythonCode
+//			        );
+//		        break;
+//		    } catch (Exception e) {
+//		    	try {
+//		        wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_box));
+//		    	}
+//		    	catch (Exception e1) {
+//		    		e1.printStackTrace();
+//		    	}
+//		    }
+//		}
+//	}
+//	
+//	public String get_tryHereEditor_output() {
+//		String output = "";
+//		try {
+//	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(tryHereEditor_output));
+//		output = driver.findElement(tryHereEditor_output).getText();
+//		}
+//		catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		return output;
+//	}
+//	
+//	public String acceptAlert(String errorMsg) {
+//		String alertMsg = "";
+//		try {
+//			Alert alert = driver.switchTo().alert();
+//			alertMsg = alert.getText();
+//			alert.accept();
+//			//Assert.assertTrue(alertMsg.contains(errorMsg));
+//		} catch (NoAlertPresentException e) {
+//			//Assert.fail("No Alert found");
+//			e.printStackTrace();
+//		}
+//		catch (UnhandledAlertException e) {
+//			System.out.println("Unhandled alert exception: " + e.getMessage());
+//		}
+//		return alertMsg;
+//	}
+//	
 	
 }
