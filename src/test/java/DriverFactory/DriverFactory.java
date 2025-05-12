@@ -6,17 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import Utilities.ConfigFileReader;
 import Utilities.LoggerLoad;
 
 public class DriverFactory {
 	
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	
-	public static void createDriver() {
-		ConfigFileReader ConfigFileReader = new ConfigFileReader();
-		String browser = ConfigFileReader.getBrowser();
+	public static void createDriver(String browser) {
 		switch (browser) {	    
         case "chrome" : 
         	driver.set(new ChromeDriver());
@@ -36,14 +32,11 @@ public class DriverFactory {
 	}
 	
 	public static WebDriver getDriver() {
-		//if(driver.get() == null) driver = createDriver();
 		return driver.get();
 	}
 
 	public static void quitDriver() {
-		//System.out.println("inside quitdriver");
 		driver.get().quit();
-		//driver=null;
 		driver.remove();
 		LoggerLoad.info("Closing Browser");
 		

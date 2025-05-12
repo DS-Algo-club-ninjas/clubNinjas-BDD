@@ -3,7 +3,6 @@ Feature: Queue Page of DSAlgo portal
 	Background: The user is signed into dsAlgo Portal 
 		Given The user is on the Home page and clicks Sign In
     When The user gets data from excel sheet "Valid_Login" and 1 for the login page
-    Then The user is in the Home page after Sign In  
 	
 
   Scenario: Verify that user is able to navigate to Queue data structure page

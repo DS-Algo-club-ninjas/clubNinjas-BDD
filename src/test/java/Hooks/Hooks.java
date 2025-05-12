@@ -18,10 +18,8 @@ public class Hooks {
 	@Before
 	public void setup() {
 		String browser = ConfigFileReader.getBrowser();
-		
 		if (browser != null) {
-			browser = ConfigFileReader.getBrowser();
-			DriverFactory.createDriver();
+			DriverFactory.createDriver(browser);
 			DriverFactory.getDriver().get(ConfigFileReader.getDSAlgoURL());
 		} 
 		else {
