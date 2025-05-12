@@ -8,7 +8,6 @@ Feature: Stack functionality
     Given The user is in the Home page after Sign in
     When The user clicks the Getting Started button in Stack Panel 
     Then The user be directed to Stack Data Structure Page
-
   Scenario: Verify that user is able to navigate to Stack data structure page
     Given  The user is in the Home page after Sign in
     When   The user select Stack item from the dropdown menu
@@ -30,19 +29,19 @@ Feature: Stack functionality
        Then The user should able to see a error message from excel sheet "<Sheetname>" and the <RowNumber>
        
        Examples:
-        	|  Sheetname   | RowNumber |
-    	    | TryCode |         1 |
-         	| TryCode |         2 |
+            |  Sheetname   | RowNumber |
+            | TryCode |         1 |
+            | TryCode |         2 |
           | TryCode |         3 |
-    	
+        
   Scenario Outline: Verify that user is able to see output for valid python code for "Operations in Stack" try Editor page
     Given The user is in the Operations in Stack tryEditor page
     When The user enters excel sheet in "<Sheetname>" and the <RowNumber> and clicks the Run Button in tryEditor page
     Then The user should able to see the output in the console from excel sheet "<Sheetname>" and the <RowNumber>
     
     Examples:
-    	|  Sheetname   | RowNumber |
-    	| TryCode |         4 |
+        |  Sheetname   | RowNumber |
+        | TryCode |         4 |
    
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Operations in Stack" page
        Given The user is on the Operations in Stack page
@@ -64,18 +63,20 @@ Feature: Stack functionality
     When The user enters excel sheet in "<Sheetname>" and the <RowNumber> and clicks the Run Button in tryEditor page
     Then The user should able to see a error message from excel sheet "<Sheetname>" and the <RowNumber>
     Examples:
-    	|  Sheetname   | RowNumber |
-    	| TryCode |         1 |
-    	| TryCode |         2 |
-    	| TryCode |         3 |
-    	
+        |  Sheetname   | RowNumber |
+        | TryCode |         1 |
+        | TryCode |         2 |
+        | TryCode |         3 |
+        
    Scenario Outline: Verify that user is able to see output for valid python code for "Implementation" try Editor page
     Given The user is in the Implementation tryEditor page
     When The user enters excel sheet in "<Sheetname>" and the <RowNumber> and clicks the Run Button in tryEditor page
     Then The user should able to see the output in the console from excel sheet "<Sheetname>" and the <RowNumber>
+    
+    
     Examples:
-    	|  Sheetname   | RowNumber |
-    	| TryCode |         4 |
+        |  Sheetname   | RowNumber |
+        | TryCode |         4 |
         
    Scenario: Verify that user is able to navigate to "Practice Questions" Page from "Implementation" page
        Given The user is in the Implementation page 
@@ -99,29 +100,21 @@ Feature: Stack functionality
     Then The user should able to see a error message from excel sheet "<Sheetname>" and the <RowNumber>
     
     Examples:
-    	|  Sheetname   | RowNumber |
-    	| TryCode |         1 |
-    	| TryCode |         2 |
-    	| TryCode |         3 |
-    	
+        |  Sheetname   | RowNumber |
+        | TryCode |         1 |
+        | TryCode |         2 |
+        | TryCode |         3 |
+        
    Scenario Outline: Verify that user is able to see output for valid python code for "Applications" try Editor page
     Given  The user is in the Applications tryEditor page
    When The user enters excel sheet in "<Sheetname>" and the <RowNumber> and clicks the Run Button in tryEditor page
     Then The user should able to see the output in the console from excel sheet "<Sheetname>" and the <RowNumber>
     
     Examples:
-    	|  Sheetname   | RowNumber |
-    	| TryCode |         4 |
+        |  Sheetname   | RowNumber |
+        | TryCode |         4 |
          
     Scenario:  Verify that user is able to navigate to "Practice Questions" Page from "Applications" page
         Given The user is in the Applications page
         When  The user clicks Practice Questions button
         Then  The user should be redirected to Practice page 
-     
-       
-       
-   
-       
-       
-       
-       

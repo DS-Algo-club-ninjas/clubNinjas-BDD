@@ -14,7 +14,7 @@ import Utilities.*;
 
 @CucumberOptions(
 
-		features = "src/test/resources/features/RegisterPage.feature",
+		features = "src/test/resources/features/",
 		glue = { "StepDefinitions", "Hooks" },
 		monochrome = true,
 		plugin = { "pretty", "html:target/dsAlgo.html","json:target/dsAlgo.json",

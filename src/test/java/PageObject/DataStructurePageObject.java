@@ -73,9 +73,10 @@ public class DataStructurePageObject {
   		driver.findElement(practiceQns_link).click();
   	}
       public void click_first_practiceQn_link() {
-  	    driver.findElement(first_practiceQns_link).click();
+  	    
   	    List<WebElement> links = driver.findElements(first_practiceQns_link);
   	    if (links.size() > 0) {
+  	    	driver.findElement(first_practiceQns_link).click();
   	    System.out.println("Links found on the page: " + links.size());
   	} 
   	    else {

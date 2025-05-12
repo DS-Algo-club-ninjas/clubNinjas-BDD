@@ -33,16 +33,7 @@ public class TreePageStep {
 	public final static String PAGE_TITLE_IMPLE_OF_BST = "Implementation Of BST";
 	public final static String PAGE_TITLE_PRACTICE_QUESTIONS = " Practice Questions ";
 
-	/*
-	 * @Given("The user is in the Home page after Sign in") public void
-	 * the_user_is_in_the_home_page_after_sign_in() {
-	 * 
-	 * homePageObj.click_getStarted_btn(); loginPageObj.clickSignInLink();
-	 * LoggerLoad.info("SignIn Page is displayed");
-	 * 
-	 * 
-	 * }
-	 */
+
 
 	@When("The user clicks the Getting Started button in TreePanel")
 	public void the_user_clicks_the_button_in_tree_panel() {
@@ -252,6 +243,7 @@ public class TreePageStep {
 		} else if (PAGE_TITLE_PRACTICE_QUESTIONS.equals(pageTitle)) {
 			treePageObj.click_dataStructutrDropDown();
 			treePageObj.click_treeDropDown_btn();
+			treePageObj.click_overviewOfTrees();
 			treePageObj.click_practiceQns_link();
 			treePageObj.click_tryHere_btn();
 		}
@@ -287,9 +279,7 @@ public class TreePageStep {
 
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 		String expOutput = value[0];
-		System.out.println("OutputCode from excel " + expOutput);
 		String actOutput = treePageObj.get_tryHereEditor_output();
-		System.out.println("Output from webpage " + actOutput);
 		Assert.assertEquals(actOutput, expOutput);
 
 	}
