@@ -85,13 +85,14 @@ public class RegistrationPageStep {
 		registerPageObj.enterUserNameRegTxtBox(Inputs[0]);
 		registerPageObj.enterPasswordRegTxtBox(Inputs[1]);
 		registerPageObj.enterPasswordConfirmRegTxtBox(Inputs[2]);
+		registerPageObj.registerBtnClick();
 	}
 
 	@Then("User gets error message for username in the Register page")
 	public void user_gets_error_message_for_username_in_the_register_page() {
-		registerPageObj.registerBtnClick();
-		String invalidMsg = registerPageObj.errorMessageDisplayed();
-		Assert.assertNotNull(invalidMsg, "Error message for username is not displayed");
+		
+		String validationMessage = registerPageObj.getUsernameValidationMessage();
+		Assert.assertNotNull(validationMessage, "Error message for username is not displayed");
 		}
 
 	@When("User enters data from excel sheet {string} and {int} for the password fields")
@@ -124,13 +125,13 @@ public class RegistrationPageStep {
 
 	@Then("User gets an error message for password in the Register page")
 	public void user_gets_an_error_message_for_password_in_the_register_page() {
-		String invalidMsg = registerPageObj.errorMessageDisplayed();
+		String validationMessage = registerPageObj.getPasswordValidationMessage();
 		try {
-		Assert.assertNotNull(invalidMsg, "Error message for password is not displayed");
+		Assert.assertNotNull(validationMessage, "Error message for password is not displayed");
 		
 		}
 		catch(NoSuchElementException e){
-			//defect to raise in jiira
+			//defect to raise in jira
 			Assert.fail("Password fields are accpeting commenly used words");
 			
 		}

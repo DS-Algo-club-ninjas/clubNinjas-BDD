@@ -6,7 +6,6 @@ import PageObject.LinkeListPageObject;
 import PageObject.LoginPageObject;
 import Utilities.ExcelReader;
 import Utilities.LoggerLoad;
-import Utilities.TryEditor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,7 +20,6 @@ public class LinkeListStep {
 	HomePageObject homePageObj = new HomePageObject();
 	LoginPageObject loginPageObj = new LoginPageObject();
 	ExcelReader readExcel = new ExcelReader();
-	//TryEditor linkedlistObj = new TryEditor();
 	LinkeListPageObject linkedlistObj =new  LinkeListPageObject();
 	WebDriver driver= DriverFactory.getDriver();
 	
@@ -29,9 +27,6 @@ public class LinkeListStep {
 	public void  the_user_is_on_the_Home_page_and_clicks_Sign_In() {
 		 String currentTitle = linkedlistObj.get_currentPageTitle();
 		    LoggerLoad.info(currentTitle+ " page is displayed");
-//		homePageObj.clickGetStartedBtn();
-//		loginPageObj.clickSignInLink();
-//		LoggerLoad.info("SignIn Page is displayed");
 	   
 	}
 	
@@ -40,8 +35,6 @@ public class LinkeListStep {
 		homePageObj.clickGetStartedBtn();
 		loginPageObj.clickSignInLink();
 		LoggerLoad.info("SignIn Page is displayed");
-//		  String currentTitle = linkedlistObj.get_currentPageTitle();
-//		    LoggerLoad.info(currentTitle+ " page is displayed");
 	}
 
 	@When("The user clicks the Get Started button in LinkedList panel")
@@ -112,12 +105,7 @@ public class LinkeListStep {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
 	
-//	@Then("User should be redirected to Introduction page")
-//	public void user_should_be_redirected_to_introduction_page() {
-//		String expPageTitle = "Introduction";
-//		String actPageTitle = linkedlistObj.get_currentPageTitle();
-//		Assert.assertEquals(actPageTitle,expPageTitle);
-//	}
+
 	@Given("The user is in the Introduction tryEditor page")
 	public void the_user_is_in_the_introduction_try_editor_page() {
 		linkedlistObj.click_linkdlistGetStarted();
@@ -324,11 +312,7 @@ public class LinkeListStep {
 		linkedlistObj.click_tryHere_btn();
 	
 	}
-//	@Given("The user is in the Traversal page")
-//	public void the_user_is_in_the_traversal_page() {
-//	    // Write code here that turns the phrase above into concrete actions
-//	    throw new io.cucumber.java.PendingException();
-//	}
+
 
 	@Given("The user is on the Insertion page after Sign in")
 	public void the_user_is_on_the_insertion_page_after_sign_in() {
@@ -351,13 +335,7 @@ public class LinkeListStep {
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	
 	}
-//	@Given("The user is in the Insertion page")
-//	 public void the_user_is_in_the_Insertion_page() {
-//	 linkedlistObj.click_linkdlistGetStarted();
-//	 linkedlistObj.click_creatinglinkedlist();
-//	  String currentTitle = linkedlistObj.get_currentPageTitle();
-//	LoggerLoad.info(currentTitle+ " page is displayed");
-//	}
+
 	
 	@When("The user clicks Try Here button in Insertion page")
 	 public void the_user_clicks_Try_Here_button_in_Insertion_page() {
@@ -375,10 +353,7 @@ public class LinkeListStep {
 	}
 
 	
-//	public void user_is_in_the_insertion_page() {
-//	    // Write code here that turns the phrase above into concrete actions
-//	    throw new io.cucumber.java.PendingException();
-//	}
+
 
 	@Given("The user is on the  Deletion page after Sign in")
 	public void the_user_is_on_the_deletion_page_after_sign_in() {
@@ -397,8 +372,10 @@ public class LinkeListStep {
 
 	@Then("The user should be redirected to  Deletion page")
 	public void the_user_should_be_redirected_to_deletion_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		String expPageTitle = "Deletion";
+		String actPageTitle = linkedlistObj.get_currentPageTitle();
+		Assert.assertEquals(actPageTitle,expPageTitle);
+	
 	}
 	
 	@When("The user clicks Try Here button in Deletion page")
@@ -416,11 +393,6 @@ public class LinkeListStep {
 	
 	}
 
-//	@Given("The user is in the Deletion page")
-//	public void the_user_is_in_the_deletion_page() {
-//	    // Write code here that turns the phrase above into concrete actions
-//	    throw new io.cucumber.java.PendingException();
-//	}
 
 
 }

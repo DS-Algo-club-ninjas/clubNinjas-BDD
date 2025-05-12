@@ -18,8 +18,8 @@ public class Hooks {
 
 	@Before
 	public void setup() {
-		String browser = ConfigFileReader.getBrowser();//Should comment this line to execute without crossbrowser 
-		//String browser = CrossBrowserReader.getBrowserType();//Should Uncomment this line for Crossbrowser testing
+		//String browser = ConfigFileReader.getBrowser();//Should comment this line to execute without crossbrowser 
+		String browser = CrossBrowserReader.getBrowserType();//Should Uncomment this line for Crossbrowser testing
 		
 		LoggerLoad.info("Print the browser in hooks:" +browser);
 		if (browser != null) {

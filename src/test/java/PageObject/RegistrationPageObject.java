@@ -1,6 +1,7 @@
 package PageObject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -67,13 +68,27 @@ public class RegistrationPageObject {
     		return passwordfieldTxtFieldValue != null && !passwordfieldTxtFieldValue.trim().isEmpty();
     	}
     	
-    	public String errorMessageDisplayed() {
-    		return driver.findElement(ErrorMessage).getText();
-    		 	}
 
     	public String homeSuccessMessageDisplayed() {
     		return driver.findElement(successMessage).getText();
     	}
+    	
+    	/*
+         * Checks the HTML5 validation message shown for the username and password field.
+         * @return the browser-generated validation message (e.g., "Please fill out this field.")
+         */
+        public String getUsernameValidationMessage() {
+            WebElement field = driver.findElement(usernameRegTxtBox);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            return (String) js.executeScript("return arguments[0].validationMessage;", field);
+        }
+        
+        public String getPasswordValidationMessage() {
+            WebElement field = driver.findElement(passwordRegTxtBox);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            return (String) js.executeScript("return arguments[0].validationMessage;", field);
+        }
+
 
 }
 

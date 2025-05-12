@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class TreePageObject {
 
@@ -71,7 +72,7 @@ public class TreePageObject {
 
 	By tryHereEditor_box = By.xpath("//textarea[@autocorrect='off']");
 
-	By practiceQns_link = By.linkText(" Practice Questions ");
+	By practiceQns_link = By.xpath("//a[normalize-space()='Practice Questions']");
 
 	public String get_currentPageTitle() {
 		String currentTitle = driver.getTitle();
@@ -198,13 +199,12 @@ public class TreePageObject {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String alertMsg = alert.getText();
-			System.out.println("Alert Is:" + alertMsg);
 			alert.accept();
 			Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
 			Assert.fail("No Alert found");
 		} catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
 	}
 

@@ -20,7 +20,7 @@ public class LinkeListPageObject {
     
 	WebDriver driver= DriverFactory.getDriver();
 	
-	   By dataStructutrDropDown = By.xpath("//div[@class='nav-item dropdown']");
+	   By dataStructutrDropDown = By.xpath("//a[text()='Data Structures']");
 	   By linkedlistDropDown = By.xpath("//div[@class='nav-item dropdown show']//*[contains(text(),'Linked List')]");
 	   By linkdlistGetStarted_btn = By.xpath("//a[@href='linked-list']");
 	  
@@ -54,7 +54,9 @@ public class LinkeListPageObject {
 		}
 	   
 		 public void click_linkedlistDropDown() {
+			 
 			 driver.findElement(linkedlistDropDown).click();
+			 
 		 }
 		 
 		 public void click_linkdlistGetStarted() {

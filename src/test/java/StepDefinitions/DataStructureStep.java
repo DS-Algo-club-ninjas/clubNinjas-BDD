@@ -159,9 +159,7 @@ public class DataStructureStep {
 
 		String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 		String expOutput = value[0];
-		System.out.println("OutputCode from excel " + expOutput);
 		String actOutput = dataStructurePageObj.get_tryHereEditor_output();
-		System.out.println("Output from webpage " + actOutput);
 		Assert.assertEquals(actOutput, expOutput);
 
 	}

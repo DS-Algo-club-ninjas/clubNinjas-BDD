@@ -4,7 +4,7 @@ Feature: Tree Datastructure
     Given The user is on the Home page and clicks Sign In
     When The user gets data from excel sheet "Valid_Login" and 1 for the login page
     Then The user is in the Home page after Sign In
-
+	
   Scenario: Verify that user is able to navigate to "Tree" data structure page
     Given The user is in the Home page after Sign in
     When The user clicks the Getting Started button in TreePanel
@@ -14,7 +14,7 @@ Feature: Tree Datastructure
     Given The user is in the Home page after Sign in
     When The user select Tree item from the drop down menu
     Then The user should be directed to "Tree" in Tree Data Structure
-
+	
   Scenario: Verify that user is able to navigate to "Overview of Trees" page
     Given The user on the "Tree" page in Tree Data Structure
     When The user clicks "Overview of Trees" link in Tree Data Structure
