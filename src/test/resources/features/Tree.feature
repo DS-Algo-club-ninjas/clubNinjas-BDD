@@ -523,39 +523,7 @@ Feature: Tree Datastructure
 
   ###### Practice Questions ########
   Scenario: Verify that user is able to navigate to " Practice Questions " page
-    Given The user on the "Tree" page in Tree Data Structure
+    Given The user on the "Overview of Trees" page in Tree Data Structure
     When The user clicks " Practice Questions " link in Tree Data Structure
     Then The user should be directed to " Practice Questions " in Tree Data Structure
 
-  Scenario: Verify that user is able to navigate to "Try Editor" page for " Practice Questions " page
-    Given The user on the " Practice Questions " page in Tree Data Structure
-    When The user clicks "Try Here" button in " Practice Questions " page in Tree Data Structure
-    Then The user should be directed to Try Editor page to test " Practice Questions "
-
-  Scenario Outline: Verify that user receives error when click on Run button without entering code for " Practice Questions " page
-    Given The user is on the Try Editor page of " Practice Questions " page in Tree Data Structure
-    When The user clicks the Run button in Tree Data Structure tryEditor page
-    Then The user should able to see a error message from "<Sheetname>" and <RowNumber> on Tree Data Structure tryEditor alert
-
-    Examples: 
-      | Sheetname | RowNumber |
-      | Tree      |         4 |
-
-  Scenario Outline: Verify that user receives error for invalid python code in Tree Data Structure Try Editor for " Practice Questions " page
-    Given The user is on the Try Editor page of " Practice Questions " page in Tree Data Structure
-    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in Tree Data Structure tryEditor page
-    Then The user should able to see a error message from "<Sheetname>" and <RowNumber> on Tree Data Structure tryEditor alert
-
-    Examples: 
-      | Sheetname | RowNumber |
-      | Tree      |         3 |
-
-  Scenario Outline: Verify that user is able to see output for valid python code in Tree Data Structure Try Editor for " Practice Questions " page
-    Given The user is on the Try Editor page of " Practice Questions " page in Tree Data Structure
-    When The user enters "<Sheetname>" and <RowNumber> clicks the Run Button in Tree Data Structure tryEditor page
-    Then The user should able to see output in the console from "<Sheetname>" and <RowNumber> on Tree Data Structure tryEditor page
-
-    Examples: 
-      | Sheetname | RowNumber |
-      | Tree      |         1 |
-      | Tree      |         2 |

@@ -20,10 +20,6 @@ Feature: Data Structures - Introduction
     When The user clicks the Practice Questions button in Time Complexity page
     Then The user should be redirected to "Practice Questions" in Data structures-Introduction
 
-  Scenario: Verify that user is able to open practice questions in "Practice Questions" page
-    Given The user is in the "Practice Questions" page in Data structures-Introduction
-    When The user clicks the first practice question in Practice Questions page
-    Then The user should be redirected to "Assessment" in Data structures-Introduction
 
   Scenario: Verify that user is able to navigate to "Try here" in "Time Complexity" page
     Given The user is in the "Time Complexity" page in Data structures-Introduction

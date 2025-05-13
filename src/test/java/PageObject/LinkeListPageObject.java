@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class LinkeListPageObject {
     
@@ -39,15 +40,7 @@ public class LinkeListPageObject {
 	  
 	   By practicequestns_link = By.linkText("Practice Questions");
 	   By practicequestns_available = By.xpath("//div[@class='list-group']");
-//	   public String get_currentPageTitle() {
-//			String currentTitle = driver.getTitle();
-//			return currentTitle;
-//		}
-//		
-//		public String get_currentPageURL() {
-//			String currentURL = driver.getCurrentUrl();
-//			return currentURL;
-//		}
+
 		
 		public void click_dataStructutrDropDown() {
 			driver.findElement(dataStructutrDropDown).click();
@@ -88,15 +81,7 @@ public class LinkeListPageObject {
 		public void click_Deletion() {
 			driver.findElement(deletion).click();
 		}
-//		public void click_Tryherebttn1() {
-//			driver.findElement(Tryherebttn).click();
-//		}
-//		public void click_tryHereEditor_box() {
-//			driver.findElement(tryHereEditor_box).click();
-//		}
-//		public void click_tryHereEditor_output() {
-//			driver.findElement(tryHereEditor_output).click();
-//		}
+
 		
 		public void click_practicequestns_link() {
 			driver.findElement(practicequestns_link).click();
@@ -166,19 +151,13 @@ public class LinkeListPageObject {
       			Alert alert = driver.switchTo().alert();
       			alertMsg = alert.getText();
       			alert.accept();
-      			//Assert.assertTrue(alertMsg.contains(errorMsg));
       		} catch (NoAlertPresentException e) {
-      			//Assert.fail("No Alert found");
       			e.printStackTrace();
       		}
       		catch (UnhandledAlertException e) {
-      			System.out.println("Unhandled alert exception: " + e.getMessage());
+      			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
       		}
       		return alertMsg;
       	}
-      	
-      	
-      
-
-		
+      			
 }

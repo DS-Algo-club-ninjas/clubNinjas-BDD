@@ -109,6 +109,7 @@ public class TreePageStep {
 			treePageObj.click_dataStructutrDropDown();
 			treePageObj.click_treeDropDown_btn();
 			treePageObj.click_practiceQns_link();
+			treePageObj.click_implementation_Of_BST();
 		} else {
 			LoggerLoad.error("Invalid page in Tree Data Structure");
 		}
@@ -152,8 +153,7 @@ public class TreePageStep {
 	@Then("The user should be directed to {string} in Tree Data Structure")
 	public void the_user_should_be_directed_to_data_structure_page(String expPgTitle) {
 		String currentTitle = treePageObj.get_currentPageTitle();
-		Assert.assertEquals(expPgTitle, currentTitle);// ****expected [Overview of Trees] but found
-														// [Traversals-Illustration]
+		Assert.assertEquals(expPgTitle, currentTitle);
 
 	}
 

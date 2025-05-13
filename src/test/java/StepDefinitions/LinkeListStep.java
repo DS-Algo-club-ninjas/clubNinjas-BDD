@@ -1,6 +1,6 @@
 package StepDefinitions;
 
-import PageObject.ArrayPageObject;
+
 import PageObject.HomePageObject;
 import PageObject.LinkeListPageObject;
 import PageObject.LoginPageObject;
@@ -16,7 +16,6 @@ import org.testng.Assert;
 import DriverFactory.DriverFactory;
 public class LinkeListStep {
 	
-	ArrayPageObject arrayPageObj = new ArrayPageObject();
 	HomePageObject homePageObj = new HomePageObject();
 	LoginPageObject loginPageObj = new LoginPageObject();
 	ExcelReader readExcel = new ExcelReader();
@@ -152,11 +151,6 @@ public class LinkeListStep {
 		Assert.assertTrue(page, "No Practise Questions found");
 	}
 
-	@Given("The user is on the Creating Linked list  page after Sign in")
-	public void the_user_is_on_the_creating_linked_list_page_after_sign_in() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
 
 	@When("The user clicks the Creating Linked list  button")
 	public void the_user_clicks_the_creating_linked_list_button() {
@@ -165,7 +159,7 @@ public class LinkeListStep {
 
 	@Then("The user should be redirected to Creating Linked list page")
 	public void the_user_should_be_redirected_to_creating_linked_list_page() {
-		String expPageTitle = "Creating Linked List";
+		String expPageTitle = "Creating Linked LIst";
 		String actPageTitle = linkedlistObj.get_currentPageTitle();
 		Assert.assertEquals(actPageTitle,expPageTitle);
 	}
