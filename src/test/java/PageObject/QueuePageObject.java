@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class QueuePageObject {
 	
@@ -114,7 +115,7 @@ public class QueuePageObject {
 			e.printStackTrace();
 		}
 		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
 		return alertMsg;
 	}

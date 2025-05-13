@@ -1,8 +1,6 @@
 package Runner;
 
 import java.io.IOException;
-import java.util.logging.Logger;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;

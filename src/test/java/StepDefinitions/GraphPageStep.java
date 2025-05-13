@@ -140,8 +140,6 @@ public class GraphPageStep {
 		String actualResult = graphPageObj.getResultText();
 
 		Assert.assertEquals(actualResult, expectedResult);
-		System.out.println("Expected Result: " + expectedResult);
-		System.out.println("Actual Result: " + actualResult);
 	    
 	}
 
@@ -155,7 +153,6 @@ public class GraphPageStep {
 
 	@Then("The user should be able to receive an alert message from excel sheet {string} and {int}")
 	public void the_user_should_be_able_to_receive_an_alert_message_from_excel_sheet_and(String sheetName, Integer rowNumber) throws IOException {
-		System.out.println("Try Editor run invalid");
 	    String[] value = readExcel.excelDataRead(sheetName, rowNumber);
 	    String errorMsg = value[1];
 	    String alertMsg = graphPageObj.acceptAlert(errorMsg);

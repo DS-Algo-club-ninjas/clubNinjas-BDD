@@ -88,7 +88,7 @@ public class HomePageStep {
 
 	@Then("User should stay in the same launch page")
 	public void user_should_stay_in_the_same_launch_page() {
-		System.out.println("User is in Launch Page");
+		LoggerLoad.info("User is in Launch Page");
 	}
 
 	@When("User clicks on the launch page other than the Get Started button")

@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class DataStructurePageObject {
 	
@@ -77,7 +78,6 @@ public class DataStructurePageObject {
   	    List<WebElement> links = driver.findElements(first_practiceQns_link);
   	    if (links.size() > 0) {
   	    	driver.findElement(first_practiceQns_link).click();
-  	    System.out.println("Links found on the page: " + links.size());
   	} 
   	    else {
   	      throw new RuntimeException(" No links found on the page. Page might be blank!");
@@ -135,14 +135,13 @@ public class DataStructurePageObject {
 		try {
 			Alert alert = driver.switchTo().alert();
 			String alertMsg = alert.getText();
-			System.out.println("Alert Is:" + alertMsg);
 			alert.accept();
 			Assert.assertTrue(alertMsg.contains(errorMsg));
 		} catch (NoAlertPresentException e) {
 			Assert.fail("No Alert found");
 		}
 		catch (UnhandledAlertException e) {
-			System.out.println("Unhandled alert exception: " + e.getMessage());
+			LoggerLoad.error("Unhandled alert exception: " + e.getMessage());
 		}
 		}
 }

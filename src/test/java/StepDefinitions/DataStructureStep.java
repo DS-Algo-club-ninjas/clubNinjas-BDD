@@ -67,7 +67,7 @@ public class DataStructureStep {
 	public void the_user_clicks_the_time_complexity_button() {
 
 		dataStructurePageObj.click_timeComplexity_btn();
-		System.out.println("**********Time complexity:");
+		LoggerLoad.info("**********Time complexity:");
 
 	}
 
