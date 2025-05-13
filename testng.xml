@@ -8,12 +8,12 @@
             <class name="Runner.TestRunnerCrossBrowser"/>   
         </classes>
     </test>
-	<!-- <test name="EdgeTest">
+	 <test name="EdgeTest">
         <parameter name="browser" value="edge"/>
         <classes>
             <class name="Runner.TestRunnerCrossBrowser"/>   
         </classes>
-    </test>-->
+    </test>
       <test name="FirefoxTest">
         <parameter name="browser" value="firefox"/>
         <classes>

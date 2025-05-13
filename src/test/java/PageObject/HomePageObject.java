@@ -47,8 +47,8 @@ public class HomePageObject {
 		driver.navigate().back();
 		driver.findElement(randomClick).click();
 	}
-	public void launchURL() {
-		ConfigFileRdr.getDSAlgoURL();
+	public String launchURL() {
+		return ConfigFileRdr.getDSAlgoURL();
 	}
 	
 	public boolean dataStructuresDrpDwnDisplayed() {

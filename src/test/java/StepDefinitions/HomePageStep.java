@@ -88,21 +88,23 @@ public class HomePageStep {
 
 	@Then("User should stay in the same launch page")
 	public void user_should_stay_in_the_same_launch_page() {
-		LoggerLoad.info("User is in Launch Page");
-	}
-
+		String currentUrl = homePageObj.launchURL();
+		String expectedUrl = "https://dsportalapp.herokuapp.com/";
+		Assert.assertEquals(currentUrl, expectedUrl);
+		}
 	@When("User clicks on the launch page other than the Get Started button")
 	public void user_clicks_on_the_launch_page_other_than_the_get_started_button() {
 		homePageObj.randomClickMethod();
 	}
-
 	@Then("User should not be able to navigate to the home page")
 	public void user_should_not_be_able_to_navigate_to_the_home_page() {
-		LoggerLoad.info("User is in Home Page");
+		String currentUrl = homePageObj.launchURL();
+		String expectedUrl = "https://dsportalapp.herokuapp.com/home";
+		Assert.assertEquals(currentUrl, expectedUrl);
 	}
-
 	@Then("The user is in Home Page")
 	public void the_user_is_in_home_page() {
+		user_should_not_be_able_to_navigate_to_the_home_page();
 		LoggerLoad.info("User is in Home Page");
 	}
 }
